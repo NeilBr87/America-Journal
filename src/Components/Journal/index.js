@@ -18,6 +18,10 @@ import Day4Pic7 from './Day4Pic7.jpg'
 import Day5Pic1 from './Day5Pic1.jpg'
 import Day5Pic2 from './Day5Pic2.jpg'
 import Day5Pic3 from './Day5Pic3.jpg'
+import Day5Pic4 from './Day5Pic4.jpg'
+import Day5Pic5 from './Day5Pic5.jpg'
+import Day5Pic6 from './Day5Pic6.jpg'
+import Day5Pic7 from './Day5Pic7.jpg'
 import './style.css';
 
 export default function Journal() {
@@ -67,6 +71,67 @@ export default function Journal() {
     function expandDay5() {
         setDay5(!day5);
     }
+
+    function expandDay6() {
+        setDay6(!day6);
+    }
+
+    function expandDay7() {
+        setDay7(!day7);
+    }
+
+    function expandDay8() {
+        setDay8(!day8);
+    }
+
+    function expandDay9() {
+        setDay9(!day9);
+    }
+
+    function expandDay10() {
+        setDay10(!day10);
+    }
+
+    function expandDay11() {
+        setDay11(!day11);
+    }
+
+    function expandDay12() {
+        setDay12(!day12);
+    }
+
+    function expandDay13() {
+        setDay13(!day13);
+    }
+
+    function expandDay14() {   
+        setDay14(!day14);
+    }
+
+    function expandDay15() {
+        setDay15(!day15);
+    }
+
+    function expandDay16() {
+        setDay16(!day16);
+    }
+
+    function expandDay17() {
+        setDay17(!day17);
+    }
+
+    function expandDay18() {
+        setDay18(!day18);
+    }
+
+    function expandDay19() {
+        setDay19(!day19);
+    }
+
+    function expandDay20() {
+        setDay20(!day20);
+    }
+
 
 
 
@@ -212,26 +277,46 @@ export default function Journal() {
                         <img src={Day5Pic2} alt="Day 5 Pic 2" className="landscapePictures" />
                         <p>I got nervous about the long grass. Antelope Island, like most of the southwest, was home to all sorts of breeds of spider, including – to my horror – my arachnid bête noire, the tarantula. As a result, I scanned every patch of grass and hedge, not to mention our path in case one of the hideous creatures crawled over it. I didn’t see any tarantulas – throughout the whole trip, thankfully – but I did see one very unusual spider that I’d never seen before – a strange, teal coloured one that even a committed arachnophobe can confirm looked quite interesting. </p>
                         <p>We got to the top in no time, Steph a bundle of fitness-based energy, and surveyed the view. We could see a large stretch of the Salt Lake ahead of us, pulling into the distance, with more of those strange salt formations going along with it. We took in the view properly and took a slow walk down the sloped path.</p>
-                        <p>On our way to the ranch we saw buffalo. Actual, living buffalo right out of a western film. I’d seen them before, on a farm in Wiltshire (courtesy of a farmer with a big obsession with Native Americans) but seeing them here, right in their natural habitat, was something else entirely. There were dozens of them scattered among the sandy plains, formed into loose family units, with calves trailing their mothers as they lumbered and grazed.</p>
+                        <p style={{marginBottom: '10px'}}>On our way to the ranch we saw buffalo. Actual, living buffalo right out of a western film. I’d seen them before, on a farm in Wiltshire (courtesy of a farmer with a big obsession with Native Americans) but seeing them here, right in their natural habitat, was something else entirely. There were dozens of them scattered among the sandy plains, formed into loose family units, with calves trailing their mothers as they lumbered and grazed.</p>
+                        <img src={Day5Pic3} alt="Day 5 Pic 3" className="landscapePictures" />
+                        <p style={{marginBottom: '10px'}}>We would be fortunate enough to see lots of buffalo on our travels, but this group definitely left a big lasting impact on us. We drove on to the ranch, taking a walk over to the barn area first. It was a fantastic bit of living history, all tastefully cluttered with tools and equipment like saddles, anvils, and a whetstone. Lots of the display was interactive, including – to our childish delight - an old butter churn, which we were keen to try out.</p>
+                        <img src={Day5Pic4} alt="Day 5 Pic 4" className="portraitPictures" />
+                        <p>The ranch-house was slightly more Spartan than I’d thought. When you think of ranch houses, you think of profligate cattle-baron mansions, which is silly when you think that cattle-barons were only a tiny percentage of ranch owners, and that most of them weren’t that better off than their ranch hands.</p>
+                        <p style={{marginBottom: '10px'}}>It was a fascinating house, less cluttered than the barn but filled with all sorts of interesting details. What I really respected about the place was that they didn’t seal off its contents as if the public were wayward children that can’t be trusted with nice things. There wasn’t a ‘please don’t touch’ sign to be found, and I was able to peruse the house’s bookshelves at my leisure – I got way too invested in an early twentieth century etiquette guide for young well-to-do ladies and gentlemen, and I – much like all of the ranch’s visitors who must have thumbed through it and other volumes – treated it with the utmost respect. There’s a lesson there.</p>
+                        <img src={Day5Pic5} alt="Day 5 Pic 5" className="landscapePictures" />
+                        <p>The historians in charge of maintaining the place clearly had a slightly twisted sense of humour – there were dolls of varying and increasing creepiness scattered all over the place, particularly on the beds. Their glass eyes were still and lifeless but seemed to follow you all around the room for some reason. I’m sure we had at least one nightmare a piece about them.</p>
+                        <p>We saw the bunkhouses that were shared by workers as well as the stables. The whole place was very impressive, a real piece of classic Americana. I struggled to see how anyone could set up a business in such intense heat, let alone an outdoorsy business like a cattle ranch, but the place would still have been a little slice of heaven to the ranchers living here – but probably not the ranch hands.</p>
+                        <p>I had one major desire on Antelope Island – I wanted to swim in the Great Salt Lake if such a thing were possible. For the last major leg of our time on the island we drove over to Bridger Bay, one of Antelope’s major beach areas. If you’re picturing parasols and a beach bar, you’re way off the mark – it was a grassy, sandy desert with a snack bar that was little more than a large shack. </p>
+                        <p>We parked up and set off walking to the lake. It was around half a mile to the water’s edge, which would have been a gentle stroll anywhere else, but across that tract of boiling white sand in 40 degree weather was like trekking the Sahara in a mankini. Shortly, we reached the water, and what I’d expected – beautifully cool water I could swim out into – was quite sharply subverted. There was a solid crust of pure salt granules, and as soon as I stepped out onto it, it gave way to hot salty mud below. My feet were quickly caked in that horrible stuff, and I retreated from the lake like it was the filthy Thames.</p>
+                        <p>My dreams of swimming in the Great Salt Lake dashed, we decided on a tactical retreat. The walk back felt like torture despite being one of the shortest distances we’d traverse throughout our holiday. As my feet were slathered in mud, I didn’t put my shoes back on, leading to utter agony of the feet over sizzling white sand and salt. Eventually I gave up, putting a pair of socks – which I would later dump – over the mud and my hiking boots over my socks. With my boots on, the walk back was slightly more tolerable, but I was still running on empty by the time we got back.</p>
+                        <p>That snack bar – a place called the Island Buffalo Grill – was an unbelievable godsend. It was a sparse place, with concrete floors and Soviet metal benches, but if there is one place in this world that has a greater understanding of the needs of its clients, I haven’t encountered it yet. What I mean by this is that they had ice water; real ice water, the kind that would give you hypothermia after a few gulps in any other climate. We had icy Gatorade too, and I had a snowcone, all of which were designed with maximum relief in mind.</p>
+                        <p style={{marginBottom: '10px'}}>We headed away from Antelope Island and back to the hotel so I could get myself cleaned up. We drove over to Big Cottonwood, the canyon that had been recommended by the gift shop guy. It was about an hour’s drive outside the city limits through mountain roads that could only be described as ‘Shining-esque’. Big Cottonwood is a popular ski resort, which was a surprise to me because I can’t imagine Utah being a major player in snowy sports. We stopped off at Silver Lake, a beautiful nature spot, which included a five-mile looped hike around the lake itself. We got chatting to some older folk out on the lake, one of whom was a Brit by birth, born in Southampton. I remember that because I followed it up with “I love Southampton” which is a darn dirty lie, considering that Southampton is a sleazy dockers’ town with a major chav infestation. His wife was curious about where Steph was from in a way that was too adorable to be considered racist by either of us.</p>
+                        <img src={Day5Pic6} alt="Day 5 Pic 6" className="landscapePictures" />
+                        <p style={{marginBottom: '10px'}}>The hike was absolutely beautiful, and our new friend hadn’t steered us wrong. I couldn’t believe that a place like this could exist in a state that I assumed was mostly desert. There was a thick pine forest all around the lake and the whole thing was very tranquil. We saw deer in the distance, and most people didn’t get far enough around the hike to make things too crowded. Around two-thirds of the way through, one of the serious hikers directed us to a small diversion path where a moose and her calves could be seen. There were a small group of us observing as they grazed. The mother moose was gigantic; much like everything else in the American wilderness they can kill a fully-grown man with the minimum of effort, and that’s without even using their fearsome horns. That proved too much for some of the observers, who tried to get slightly closer, but for us I was just content to watch them do their thing. They’re absolutely incredible animals.</p>
+                        <img src={Day5Pic7} alt="Day 5 Pic 7" className="landscapePictures" />
+                        <p>After completing the loop of our hike, we drove back into central SLC. We saw our friend who’d recommended Big Cottonwood packing in some bits from outside his gift shop after a long shift, and he was delighted that we’d got so much out of it. We had one singular goal in mind – ramen. Steph was desperate to experience one of the ramen places we’d missed out on, and I was getting hungry. We found a quirky little place that served delicious ramen, and turned in reasonably early. We had another long drive tomorrow, just under five hours in total, going to the very north of Utah, through Idaho, and into Montana, with our final destination being the town of West Yellowstone, which would be our base as we ventured into the most famous national park in the US – Yellowstone.</p>
                     </div>}
 
-                <h4 className="headings">Day 5</h4>
-                <h4 className="headings">Day 6</h4>
-                <h4 className="headings">Day 7</h4>
-                <h4 className="headings">Day 8</h4>
-                <h4 className="headings">Day 9</h4>
-                <h4 className="headings">Day 10</h4>
-                <h4 className="headings">Day 11</h4>
-                <h4 className="headings">Day 12</h4>
-                <h4 className="headings">Day 13</h4>
-                <h4 className="headings">Day 14</h4>
-                <h4 className="headings">Day 15</h4>
-                <h4 className="headings">Day 16</h4>
-                <h4 className="headings">Day 17</h4>
-                <h4 className="headings">Day 18</h4>
-                <h4 className="headings">Day 19</h4>
-                <h4 className="headings">Day 20</h4>
-                <h4 className="headings"p>Day 21</h4>
+                    <div onClick={expandDay6} id="day6Expander" className="headings">
+                        <h4 className="dayHeader">Day 6</h4>
+                        <h5 className="dayLocation">West Yellowstone</h5>
+                    </div>
+
+                    {day6 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay7} id="day7Expander" className="headings">
+                        <h4 className="dayHeader">Day 7</h4>
+                        <h5 className="dayLocation">Yellowstone National Park</h5>
+                    </div>
+
+                    {day7 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
             </div>
 
             

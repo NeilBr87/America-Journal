@@ -85,6 +85,22 @@ p {
     flex-direction: column;
 }
 
+#day6Expander {
+    background: url(./Day6Pic1.jpg);
+    background-size: 92vw 12vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day7Expander {
+    background: url(./Day7Pic1.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
 .dayHeader {
     color: black;
     font-size: 20px;
