@@ -41,13 +41,13 @@ p {
 
 #introExpander {
     background: url(./Day1Pic1.jpg);
-    background-size: 92vw 10vh;
+    background-size: 92vw 11vh;
     background-repeat: no-repeat;
 }
 
 #day1Expander {
     background: url(./Day1Pic2.jpg);
-    background-size: 92vw 10vh;
+    background-size: 92vw 11vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,15 @@ p {
 
 #day2Expander {
     background: url(./Day2Pic1.jpg);
-    background-size: 92vw 10vh;
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day3Expander {
+    background: url(./Day3Pic1.jpg);
+    background-size: 92vw 12vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -91,3 +99,8 @@ p {
          1px  1px 0 white;
 }
 
+.portraitPictures {
+    width: 32vw;
+    height: 24vh;
+    border-radius: 5px;
+}
