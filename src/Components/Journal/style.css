@@ -77,6 +77,14 @@ p {
     flex-direction: column;
 }
 
+#day5Expander {
+    background: url(./Day5Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
 .dayHeader {
     color: black;
     font-size: 20px;

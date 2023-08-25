@@ -13,6 +13,11 @@ import Day4Pic2 from './Day4Pic2.jpg'
 import Day4Pic3 from './Day4Pic3.jpg'
 import Day4Pic4 from './Day4Pic4.jpg'
 import Day4Pic5 from './Day4Pic5.jpg'
+import Day4Pic6 from './Day4Pic6.jpg'
+import Day4Pic7 from './Day4Pic7.jpg'
+import Day5Pic1 from './Day5Pic1.jpg'
+import Day5Pic2 from './Day5Pic2.jpg'
+import Day5Pic3 from './Day5Pic3.jpg'
 import './style.css';
 
 export default function Journal() {
@@ -57,6 +62,10 @@ export default function Journal() {
 
     function expandDay4() {
         setDay4(!day4);
+    }
+
+    function expandDay5() {
+        setDay5(!day5);
     }
 
 
@@ -173,9 +182,38 @@ export default function Journal() {
                         <p style={{marginBottom: '10px'}}>We saw a lot of what I recognised as Vegas’s satellite towns on the way. These are quite a random sight. They spring up everywhere as more and more casino and city staff get hired, and are known for being quite dead places with no culture of their own; no bars, no restaurants, no arts, just a few rows of brand-new houses that looked like scaled-down McMansions. I’m aware that description could apply to lots of suburb towns orbiting big cities, but I feel as if these places make special effort not to bother to make those towns entertaining when the world capital of entertainment is nearby.</p>
                         <img src={Day4Pic4} alt="Day 4 Pic 4" className="landscapePictures" />
                         <p style={{marginBottom: '10px'}}>It wasn’t too long before we were approaching the Utah border. Each state really wants you to know that you’re going there, and I made sport of snapping photographs of each state line sign as I went. I didn’t get everything on the trip sadly, but I was glad to start our journey off on the right foot.</p>
-                        
+                        <img src={Day4Pic5} alt="Day 4 Pic 5" className="landscapePictures" />
+                        <p>Utah didn’t transform our scenery immediately, to Steph’s minor disappointment. We were still driving through a similar desert. I said that they don’t design state barriers around changes in landscape, but it would have been quite cool to see an immediate change. It wasn’t too long before the desert started to shift though. The sand was lighter, there was more vegetation, and it didn’t take us long to realise that we’d shifted an hour ahead. I said to Steph later in the evening that when we crossed the state line, we changed both time and religion; we were now in Mormon country.</p>
+                        <p>We stopped at the midway point, a tiny little town in southwest Utah called Beaver. It had a couple of small streets, a gas station (which I’ll generally call it for the rest of this account even though it is really a petrol garage) and a little Mexican restaurant. It was a rinky-dink little place, tiled in a way that reminded me of my old school toilets, but with a friendly older lady running it. I ordered hard tacos, not realising I was actually ordering taquitos, a similar dish with a thick outer shell, and Steph got Chimichangas. The portions were gigantic, and it’s a rare day where I don’t finish my food, but I ended up taking quite a few of the taquitos with me.</p>
+                        <p style={{marginBottom: '10px'}}>We topped up gas, which due to the international restrictions of our Revolut card we came to develop a system for – I’d go into the station shop first, top up a preset amount, then come back and start scrubbing at the front of the car while Steph pumped gas. The amount of insects that get smashed on your car when driving out west is insane – it hadn’t been so bad in California, but out here in Utah, our bonnet was a Jackson Pollock of colourful insect splats. I always got slightly grossed out by this task, but I quite liked topping up gas; I liked seeing the range of reactions the cashiers got to an English guy. Sometimes they’d be completely nonplussed, sometimes they’d be surprised or confused but took pains not to show it, other times they leaned right into it and would ask where I was from. They were generally good for a chat or possibly a banter, in the type of banter Americans are good at, without the inherent meanness of British bants.</p>
+                        <img src={Day4Pic6} alt="Day 4 Pic 6" className="landscapePictures" />
+                        <p>There were bigger and bigger towns on the approach to Salt Lake City, but as soon as we got nearby, the big towns in the area – Provo, West Valley City, Jordan, Bluffdale, American Fork – blended together to form one continuous metropolitan area that stretched all the way to SLC. They were bisected quite sharply by the Fifteen, which especially when it came to Provo looked like it had been steamrolled right through the centre of town. I’d heard about Provo – it tops the charts as the happiest city in the United States, and while I’d found it difficult to drill down why, it was originally one of my stops. Though seeing it in action, I doubted I’d missed much.</p>
+                        <p>Salt Lake City was a very different beast to the cities we’d seen so far. As far as big cities are concerned, I’ve been to Vegas, LA, San Francisco, Portland and Seattle, and every single one of them had a USP. Gambling for Vegas, Hollywood for LA, the Bay for San Francisco, Portland’s whole entire beatnik vibe, and green spaces and music for Seattle. Salt Lake City had no distinctive USP. You might say that the Latter Day Saints are the USP, but that’s only a small part of the city centre; the rest of the place is nondescript.</p>
+                        <img src={Day4Pic1} alt="Day 4 Pic 1" className="landscapePictures" />
+                        <p>We found our hotel for the next two nights, the Ramada. After the relative luxury of the Luxor, it was quite a big let-down. It was a very low-level corporate type of motel, the kind of place that the less-successful travelling salesmen stay while on business in the city. But the room was okayish, nice and spacious, and we weren’t too far from the centre of town.</p>
+                        <p style={{marginBottom: '10px'}}>We showered and changed and got ready to head out for the evening. I wanted to check out Temple Square, the headquarters of the LDS, where there was a museum that taught all about church history. I knew that the Mormons had had an interesting history; being kicked from pillar to post by the government and angry locals, all the way from the east to Utah, they’d actually fought wars against the US army before, and were fiercely independent. We arrived a little late, and couldn’t find the place, so we headed out of the parking and had a walk around town.</p>
+                        <img src={Day4Pic7} alt="Day 4 Pic 7" className="landscapePictures" />
+                        <p>The place reminded me very much of a city from the late 1900s, with its antique trams, broad streets, and lots of gothic and art deco buildings among the more modern constructions. It was clean and pretty, but we saw quite a few homeless around, grouped up in that same intimidating way we’d seen back in Vegas.</p>
+                        <p>We wandered the streets, getting hungry, looking around for something to do. We stopped off at a souvenir shop and bought a few bits; we’d decided to get a fridge magnet for every state we stopped in, and we bought a few other bits besides. We got chatting to the clerk, who gave us a heads up about a spot to check out, Big Cottonwood. We then went to a bar and sat outside; it was quite busy and overpriced, but we got to do some great people-watching as we had a beer. We were quite hungry at this point, and having seen a few ramen places – Steph is a huge ramen fan – we set off to find one.</p>
+                        <p>It was unfortunately futile – everywhere was either closed or had sold out of ramen. SLC is one of those early-evening cities where everything closes up around the nine PM mark. We gave up, got in the car, and went to In N’ Out burger for a takeaway, which we ate in our hotel room. Then, with a hell of a long journey behind us, we got some sleep. </p>
                     </div>}
 
+                    <div onClick={expandDay5} id="day5Expander" className="headings">
+                        <h4 className="dayHeader">Day 5</h4>
+                        <h5 className="dayLocation">Salt Lake City</h5>
+                    </div>
+
+                    {day5 &&
+                    <div className="days" id="day5">
+                        <p>Before we journeyed north tomorrow, we had a full day to spend around SLC. We were going to factor in Big Cottonwood as of yesterday’s recommendation, but one spot we both really wanted to go to was Antelope Island. This island – actually a peninsula – lies on the Great Salt Lake and is a fascinating wildlife refuge and hiking spot. We grabbed a quick breakfast at the hotel – a grab back with convenience-store pastries and a coffee – then drove over.</p>
+                        <p style={{marginBottom: '10px'}}>The Great Salt Lake is a strange and beautiful sight. It’s very light blue, aquamarine-coloured, and completely still. There are no waves, no ripples, no choppy waters. The only breaks from the perfectly-crystalline surface are the salt deposits near the shore, which form a sort of Aurora Borealis effect.</p>
+                        <img src={Day5Pic1} alt="Day 5 Pic 1" className="landscapePictures" />
+                        <p style={{marginBottom: '10px'}}>We started our journey by heading over to the Buffalo Point trail, one of the island’s major short hiking trails, a light incline with some good views at the top. The last time we’d hiked had been Scotland, and Steph would be the first to admit it wasn’t her finest moment hiking – she was able to cope with the sharp incline of hikes such as the Old Man of Storr on Skye, but had to rest quite often. I had better general endurance at the time but my overall fitness was quite poor. This time, however, we were a relative fitness machine between the two of us – we’d been going to the gym for the last three months. As soon as we got onto the trail, Steph was a powerhouse, leading the way and breaking ahead. The trail was narrow but well-beaten, with long grass surrounding us on either side.</p>
+                        <img src={Day5Pic2} alt="Day 5 Pic 2" className="landscapePictures" />
+                        <p>I got nervous about the long grass. Antelope Island, like most of the southwest, was home to all sorts of breeds of spider, including – to my horror – my arachnid bête noire, the tarantula. As a result, I scanned every patch of grass and hedge, not to mention our path in case one of the hideous creatures crawled over it. I didn’t see any tarantulas – throughout the whole trip, thankfully – but I did see one very unusual spider that I’d never seen before – a strange, teal coloured one that even a committed arachnophobe can confirm looked quite interesting. </p>
+                        <p>We got to the top in no time, Steph a bundle of fitness-based energy, and surveyed the view. We could see a large stretch of the Salt Lake ahead of us, pulling into the distance, with more of those strange salt formations going along with it. We took in the view properly and took a slow walk down the sloped path.</p>
+                        <p>On our way to the ranch we saw buffalo. Actual, living buffalo right out of a western film. I’d seen them before, on a farm in Wiltshire (courtesy of a farmer with a big obsession with Native Americans) but seeing them here, right in their natural habitat, was something else entirely. There were dozens of them scattered among the sandy plains, formed into loose family units, with calves trailing their mothers as they lumbered and grazed.</p>
+                    </div>}
 
                 <h4 className="headings">Day 5</h4>
                 <h4 className="headings">Day 6</h4>
