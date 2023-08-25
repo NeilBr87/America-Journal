@@ -1,0 +1,93 @@
+.landscapePictures {
+    width: 60vw;
+    height: 18vh;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 12px;
+    width: 80vw;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#expand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.headings {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 92vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 2px
+}
+
+#introExpander {
+    background: url(./Day1Pic1.jpg);
+    background-size: 92vw 10vh;
+    background-repeat: no-repeat;
+}
+
+#day1Expander {
+    background: url(./Day1Pic2.jpg);
+    background-size: 92vw 10vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day2Expander {
+    background: url(./Day2Pic1.jpg);
+    background-size: 92vw 10vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.dayHeader {
+    color: black;
+    font-size: 20px;
+    margin-bottom: -20px;
+    text-shadow: 
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.introHeader {
+    color: black;
+    font-size: 20px;
+    text-shadow: 
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.dayLocation {
+    color: black;
+    text-shadow: 
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
