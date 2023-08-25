@@ -8,6 +8,11 @@ import Day2Pic4 from './Day2Pic4.jpg'
 import Day3Pic1 from './Day3Pic1.jpg'
 import Day3Pic2 from './Day3Pic2.jpg'
 import Day3Pic3 from './Day3Pic3.jpg'
+import Day4Pic1 from './Day4Pic1.jpg'
+import Day4Pic2 from './Day4Pic2.jpg'
+import Day4Pic3 from './Day4Pic3.jpg'
+import Day4Pic4 from './Day4Pic4.jpg'
+import Day4Pic5 from './Day4Pic5.jpg'
 import './style.css';
 
 export default function Journal() {
@@ -48,6 +53,10 @@ export default function Journal() {
 
     function expandDay3() {
         setDay3(!day3);
+    }
+
+    function expandDay4() {
+        setDay4(!day4);
     }
 
 
@@ -149,8 +158,25 @@ export default function Journal() {
                         <p>We fought through the excitement and managed to get a solid night’s sleep for the journey tomorrow.</p>
                     </div>}
 
+                    <div onClick={expandDay4} id="day4Expander" className="headings">
+                        <h4 className="dayHeader">Day 4</h4>
+                        <h5 className="dayLocation">Salt Lake City</h5>
+                    </div>
 
-                <h4 className="headings">Day 4</h4>
+                    {day4 &&
+                    <div className="days" id="day4">
+                        <p style={{marginBottom: '10px'}}>We woke up nice and early the next morning and got ourselves packed, washed, and ready. We had time to kill, so went down to the video roulette again with our suitcases perched near us. We picked up the car from the valet parking at ten in the morning – it was a white Nissan Versa which seemed in quite good nick, despite some paint that had worn away around the tires. We took pictures of every square inch of the car before we loaded it up, and Steph took it onto the I-15, that gigantic highway that stretches all the way from the Mexican to the Canadian border.</p>
+                        <img src={Day4Pic2} alt="Day 4 Pic 2" className="landscapePictures" />
+                        <p>Steph regained her confidence naturally following a few moments of uncertainty, very much in the same frame of mind she’d had when driving around Cali. I was adjusting slightly worse to the car, however; the air-con wasn’t very strong, the sun was beaming down on my side, and the car became a hotbox quite quickly. It was unbearable at first, and I was probably unbearable for it, but soon I got used to it and was able to stay cool.</p>
+                        <p style={{marginBottom: '10px'}}>The Fifteen took us through untold deserts on our journey to the border of Utah. When we’d first arrived in the Mojave, I’d come to the same conclusion as last time; it was less a sandy, featureless landscape like the Sahara, and more a rocky, stony shrubland like the Jornada del Muerto or the Sonoran over in Cali. Going northeast, however, I could tell I was wrong. The desert on either side of the highway was sandy, and very red in many parts. It was a beautiful sight after spending three days in the big city.</p>
+                        <img src={Day4Pic3} alt="Day 4 Pic 3" className="landscapePictures" />
+                        <p style={{marginBottom: '10px'}}>We saw a lot of what I recognised as Vegas’s satellite towns on the way. These are quite a random sight. They spring up everywhere as more and more casino and city staff get hired, and are known for being quite dead places with no culture of their own; no bars, no restaurants, no arts, just a few rows of brand-new houses that looked like scaled-down McMansions. I’m aware that description could apply to lots of suburb towns orbiting big cities, but I feel as if these places make special effort not to bother to make those towns entertaining when the world capital of entertainment is nearby.</p>
+                        <img src={Day4Pic4} alt="Day 4 Pic 4" className="landscapePictures" />
+                        <p style={{marginBottom: '10px'}}>It wasn’t too long before we were approaching the Utah border. Each state really wants you to know that you’re going there, and I made sport of snapping photographs of each state line sign as I went. I didn’t get everything on the trip sadly, but I was glad to start our journey off on the right foot.</p>
+                        
+                    </div>}
+
+
                 <h4 className="headings">Day 5</h4>
                 <h4 className="headings">Day 6</h4>
                 <h4 className="headings">Day 7</h4>
