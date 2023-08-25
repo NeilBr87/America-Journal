@@ -23,6 +23,7 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 10%
 }
 
 .headings {
@@ -96,6 +97,38 @@ p {
 #day7Expander {
     background: url(./Day7Pic1.jpg);
     background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day8Expander {
+    background: url(./Day8Pic1.jpg);
+    background-size: 92vw 13vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day9Expander {
+    background: url(./Day9Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day10Expander {
+    background: url(./Day10Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day11Expander {
+    background: url(./Day11Pic1.jpg);
+    background-size: 92vw 11vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;

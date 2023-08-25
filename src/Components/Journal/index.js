@@ -37,16 +37,16 @@ export default function Journal() {
     const [day9, setDay9] = useState(false);
     const [day10, setDay10] = useState(false);
     const [day11, setDay11] = useState(false);
-    const [day12, setDay12] = useState(false);
-    const [day13, setDay13] = useState(false);
-    const [day14, setDay14] = useState(false);
-    const [day15, setDay15] = useState(false);
-    const [day16, setDay16] = useState(false);
-    const [day17, setDay17] = useState(false);
-    const [day18, setDay18] = useState(false);
-    const [day19, setDay19] = useState(false);
-    const [day20, setDay20] = useState(false);
-    const [day21, setDay21] = useState(false);
+    // const [day12, setDay12] = useState(false);
+    // const [day13, setDay13] = useState(false);
+    // const [day14, setDay14] = useState(false);
+    // const [day15, setDay15] = useState(false);
+    // const [day16, setDay16] = useState(false);
+    // const [day17, setDay17] = useState(false);
+    // const [day18, setDay18] = useState(false);
+    // const [day19, setDay19] = useState(false);
+    // const [day20, setDay20] = useState(false);
+    // const [day21, setDay21] = useState(false);
 
     function expandIntro() {
         setIntro(!intro);
@@ -96,41 +96,41 @@ export default function Journal() {
         setDay11(!day11);
     }
 
-    function expandDay12() {
-        setDay12(!day12);
-    }
+    // function expandDay12() {
+    //     setDay12(!day12);
+    // }
 
-    function expandDay13() {
-        setDay13(!day13);
-    }
+    // function expandDay13() {
+    //     setDay13(!day13);
+    // }
 
-    function expandDay14() {   
-        setDay14(!day14);
-    }
+    // function expandDay14() {   
+    //     setDay14(!day14);
+    // }
 
-    function expandDay15() {
-        setDay15(!day15);
-    }
+    // function expandDay15() {
+    //     setDay15(!day15);
+    // }
 
-    function expandDay16() {
-        setDay16(!day16);
-    }
+    // function expandDay16() {
+    //     setDay16(!day16);
+    // }
 
-    function expandDay17() {
-        setDay17(!day17);
-    }
+    // function expandDay17() {
+    //     setDay17(!day17);
+    // }
 
-    function expandDay18() {
-        setDay18(!day18);
-    }
+    // function expandDay18() {
+    //     setDay18(!day18);
+    // }
 
-    function expandDay19() {
-        setDay19(!day19);
-    }
+    // function expandDay19() {
+    //     setDay19(!day19);
+    // }
 
-    function expandDay20() {
-        setDay20(!day20);
-    }
+    // function expandDay20() {
+    //     setDay20(!day20);
+    // }
 
 
 
@@ -316,6 +316,47 @@ export default function Journal() {
                         <div>
                             <p>TBC</p>
                         </div>}
+
+                    <div onClick={expandDay8} id="day8Expander" className="headings">
+                        <h4 className="dayHeader">Day 8</h4>
+                        <h5 className="dayLocation">Helena</h5>
+                    </div>
+
+                    {day8 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                    <div onClick={expandDay9} id="day9Expander" className="headings">
+                        <h4 className="dayHeader">Day 9</h4>
+                        <h5 className="dayLocation">Helena</h5>
+                    </div>
+
+                    {day9 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                    <div onClick={expandDay10} id="day10Expander" className="headings">
+                        <h4 className="dayHeader">Day 10</h4>
+                        <h5 className="dayLocation">Glacier National Park</h5>
+                    </div>
+
+                    {day10 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay11} id="day11Expander" className="headings">
+                        <h4 className="dayHeader">Day 11</h4>
+                        <h5 className="dayLocation">Glacier National Park</h5>
+                    </div>
+
+                    {day11 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
 
             </div>
 
