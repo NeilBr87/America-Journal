@@ -37,10 +37,10 @@ export default function Journal() {
     const [day9, setDay9] = useState(false);
     const [day10, setDay10] = useState(false);
     const [day11, setDay11] = useState(false);
-    // const [day12, setDay12] = useState(false);
-    // const [day13, setDay13] = useState(false);
-    // const [day14, setDay14] = useState(false);
-    // const [day15, setDay15] = useState(false);
+    const [day12, setDay12] = useState(false);
+    const [day13, setDay13] = useState(false);
+    const [day14, setDay14] = useState(false);
+    const [day15, setDay15] = useState(false);
     // const [day16, setDay16] = useState(false);
     // const [day17, setDay17] = useState(false);
     // const [day18, setDay18] = useState(false);
@@ -96,21 +96,21 @@ export default function Journal() {
         setDay11(!day11);
     }
 
-    // function expandDay12() {
-    //     setDay12(!day12);
-    // }
+    function expandDay12() {
+        setDay12(!day12);
+    }
 
-    // function expandDay13() {
-    //     setDay13(!day13);
-    // }
+    function expandDay13() {
+        setDay13(!day13);
+    }
 
-    // function expandDay14() {   
-    //     setDay14(!day14);
-    // }
+    function expandDay14() {   
+        setDay14(!day14);
+    }
 
-    // function expandDay15() {
-    //     setDay15(!day15);
-    // }
+    function expandDay15() {
+        setDay15(!day15);
+    }
 
     // function expandDay16() {
     //     setDay16(!day16);
@@ -353,6 +353,46 @@ export default function Journal() {
                     </div>
 
                     {day11 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay12} id="day12Expander" className="headings">
+                        <h4 className="dayHeader">Day 12</h4>
+                        <h5 className="dayLocation">Red Lodge</h5>
+                    </div>
+
+                    {day12 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay13} id="day13Expander" className="headings">
+                        <h4 className="dayHeader">Day 13</h4>
+                        <h5 className="dayLocation">Red Lodge</h5>
+                    </div>
+
+                    {day13 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay14} id="day14Expander" className="headings">
+                        <h4 className="dayHeader">Day 14</h4>
+                        <h5 className="dayLocation">Cody and Driggs</h5>
+                    </div>
+
+                    {day14 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay15} id="day15Expander" className="headings">
+                        <h4 className="dayHeader">Day 15</h4>
+                        <h5 className="dayLocation">Grand Teton National Park</h5>
+                    </div>
+
+                    {day15 &&
                         <div>
                             <p>TBC</p>
                         </div>}

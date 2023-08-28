@@ -134,6 +134,38 @@ p {
     flex-direction: column;
 }
 
+#day12Expander {
+    background: url(./Day12Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day13Expander {
+    background: url(./Day13Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day14Expander {
+    background: url(./Day14Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day15Expander {
+    background: url(./Day15Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
 .dayHeader {
     color: black;
     font-size: 20px;
