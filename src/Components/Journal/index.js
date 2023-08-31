@@ -41,12 +41,13 @@ export default function Journal() {
     const [day13, setDay13] = useState(false);
     const [day14, setDay14] = useState(false);
     const [day15, setDay15] = useState(false);
-    // const [day16, setDay16] = useState(false);
-    // const [day17, setDay17] = useState(false);
-    // const [day18, setDay18] = useState(false);
-    // const [day19, setDay19] = useState(false);
-    // const [day20, setDay20] = useState(false);
-    // const [day21, setDay21] = useState(false);
+    const [day16, setDay16] = useState(false);
+    const [day17, setDay17] = useState(false);
+    const [day18, setDay18] = useState(false);
+    const [day19, setDay19] = useState(false);
+    const [day20, setDay20] = useState(false);
+    const [day21, setDay21] = useState(false);
+    const [day22, setDay22] = useState(false);
 
     function expandIntro() {
         setIntro(!intro);
@@ -112,29 +113,34 @@ export default function Journal() {
         setDay15(!day15);
     }
 
-    // function expandDay16() {
-    //     setDay16(!day16);
-    // }
+    function expandDay16() {
+        setDay16(!day16);
+    }
 
-    // function expandDay17() {
-    //     setDay17(!day17);
-    // }
+    function expandDay17() {
+        setDay17(!day17);
+    }
 
-    // function expandDay18() {
-    //     setDay18(!day18);
-    // }
+    function expandDay18() {
+        setDay18(!day18);
+    }
 
-    // function expandDay19() {
-    //     setDay19(!day19);
-    // }
+    function expandDay19() {
+        setDay19(!day19);
+    }
 
-    // function expandDay20() {
-    //     setDay20(!day20);
-    // }
+    function expandDay20() {
+        setDay20(!day20);
+    }
 
+    function expandDay21() {
+        setDay21(!day21);
+    }
 
-
-
+    function expandDay22() {
+        setDay22(!day22);
+    }
+    
     return (
         <div>
 
@@ -397,6 +403,74 @@ export default function Journal() {
                             <p>TBC</p>
                         </div>}
 
+                        <div onClick={expandDay16} id="day16Expander" className="headings">
+                        <h4 className="dayHeader">Day 16</h4>
+                        <h5 className="dayLocation">Salt Lake City</h5>
+                    </div>
+                    {day16 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay17} id="day17Expander" className="headings">
+                        <h4 className="dayHeader">Day 17</h4>
+                        <h5 className="dayLocation">Bryce Canyon National Park</h5>
+                        </div>
+
+                        {day17 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay18} id="day18Expander" className="headings">
+                        <h4 className="dayHeader">Day 18</h4>
+                        <h5 className="dayLocation">Pipe Springs</h5>
+                        </div>
+
+                        {day18 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay19} id="day19Expander" className="headings">
+                        <h4 className="dayHeader">Day 19</h4>
+                        <h5 className="dayLocation">Valley of Fire State Park</h5>
+                        </div>
+
+                        {day19 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay20} id="day20Expander" className="headings">
+                        <h4 className="dayHeader">Day 20</h4>
+                        <h5 className="dayLocation">Las Vegas</h5>
+                        </div>
+
+                        {day20 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                        <div onClick={expandDay21} id="day21Expander" className="headings">
+                        <h4 className="dayHeader">Day 21</h4>
+                        <h5 className="dayLocation">Home</h5>
+
+                        {day21 &&
+                        <div>
+                            <p>TBC</p>
+                            </div>}
+
+                        <div onClick={expandDay22} id="day22Expander" className="headings">
+                            <h4 className="dayHeader">Our wedding vows</h4>
+                        </div>
+
+                        {day22 &&
+                        <div>
+                            <p>TBC</p>
+                        </div>}
+
+                    </div>
 
             </div>
 

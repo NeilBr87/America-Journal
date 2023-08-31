@@ -166,6 +166,46 @@ p {
     flex-direction: column;
 }
 
+#day16Expander {
+    background: url(./Day4Pic7.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day17Expander {
+    background: url(./Day17Pic1.jpg);
+    background-size: 92vw 16vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day18Expander {
+    background: url(./Day18Pic1.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day19Expander {
+    background: url(./Day19Pic1.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day20Expander {
+    background: url(./Day20Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
 .dayHeader {
     color: black;
     font-size: 20px;
