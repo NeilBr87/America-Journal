@@ -22,6 +22,11 @@ import Day5Pic4 from './Day5Pic4.jpg'
 import Day5Pic5 from './Day5Pic5.jpg'
 import Day5Pic6 from './Day5Pic6.jpg'
 import Day5Pic7 from './Day5Pic7.jpg'
+import Day6Pic1 from './Day6Pic1.jpg'
+import Day6Pic2 from './Day6Pic2.jpg'
+import Day6Pic3 from './Day6Pic3.jpg'
+import Day6Pic4 from './Day6Pic4.jpg'
+import Day6Pic5 from './Day6Pic5.jpg'
 import './style.css';
 
 export default function Journal() {
@@ -310,7 +315,16 @@ export default function Journal() {
 
                     {day6 &&
                         <div>
-                            <p>TBC</p>
+                            <p style={{marginBottom: '10px'}}>Having spent some time in the Pacific Northwest, I’d heard quite a bit about Idaho. On the other hand, it was described by all as an untapped, beautifully isolated wilderness, an Alaska of the Midwest. That was only one side of it, though. The progressives I’d spent my time with in Oregon had described the place as a haven for right-wing lunatics, and I also knew – both from a documentary I’d watched and an offhand joke in an episode of Frasier – that the state was full of extremist anti-government militias. A part of me was worried, considering that we were coming to the place as an interracial married couple, but another part of me wasn’t – I’d said coming to America that I’d love to actually talk to some right-wingers, especially Trump supporters, and see how they tick. Having been to some pretty rednecky places, chief of which was probably the town of Bridgeport back in California, and I still maintained the same thought – even racist rednecks don’t care anything about where you come from as long as you don’t act any different from them. This trip would prove this theory right for some people and wrong for others – but neither happened in Idaho.</p>
+                            <img src={Day6Pic2} alt="Day 6 Pic 2" className="landscapePictures" />
+                            <p>That’s not to say that the place was a bastion of tolerance; we saw lots of signs of the state’s support for Trump along the way (some of them quite literal) and I learned to my shock that Ammon Bundy, part of that infernal Bundy clan that fought the Bureau of Land Management and led an armed occupation of a federal wildlife refuge over in Washington, was running for governor and had signs out all over the place. But since he didn’t win, and since we saw worse Trump signs in Montana and Wyoming, I can’t quite declare it a Neo-Nazi stronghold.</p>
+                            <p style={{marginBottom: '10px'}}>The state is as wild as described, though. You can drive hundreds of miles without passing so much as a tiny roadside town, and the wild mountains and forests stretch as far as the eye can see. If you were to wind up in one of those forests, it might be a good week’s worth of walking before you found the highway again. We did pass a few towns in our massive drive, though; Malad, Downey, Pocatello, and a few more. They were pleasant places, but we’d already scouted out our midway stopping point – a picturesque little town called Blackfoot.</p>
+                            <img src={Day6Pic3} alt="Day 6 Pic 3" className="landscapePictures" />
+                            <p style={{marginBottom: '10px'}}>I’ve been to a good few little towns across the West Coast, some with Steph some without, and to this day I struggle to think of a nicer place than Blackfoot. It’s pulled right out of a picture book, or an Edward Hopper painting, or a Stephen King novel without the creeping sense of menace. Its Main Street has a quaint, historical feel to it, and it boasts one of the weirdest museums I’ve seen since a certain phallic one in Reykjavik – the Idaho Potato Museum. Idaho is one of the biggest potato growers in the world, and Blackfoot is known informally as the Potato Capital of the World. As a part Irishman, that was either going to pique me or pique my curiosity, but the place was positively-reviewed enough that I wouldn’t have wanted to miss it.</p>
+                            <img src={Day6Pic4} alt="Day 6 Pic 4" className="portraitPictures" />
+                            <p>The Idaho Potato Museum marks its presence with a huge sculpture of a jacket potato, which is a quirky example of what one could expect from the place. It’s run by one family, who both grow and cook potatoes near the town. The museum turned out to be a very thorough collection, with a well-researched history of potato growth in Idaho throughout the decades, from early cultivation, through to Idaho’s potato-based culture of the Twentieth Century. As an Aspie, I can thoroughly respect a bizarre devotion to a singular object of study, and if my family’s fortune had been made by the humble potato, I’d want to scream about it to the rafters too.</p>
+                            <p style={{marginBottom: '10px'}}>After the museum, we went to get some food, going to an awesome barbecue place we’d spotted earlier. It was set in a very basic brick building with a corrugated steel roof, but if American food TV is to be believed, these features mark a place as a true gem. I ordered a Hawaiian pineapple pork brisket and Steph got a barbecue pork ‘slaw brisket. I instinctively avoid Hawaiian on other dishes, like pizza, but barbecue seems to be the generally accepted exception to the poor taste rule. The dishes were delicious. The place itself was run by war veterans and seemed to hire them exclusively. We saw a lot of the same ‘pseudo-right’ imagery as the shooting range, ie lots of second amendment stuff but nothing outwardly conservative. From all the photographs, the place seemed to have a real solid place in the community, and I could see why.</p>
+                            <img src={Day6Pic5} alt="Day 6 Pic 5" className="landscapePictures" />
                         </div>}
 
                         <div onClick={expandDay7} id="day7Expander" className="headings">
@@ -453,32 +467,21 @@ export default function Journal() {
                         </div>}
 
                         <div onClick={expandDay21} id="day21Expander" className="headings">
-                        <h4 className="dayHeader">Day 21</h4>
-                        <h5 className="dayLocation">Home</h5>
+                            <h4 className="dayHeader">Day 21</h4>
+                            <h5 className="dayLocation">Home</h5>
+                        </div>
 
                         {day21 &&
                         <div>
                             <p>TBC</p>
-                            </div>}
-
-                        <div onClick={expandDay22} id="day22Expander" className="headings">
-                            <h4 className="dayHeader">Our wedding vows</h4>
-                        </div>
-
-                        {day22 &&
-                        <div>
-                            <p>TBC</p>
                         </div>}
 
-                    </div>
+                        <div onClick={expandDay22} id="day22Expander" className="headings">
+                            <h4 className="dayLocation">Our wedding vows</h4>
+                        </div>
+
 
             </div>
-
-            
-            <div>
-
-            </div>
-
         </div>
     );
     }

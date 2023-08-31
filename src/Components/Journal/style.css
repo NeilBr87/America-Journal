@@ -6,7 +6,7 @@
 
 p {
     font-size: 12px;
-    width: 80vw;
+    width: 86vw;
     margin-bottom: 5px;
     text-align: justify;
 }
@@ -200,6 +200,24 @@ p {
 
 #day20Expander {
     background: url(./Day20Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day21Expander {
+    background: url(./Day21Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#day22Expander {
+    background: url(./Day22Pic1.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
     display: flex;
