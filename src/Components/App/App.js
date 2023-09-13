@@ -1,5 +1,5 @@
 import './App.css';
-import Journal from '../Journal';
+import Journal from '../America2022';
 
 function App() {
   return (
