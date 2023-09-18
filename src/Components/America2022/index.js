@@ -70,7 +70,7 @@ import Day11Pic14 from './Day11Pic14.jpg'
 import Day11Pic15 from './Day11Pic15.jpg'
 import './style.css';
 
-export default function Journal() {
+export default function Journal(props) {
     const [intro, setIntro] = useState(false);
     const [day1, setDay1] = useState(false);
     const [day2, setDay2] = useState(false);
@@ -185,6 +185,11 @@ export default function Journal() {
 
     function expandDay22() {
         setDay22(!day22);
+    }
+
+    function back() {
+        props.setTripChosen(false);
+        props.setTrip('');
     }
     
     return (
@@ -777,6 +782,8 @@ export default function Journal() {
 
 
             </div>
+
+            <h3 onClick={back}>Back</h3>
         </div>
     );
     }

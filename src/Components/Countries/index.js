@@ -52,7 +52,7 @@ export default function Countries() {
             </div>}
 
             {trip === 'USA2' &&
-                <America2022 />
+                <America2022 tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
             }
 
 
