@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Changa:wght@200;300;400;500;600;700;800&family=Lato:wght@300&family=Major+Mono+Display&family=Maven+Pro:wght@400;500;600;700;800;900&family=MedievalSharp&family=Mooli&family=Orbitron:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&family=Press+Start+2P&family=Quicksand:wght@300;400;500;600;700&display=swap');
+.landscapePictures {
+    width: 70vw;
+    height: 21vh;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 14px;
+    width: 86vw;
+    margin-bottom: 5px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#expand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10%
+}
+
+.headings {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 92vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 2px
+}
+
+/* #introExpander {
+    background: url(./Day1Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+}
+
+#day1Expander {
+    background: url(./Day1Pic2.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day2Expander {
+    background: url(./Day2Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day3Expander {
+    background: url(./Day3Pic1.jpg);
+    background-size: 92vw 12vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day4Expander {
+    background: url(./Day4Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day5Expander {
+    background: url(./Day5Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day6Expander {
+    background: url(./Day6Pic1.jpg);
+    background-size: 92vw 12vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day7Expander {
+    background: url(./Day7Pic1.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day8Expander {
+    background: url(./Day8Pic1.jpg);
+    background-size: 92vw 13vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day9Expander {
+    background: url(./Day9Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day10Expander {
+    background: url(./Day10Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day11Expander {
+    background: url(./Day11Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day12Expander {
+    background: url(./Day12Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day13Expander {
+    background: url(./Day13Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day14Expander {
+    background: url(./Day14Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day15Expander {
+    background: url(./Day15Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day16Expander {
+    background: url(./Day4Pic7.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day17Expander {
+    background: url(./Day17Pic1.jpg);
+    background-size: 92vw 16vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day18Expander {
+    background: url(./Day18Pic1.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day19Expander {
+    background: url(./Day19Pic1.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day20Expander {
+    background: url(./Day20Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day21Expander {
+    background: url(./Day21Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#day22Expander {
+    background: url(./Day22Pic1.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+} */
+
+.dayHeader {
+    color: black;
+    font-size: 20px;
+    margin-bottom: -20px;
+    text-shadow: 
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.introHeader {
+    color: black;
+    font-size: 20px;
+    text-shadow: 
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.dayLocation {
+    color: black;
+    text-shadow: 
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.portraitPictures {
+    width: 32vw;
+    height: 24vh;
+    border-radius: 5px;
+}
+
+.squarePictures {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 5px;
+}
+
+.weddingText {
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import America2022 from '../America2022';
+import SriLanka from '../SriLanka';
 import './style.css';
 
 export default function Countries() {
@@ -54,6 +55,9 @@ export default function Countries() {
             {trip === 'USA2' &&
                 <America2022 tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
             }
+            {trip === 'Sri Lanka' &&
+                <SriLanka tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
+                }
 
 
         </div>
