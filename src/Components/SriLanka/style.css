@@ -42,23 +42,17 @@ p {
     border-radius: 2px
 }
 
-/* #introExpander {
-    background: url(./Day1Pic1.jpg);
-    background-size: 92vw 11vh;
-    background-repeat: no-repeat;
-}
-
 #day1Expander {
-    background: url(./Day1Pic2.jpg);
-    background-size: 92vw 11vh;
+    background: url(./Day1HeaderPic.jpg);
+    background-size: 92vw 12vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
 }
 
 #day2Expander {
-    background: url(./Day2Pic1.jpg);
-    background-size: 92vw 11vh;
+    background: url(./Day2HeaderPic.jpg);
+    background-size: 92vw 12vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -71,6 +65,15 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+/* #introExpander {
+    background: url(./Day1Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+}
+
+
+
 
 #day4Expander {
     background: url(./Day4Pic1.jpg);
