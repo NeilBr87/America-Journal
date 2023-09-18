@@ -68,6 +68,10 @@ import Day11Pic12 from './Day11Pic12.jpg'
 import Day11Pic13 from './Day11Pic13.jpg'
 import Day11Pic14 from './Day11Pic14.jpg'
 import Day11Pic15 from './Day11Pic15.jpg'
+import Day12Pic1 from './Day12Pic1.jpg'
+import Day12Pic2 from './Day12Pic2.jpg'
+import Day12Pic3 from './Day12Pic3.jpg'
+import Day12Pic4 from './Day12Pic4.jpg'
 import './style.css';
 
 export default function Journal(props) {
@@ -564,11 +568,15 @@ export default function Journal(props) {
                     {day12 &&
                         <div>
                             <p style={{marginBottom: '10px'}}>We left the Duck Lake Lodge early in the morning. We had a long journey today; six hours in total. Our destination was a medium-size town on Montana’s southern border with Wyoming by the name of Red Lodge. It seemed a nice town from what I’d read of it, but what had really brought us there - apart from a viable stopover on our southern route - was the Custer Gallatin Forest. This was a beautiful stretch of Montana wilderness that looked similar to Glacier, with lots of mountain peaks and valleys. As we were going to arrive quite late in the afternoon, and heading into Wyoming in two days, we only had one real day in the place.</p>
+                            <img src={Day12Pic2} alt="Day 12 Pic 2" className="landscapePictures" />
                             <p>We made our way, passing through some tiny, unknown towns that we hadn’t seen on our way up to Glacier. They were very pleasant, like the places we had seen, but dead. Their main streets, which mostly consisted of small grocery stores, DIY places and the occasional saloon. The scenery was a lot less breathtaking here; the mountains had receded and we were in a long stretch of flat land. </p>
                             <p>We didn’t stop anywhere on the journey, except to stop for gas/petrol, and we’d grabbed sandwiches for our lunch in a shop on the way. There was nowhere that really grabbed at us as a stopover town we’d like to spend time in, and while every American town had its charm, we decided we’d rather keep our breaks to a minimum and arrive in Red Lodge in good time.</p>
                             <p style={{marginBottom: '10px'}}>When we finally got to Red Lodge at just after five in the afternoon, we were glad we held out. Red Lodge was nothing like the desolate places we’d seen on the highway. It was a little bit like Blackfoot over in Idaho; a classic, vibrant main street with interesting shops, places to eat and drink, and an overall cool vibe that made me wish we could spend more time here.</p>
+                            <img src={Day12Pic1} alt="Day 12 Pic 1" className="landscapePictures" />
                             <p style={{marginBottom: '10px'}}>It wasn’t perfect. We saw Trump signs everywhere, including by our motel. We were staying at a place called Lupine Inn. It wasn’t as charming as the Duck Lake Lodge, but it wasn’t as charmless as the Ramada either. We brought our bags to the room and headed straight into town. Our first stop before food was  the Montana Candy Emporium, a beautifully preserved shop that had the marquee of a 1950s cinema. My sweet tooth couldn’t resist the place, and we bought a few souvenirs and sweet snacks for the road. </p>
+                            <img src={Day12Pic3} alt="Day 12 Pic 3" className="portraitPictures" />
                             <p style={{marginBottom: '10px'}}>Our next stop was food. Steph had found an amazing-looking Mexican restaurant called La Palmita. It was a simple place with a small, stuffy interior but a nice outdoor eating space filled with benches. It was very casual; you ordered and paid for your food at the same time, then waited until they brought it out and you took it outside yourself. It was real Mexican food, nothing like Taco Bell or any of the chainy Mexican places you saw in larger towns. I had fish tacos, whereas Steph had enchiladas. The food was lovely and left us nice and full. We had a walk around town, making our gentle way back to the motel - it was late now, and we’d had a long drive. We settled in and got a good night’s sleep for the next day’s hike.</p>
+                            <img style={{marginBottom: '10px'}} src={Day12Pic4} alt="Day 12 Pic 4" className="portraitPictures" />
                         </div>}
 
                         <div onClick={expandDay13} id="day13Expander" className="headings">
