@@ -262,6 +262,12 @@ p {
     border-radius: 5px;
 }
 
+.squarePictures {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 5px;
+}
+
 .weddingText {
     font-family: 'Caveat', cursive;
     font-size: 18px;
