@@ -1,11 +1,11 @@
 .landscapePictures {
-    width: 60vw;
-    height: 18vh;
+    width: 70vw;
+    height: 21vh;
     border-radius: 5px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 13px;
     width: 86vw;
     margin-bottom: 5px;
     text-align: justify;
