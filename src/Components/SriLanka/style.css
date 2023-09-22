@@ -115,6 +115,46 @@ p {
     flex-direction: column;
 }
 
+#day10Expander {
+    background: url(./Day10Pic2.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day11Expander {
+    background: url(./Day11Pic2.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#day12Expander {
+    background: url(./Day12Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day13Expander {
+    background: url(./Day13Pic1.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day14Expander {
+    background: url(./Day14Pic1.jpg);
+    background-size: 92vw 18vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
 
 /* #introExpander {
     background: url(./Day1Pic1.jpg);
@@ -148,45 +188,8 @@ p {
 
 
 
-#day10Expander {
-    background: url(./Day10Pic1.jpg);
-    background-size: 92vw 11vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
 
-#day11Expander {
-    background: url(./Day11Pic1.jpg);
-    background-size: 92vw 11vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
 
-#day12Expander {
-    background: url(./Day12Pic1.jpg);
-    background-size: 92vw 14vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
-
-#day13Expander {
-    background: url(./Day13Pic1.jpg);
-    background-size: 92vw 11vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
-
-#day14Expander {
-    background: url(./Day14Pic1.jpg);
-    background-size: 92vw 14vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
 
 #day15Expander {
     background: url(./Day15Pic1.jpg);
