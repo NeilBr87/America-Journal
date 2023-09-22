@@ -42,13 +42,13 @@ p {
     border-radius: 2px
 }
 
-#introExpander {
+#introExpanderUS {
     background: url(./Day1Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
 }
 
-#day1Expander {
+#day1ExpanderUS {
     background: url(./Day1Pic2.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ p {
     flex-direction: column;
 }
 
-#day2Expander {
+#day2ExpanderUS {
     background: url(./Day2Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ p {
     flex-direction: column;
 }
 
-#day3Expander {
+#day3ExpanderUS {
     background: url(./Day3Pic1.jpg);
     background-size: 92vw 12vh;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ p {
     flex-direction: column;
 }
 
-#day4Expander {
+#day4ExpanderUS {
     background: url(./Day4Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ p {
     flex-direction: column;
 }
 
-#day5Expander {
+#day5ExpanderUS {
     background: url(./Day5Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@ p {
     flex-direction: column;
 }
 
-#day6Expander {
+#day6ExpanderUS {
     background: url(./Day6Pic1.jpg);
     background-size: 92vw 12vh;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ p {
     flex-direction: column;
 }
 
-#day7Expander {
+#day7ExpanderUS {
     background: url(./Day7Pic1.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ p {
     flex-direction: column;
 }
 
-#day8Expander {
+#day8ExpanderUS {
     background: url(./Day8Pic1.jpg);
     background-size: 92vw 13vh;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ p {
     flex-direction: column;
 }
 
-#day9Expander {
+#day9ExpanderUS {
     background: url(./Day9Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ p {
     flex-direction: column;
 }
 
-#day10Expander {
+#day10ExpanderUS {
     background: url(./Day10Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ p {
     flex-direction: column;
 }
 
-#day11Expander {
+#day11ExpanderUS {
     background: url(./Day11Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ p {
     flex-direction: column;
 }
 
-#day12Expander {
+#day12ExpanderUS {
     background: url(./Day12Pic1.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ p {
     flex-direction: column;
 }
 
-#day13Expander {
+#day13ExpanderUS {
     background: url(./Day13Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@ p {
     flex-direction: column;
 }
 
-#day14Expander {
+#day14ExpanderUS {
     background: url(./Day14Pic1.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@ p {
     flex-direction: column;
 }
 
-#day15Expander {
+#day15ExpanderUS {
     background: url(./Day15Pic1.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
@@ -168,7 +168,7 @@ p {
     flex-direction: column;
 }
 
-#day16Expander {
+#day16ExpanderUS {
     background: url(./Day4Pic7.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ p {
     flex-direction: column;
 }
 
-#day17Expander {
+#day17ExpanderUS {
     background: url(./Day17Pic1.jpg);
     background-size: 92vw 16vh;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ p {
     flex-direction: column;
 }
 
-#day18Expander {
+#day18ExpanderUS {
     background: url(./Day18Pic1.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ p {
     flex-direction: column;
 }
 
-#day19Expander {
+#day19ExpanderUS {
     background: url(./Day19Pic1.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ p {
     flex-direction: column;
 }
 
-#day20Expander {
+#day20ExpanderUS {
     background: url(./Day20Pic1.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ p {
     flex-direction: column;
 }
 
-#day21Expander {
+#day21ExpanderUS {
     background: url(./Day21Pic1.jpg);
     background-size: 92vw 11vh;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ p {
 
 }
 
-#day22Expander {
+#day22ExpanderUS {
     background: url(./Day22Pic1.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;

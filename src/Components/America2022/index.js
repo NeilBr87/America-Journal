@@ -230,7 +230,7 @@ export default function Journal(props) {
             <h3 style={{marginBottom: '5vh'}}>Travel journal</h3>
 
             <div id="expand">
-                <div onClick={expandIntro} id="introExpander" className="headings">
+                <div onClick={expandIntro} id="introExpanderUS" className="headings">
                     <h4 className="introHeader">Intro</h4>
                 </div>
                 {intro && 
@@ -246,7 +246,7 @@ export default function Journal(props) {
                     <p>We’d gotten engaged three years ago in the very same country, notwithstanding the very same part of the country, that we were going to now. Since then we’d come back and forth on the shape our wedding would take – me wanting something bigger and grander, Steph wanting something small and functional. With it being confirmed that we were going back to Vegas, Steph had what would turn out to be an incredible idea – we elope with a Las Vegas wedding! Moreover, we looked it up and there’s no problem with taking a Las Vegas marriage certificate to the UK – there’s no additional administration to make your wedding ‘valid’ in the UK. These were side considerations though; what really attracted Vegas, first to Steph and then to me, was the unique and romantic attraction to the spiritual home of eloping, not a hundred miles from where we got engaged. We booked the Graceland Chapel, where David Harbour and Lily Allen, plus a bunch of other celebrities, got married. And as everything got gradually booked, our excitement reached fever pitch.</p>
                 </div>}
 
-                <div onClick={expandDay1} id="day1Expander" className="headings">
+                <div onClick={expandDay1} id="day1ExpanderUS" className="headings">
                     <h4 className="dayHeader">Day 1</h4>
                     <h5 className="dayLocation">Las Vegas</h5>
                 </div>
@@ -267,7 +267,7 @@ export default function Journal(props) {
                         <p>The room was just fine, very modern with a very nice bathroom. We both showered and got our wedding clothes ready for tomorrow. The next stop was food. We’d be having some incredible meals on our holiday, but our first dinner didn’t quite count – I went to a little convenience store within the casino and bought two cold subs, which we ate unceremoniously in the room. It was around nine in the evening at this point, and Steph was ready for bed – though I wanted to check out the casino. Steph gave me the option of going down alone, and while I thought about it, bed was calling just as much.</p>
                     </div>}
 
-                    <div onClick={expandDay2} id="day2Expander" className="headings">
+                    <div onClick={expandDay2} id="day2ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 2</h4>
                         <h5 className="dayLocation">Las Vegas</h5>
                     </div>
@@ -293,7 +293,7 @@ export default function Journal(props) {
                         <img style={{marginBottom: '20px'}} src={Day2Pic1} alt="Day 2 Pic 1" className="landscapePictures" />
                     </div>}
 
-                    <div onClick={expandDay3} id="day3Expander" className="headings">
+                    <div onClick={expandDay3} id="day3ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 3</h4>
                         <h5 className="dayLocation">Las Vegas</h5>
                     </div>
@@ -320,7 +320,7 @@ export default function Journal(props) {
                         <p>We fought through the excitement and managed to get a solid night’s sleep for the journey tomorrow.</p>
                     </div>}
 
-                    <div onClick={expandDay4} id="day4Expander" className="headings">
+                    <div onClick={expandDay4} id="day4ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 4</h4>
                         <h5 className="dayLocation">Salt Lake City</h5>
                     </div>
@@ -351,7 +351,7 @@ export default function Journal(props) {
                         <p>It was unfortunately futile – everywhere was either closed or had sold out of ramen. SLC is one of those early-evening cities where everything closes up around the nine PM mark. We gave up, got in the car, and went to In N’ Out burger for a takeaway, which we ate in our hotel room. Then, with a hell of a long journey behind us, we got some sleep. </p>
                     </div>}
 
-                    <div onClick={expandDay5} id="day5Expander" className="headings">
+                    <div onClick={expandDay5} id="day5ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 5</h4>
                         <h5 className="dayLocation">Salt Lake City</h5>
                     </div>
@@ -385,7 +385,7 @@ export default function Journal(props) {
                         <p>After completing the loop of our hike, we drove back into central SLC. We saw our friend who’d recommended Big Cottonwood packing in some bits from outside his gift shop after a long shift, and he was delighted that we’d got so much out of it. We had one singular goal in mind – ramen. Steph was desperate to experience one of the ramen places we’d missed out on, and I was getting hungry. We found a quirky little place that served delicious ramen, and turned in reasonably early. We had another long drive tomorrow, just under five hours in total, going to the very north of Utah, through Idaho, and into Montana, with our final destination being the town of West Yellowstone, which would be our base as we ventured into the most famous national park in the US – Yellowstone.</p>
                     </div>}
 
-                    <div onClick={expandDay6} id="day6Expander" className="headings">
+                    <div onClick={expandDay6} id="day6ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 6</h4>
                         <h5 className="dayLocation">West Yellowstone</h5>
                     </div>
@@ -418,7 +418,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>Once we were done with the shop and the laundry, we headed over to a little bar and restaurant, sitting outside. The evening was slightly cool but it was very refreshing, not cold. We had a pizza each and a couple of local beers, then got to bed early. We had a big day ahead of us – Yellowstone National Park.</p>
                         </div>}
 
-                        <div onClick={expandDay7} id="day7Expander" className="headings">
+                        <div onClick={expandDay7} id="day7ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 7</h4>
                         <h5 className="dayLocation">Yellowstone National Park</h5>
                     </div>
@@ -443,7 +443,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>It was getting late, so we drove back to West Yellowstone, spotting a family of grazing deer as we did. We got into town in the early evening and started looking around for some food. We had a walk around town; it wasn’t as lively as the other night, but it was still a happening place to be. We fancied something simple for dinner, so after walking around looking for inspiration, we settled on the local McDonalds. We were tired after a long day of walking, so went to bed quite early. Tomorrow, we were spending our morning/early afternoon in Yellowstone before a three hour drive. We were going further north, right into the state’s heartland – Helena, state capital of Montana. </p>
                         </div>}
 
-                    <div onClick={expandDay8} id="day8Expander" className="headings">
+                    <div onClick={expandDay8} id="day8ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 8</h4>
                         <h5 className="dayLocation">Helena</h5>
                     </div>
@@ -484,7 +484,7 @@ export default function Journal(props) {
                             <p>I was getting steadily drunk, so drunk that I didn’t notice trouble brewing. It was Steph who clued me in at first, telling me that she thought there might be rumblings from a table over in the corner, who’d apparently been up for the pool table before we jumped on. That didn’t seem too insurmountable to me, and I made a point to get chatting to one of the guys from that table as he was walking through. This guy, a young black guy who’ll call Adam even though this is a complete guess as we never exchanged names, didn’t seem pissed off at all so I told Steph all was well – and from their side, it was. Shortly after, the real trouble began.</p>
                             <p style={{marginBottom: '10px'}}>I’d found myself in the corner with Paul, drunkenly singing the Pogues at the top of our voices, when Steph and Mark came over. Mark was all jubilant for some reason, whereas Steph looked very worried. She told me that we had to go now. We headed out the door immediately, more running than walking back to the motel. When we got there, Steph explained that someone had come into the bar and immediately had a problem with Adam – not because of any petty beef with a pool table, but because he was…unpleasantly surprised to see a black guy in his local bar. Apparently it had been Mark – to his credit, I must say – that told the guy where to go, hence his oddly cheerful attitude. It looked like some sort of huge fight was about to be brewing, and we’d left at just the right time. It was our first real taste of the divided America we’d heard so much about, and was more jarring than any Trump 2024 sign in a person’s window.</p>
                         </div>}
-                    <div onClick={expandDay9} id="day9Expander" className="headings">
+                    <div onClick={expandDay9} id="day9ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 9</h4>
                         <h5 className="dayLocation">Helena</h5>
                     </div>
@@ -496,7 +496,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>It wasn’t much of a day all in all – but it’s nice to have a bit of a break between bouts of strenuous adventure.</p>
                         </div>}
 
-                    <div onClick={expandDay10} id="day10Expander" className="headings">
+                    <div onClick={expandDay10} id="day10ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 10</h4>
                         <h5 className="dayLocation">Glacier National Park</h5>
                     </div>
@@ -539,7 +539,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>It was a low, grumbling noise that could have come from a mile away or a few feet. It could have either been animal or mechanical. I thought to myself that it had to be a boat on the lake, and said as much to Steph, and she said, no little terror in her voice - “or a bear.” I had no desire to find out - I got straight back in the car and we made our way back to the lodge, keeping an eye on our surroundings at all times.</p>
                         </div>}
 
-                        <div onClick={expandDay11} id="day11Expander" className="headings">
+                        <div onClick={expandDay11} id="day11ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 11</h4>
                         <h5 className="dayLocation">Glacier National Park</h5>
                     </div>
@@ -587,7 +587,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>Tomorrow was going to be a sad day for us - we’d be going south. Glacier was the very northernmost point in our journey, and while we still had half an amazing holiday to look forward to, the very act of going south established that this was the return leg. Back when we’d taken our first steps north to Salt Lake City, it felt like we had an endless adventure in front of us - now, at the northern tip, we realised it was pretty finite.</p>
                         </div>}
 
-                        <div onClick={expandDay12} id="day12Expander" className="headings">
+                        <div onClick={expandDay12} id="day12ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 12</h4>
                         <h5 className="dayLocation">Red Lodge</h5>
                     </div>
@@ -606,7 +606,7 @@ export default function Journal(props) {
                             <img style={{marginBottom: '10px'}} src={Day12Pic4} alt="Day 12 Pic 4" className="portraitPictures" />
                         </div>}
 
-                        <div onClick={expandDay13} id="day13Expander" className="headings">
+                        <div onClick={expandDay13} id="day13ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 13</h4>
                         <h5 className="dayLocation">Red Lodge</h5>
                     </div>
@@ -618,7 +618,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>We watched a couple of movies and got food at Subway that night. Our original plan had been to go to the Mexican place, but the indoor seating area was humid and stuffy, and the outdoor was out of the question. It was a very low-key night with our Subway in front of the motel TV, but we got a nice early night and felt rested. </p>
                         </div>}
 
-                        <div onClick={expandDay14} id="day14Expander" className="headings">
+                        <div onClick={expandDay14} id="day14ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 14</h4>
                         <h5 className="dayLocation">Cody and Driggs</h5>
                     </div>
@@ -674,7 +674,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>We went in and turned Netflix on, deciding to watch a new Steve Carell show we’d had our eye on - Space Force. We drank the wine and relaxed, looking forward to our day in Teton tomorrow.</p>
                         </div>}
 
-                        <div onClick={expandDay15} id="day15Expander" className="headings">
+                        <div onClick={expandDay15} id="day15ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 15</h4>
                         <h5 className="dayLocation">Grand Teton National Park</h5>
                     </div>
@@ -701,7 +701,7 @@ export default function Journal(props) {
                             <img style={{marginBottom: '10px'}} src={Day15Pic8} alt="Day 15 Pic 8" className="landscapePictures" />
                         </div>}
 
-                        <div onClick={expandDay16} id="day16Expander" className="headings">
+                        <div onClick={expandDay16} id="day16ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 16</h4>
                         <h5 className="dayLocation">Salt Lake City</h5>
                     </div>
@@ -727,7 +727,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>But, in all honesty, something felt off. I hated the idea of getting back to that place late, and having trouble either from our biker friend, from one of the people hanging out and drinking in the hotel, or from the homeless people outside. It was almost a relief when we saw the line of cars approaching the state fair; we’d have been waiting for hours. So we decided to grab some In N’ Out burger, just like before, and a couple more beers. We headed back to the room, facing no trouble, and turned the deadbolt, feeling secure for the first time since we’d arrived. </p>
                         </div>}
 
-                        <div onClick={expandDay17} id="day17Expander" className="headings">
+                        <div onClick={expandDay17} id="day17ExpanderUS" className="headings">
                             <h4 className="dayHeader">Day 17</h4>
                             <h5 className="dayLocation">Bryce Canyon National Park</h5>
                         </div>
@@ -753,7 +753,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>It was at least eleven when we turned in, ready for another day’s hiking tomorrow and hopefully no more rain.</p>
                         </div>}
 
-                        <div onClick={expandDay18} id="day18Expander" className="headings">
+                        <div onClick={expandDay18} id="day18ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 18</h4>
                         <h5 className="dayLocation">Pipe Springs</h5>
                         </div>
@@ -773,7 +773,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>It was a food truck, but the way they’d gone about it was totally unique. It had its own outdoor area that very much resembled a classic diner. We didn’t know what time the rain had stopped, but it was bone dry here. I went with some Baja fish tacos, whereas Steph went for the American classic hot dog. We chomped down our food and hung out for a little while, enjoying the cool desert air, drinking some soft drinks (coke for Steph, root beer for me) and watching the people that passed by. It was our last night in a small town, and we wanted to enjoy it.</p>
                         </div>}
 
-                        <div onClick={expandDay19} id="day19Expander" className="headings">
+                        <div onClick={expandDay19} id="day19ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 19</h4>
                         <h5 className="dayLocation">Valley of Fire State Park</h5>
                         </div>
@@ -796,7 +796,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>We decided that, as we had another day in Vegas before we flew, we could have a drunk night. All we had on the agenda tomorrow was gambling, maybe a bit of pool, and the Jew Man Group. We showered and changed, and headed straight back to Fat Tuesday. If you’ll remember, we’d decided to use the Fat Tuesday cups as water dispensers for our trips, and while they’d served that purpose just fine, they were ready to be reassigned back to the land of delicious frozen alcoholic drinks. We had a couple of margaritas, then hit the casino, finding a video roulette machine like before. Wanting to get/keep a buzz, we proactively tried to make eye contact with waitresses for complimentary drinks, and we got a few, but the frequency wasn’t right. We played video roulette on a gradual loss, and I think I played a few games of blackjack too. When it got late, we’d been almost abandoned by the waitresses, so I went to get a beer. Steph thought it was silly, we’d had a good night and why push it to the limit? I agreed, finished my beer, and we got some food and headed to the room.</p>
                         </div>}
 
-                        <div onClick={expandDay20} id="day20Expander" className="headings">
+                        <div onClick={expandDay20} id="day20ExpanderUS" className="headings">
                         <h4 className="dayHeader">Day 20</h4>
                         <h5 className="dayLocation">Las Vegas</h5>
                         </div>
@@ -817,7 +817,7 @@ export default function Journal(props) {
                             <p style={{marginBottom: '10px'}}>I got back to the room, we ate Subway, and went to sleep - me still pretty low.</p>
                         </div>}
 
-                        <div onClick={expandDay21} id="day21Expander" className="headings">
+                        <div onClick={expandDay21} id="day21ExpanderUS" className="headings">
                             <h4 className="dayHeader">Day 21</h4>
                             <h5 className="dayLocation">Home</h5>
                         </div>
@@ -831,7 +831,7 @@ export default function Journal(props) {
                             <p style={{fontWeight: 'bold', marginBottom: '10px'}}>The end.</p>
                         </div>}
 
-                        <div onClick={expandDay22} id="day22Expander" className="headings">
+                        <div onClick={expandDay22} id="day22ExpanderUS" className="headings">
                             <h4 className="dayLocation">Our wedding vows</h4>
                         </div>
 

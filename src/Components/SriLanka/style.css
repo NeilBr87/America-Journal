@@ -11,6 +11,7 @@ p {
     margin-bottom: 5px;
     text-align: justify;
     font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 .days {
@@ -98,6 +99,23 @@ p {
     flex-direction: column;
 }
 
+#day8Expander {
+    background: url(./Day8Pic3.jpg);
+    background-size: 92vw 13vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day9Expander {
+    background: url(./Day9Pic5.jpg);
+    background-size: 92vw 11vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* #introExpander {
     background: url(./Day1Pic1.jpg);
     background-size: 92vw 11vh;
@@ -127,21 +145,8 @@ p {
 
 
 
-#day8Expander {
-    background: url(./Day8Pic1.jpg);
-    background-size: 92vw 13vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
 
-#day9Expander {
-    background: url(./Day9Pic1.jpg);
-    background-size: 92vw 11vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
+
 
 #day10Expander {
     background: url(./Day10Pic1.jpg);
