@@ -88,7 +88,7 @@ export default function Journal(props) {
             <div id="expand">
                 <div onClick={expandDay1} id="day1Expander" className="headings">
                     <h4 className="dayHeader">Day 1</h4>
-                    <h5 className="dayLocation">Colombo</h5>
+                    <h5 className="dayLocation">Fes</h5>
                 </div>
 
                 {day1 &&
