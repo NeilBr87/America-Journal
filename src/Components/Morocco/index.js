@@ -12,11 +12,6 @@ export default function Journal(props) {
     const [day7, setDay7] = useState(false);
     const [day8, setDay8] = useState(false);
     const [day9, setDay9] = useState(false);
-    const [day10, setDay10] = useState(false);
-    const [day11, setDay11] = useState(false);
-    const [day12, setDay12] = useState(false);
-    const [day13, setDay13] = useState(false);
-    const [day14, setDay14] = useState(false);
 
     function expandDay1() {
         setDay1(!day1);
@@ -54,26 +49,6 @@ export default function Journal(props) {
         setDay9(!day9);
     }
 
-    function expandDay10() {
-        setDay10(!day10);
-    }
-
-    function expandDay11() {
-        setDay11(!day11);
-    }
-
-    function expandDay12() {
-        setDay12(!day12);
-    }
-
-    function expandDay13() {
-        setDay13(!day13);
-    }
-
-    function expandDay14() {   
-        setDay14(!day14);
-    }
-
     function back() {
         props.setTripChosen(false);
         props.setTrip('');
@@ -86,21 +61,21 @@ export default function Journal(props) {
             <h3 style={{marginBottom: '5vh'}}>Travel journal</h3>
 
             <div id="expand">
-                <div onClick={expandDay1} id="day1Expander" className="headings">
+                <div onClick={expandDay1} id="day1ExpanderMor" className="headings">
                     <h4 className="dayHeader">Day 1</h4>
-                    <h5 className="dayLocation">Fes</h5>
+                    <h5 className="dayLocation">Fès</h5>
                 </div>
 
                 {day1 &&
                     <div className="days" id="day1">
-                        <p style={{marginTop: '10px'}}>We started the official ‘day one’ of our trip at Dubai’s glamorous (but soulless) international airport, touching down at around seven in the morning. We’d had a long flight already, with most of us sleeping for at least a couple of hours. This turned out to be fairly pivotal for avoiding jet lag but was not good for our general well being. We boarded our second plane to Colombo and landed about five in the afternoon.</p>
-                        <p>It was extremely warm. I got that same feeling I used to get upon going on holiday to Spain all those years ago - you’re out on the other side, in a different climate, and your skin is feeling the difference. We were out the airport approximately half an hour later, waiting past the average for my suitcase only in baggage claim. We met Terence’s brother Suresh as well as our first driver, a quiet Sinhalese man. He took us back to our hotel, the Crescat residencies on Galle Road, which was the most western accomodation we would have for a while. And while this wasn’t a bad thing, I would often think of this place and its’ comforts when we were in rougher digs.</p>
-                        <p style={{marginTop: '10px'}}>That first night, we went down to a food court near the hotel which was, to say the least, bizarre. For one, the stalls had a shady grasp of geography at best; a Mongolian barbecue was called Seoul Express, for example. Also, they had ramshackle versions of both Pizza Hut and Dominoes; I didn’t try them out, but instead opted for a delicious masala dosa with various sauces. We went to bed with full stomachs, eager to face the next day. We’d successfully faced down jetlag and were ready to take what Sri Lanka had to throw at us.</p>
+                        <p style={{marginTop: '10px'}}>Morocco, quite unusually for us, was our first trip for the year. Normally by early September we would have had at least one week holiday by now, or at least a couple of weekends. Steph had been to Utrecht, but that was a business trip as opposed to a leisure holiday. We hadn't because I had started my bootcamp in March, meaning that Steph was the sole mortgage payer - so it was time to be a bit more frugal when it came to overseas trips. </p>
+                        <p>Due to how insanely expensive everything was when it came to post-Covid airfare, we'd gone with an overly-cheap option: one piece of hand luggage between us plus two personal items in the form of rucksacks. We'd also gone with the riskiest of risky flight options, getting a self-transfer with an hour and a half to spare. It's rarely a smart play. If you don't make your connecting flight for any reason, you have to eat the cost of it. If it's delayed because of a cancellation or a <i>big</i> delay, you'll get some money back (like we did after Greece) but only for that flight - not for anything after, even if the next flight costs you triple what you paid for the other one.</p>
+                        <p style={{marginTop: '10px'}}>So you can imagine that when it came to the day of our flight, we were checking the flight trackers pretty often. We got the airport a good and a half hours before the flight and were greeted with a gigantic queue that stretched all the way from the very start of the departure entrance all the way to the main gates. Steph noticed that they all had large bags and we realised this was the hold-luggage queue for Easyjet. We were flying with Wizz Air on the way out to Malaga (there were very few options, and if they cancelled another flight then we'd get another grand) then changing for Ryanair for the final flight to Fes .</p>
                     </div>}
 
-                    <div onClick={expandDay2} id="day2Expander" className="headings">
+                    <div onClick={expandDay2} id="day2ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 2</h4>
-                        <h5 className="dayLocation">Colombo</h5>
+                        <h5 className="dayLocation">Fès</h5>
                     </div>
 
                     {day2 &&
@@ -108,9 +83,9 @@ export default function Journal(props) {
 
                     </div>}
 
-                    <div onClick={expandDay3} id="day3Expander" className="headings">
+                    <div onClick={expandDay3} id="day3ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 3</h4>
-                        <h5 className="dayLocation">Colombo to Jaffna</h5>
+                        <h5 className="dayLocation">Fès</h5>
                     </div>
 
                     {day3 &&
@@ -118,9 +93,9 @@ export default function Journal(props) {
                         
                     </div>}
 
-                    <div onClick={expandDay4} id="day4Expander" className="headings">
+                    <div onClick={expandDay4} id="day4ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 4</h4>
-                        <h5 className="dayLocation">Jaffna</h5>
+                        <h5 className="dayLocation">Chefchaouen</h5>
                     </div>
 
                     {day4 &&
@@ -128,9 +103,9 @@ export default function Journal(props) {
                         
                     </div>}
 
-                    <div onClick={expandDay5} id="day5Expander" className="headings">
+                    <div onClick={expandDay5} id="day5ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 5</h4>
-                        <h5 className="dayLocation">Jaffna</h5>
+                        <h5 className="dayLocation">Fès to Marrakech</h5>
                     </div>
 
                     {day5 &&
@@ -138,9 +113,9 @@ export default function Journal(props) {
                         
                     </div>}
 
-                    <div onClick={expandDay6} id="day6Expander" className="headings">
+                    <div onClick={expandDay6} id="day6ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 6</h4>
-                        <h5 className="dayLocation">Nilaveli</h5>
+                        <h5 className="dayLocation">Marrakech to Ouarzazate</h5>
                     </div>
 
                     {day6 &&
@@ -148,9 +123,9 @@ export default function Journal(props) {
 
                         </div>}
 
-                        <div onClick={expandDay7} id="day7Expander" className="headings">
+                        <div onClick={expandDay7} id="day7ExpanderMor" className="headings">
                             <h4 className="dayHeader">Day 7</h4>
-                            <h5 className="dayLocation">Nilaveli</h5>
+                            <h5 className="dayLocation">Ouarzazate to the Sahara</h5>
                     </div>
 
                     {day7 &&
@@ -158,9 +133,9 @@ export default function Journal(props) {
                             
                         </div>}
 
-                    <div onClick={expandDay8} id="day8Expander" className="headings">
+                    <div onClick={expandDay8} id="day8ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 8</h4>
-                        <h5 className="dayLocation">Nilaveli to Nuwaya Eliya</h5>
+                        <h5 className="dayLocation">Ait Ben Haddou</h5>
                     </div>
 
                     {day8 &&
@@ -168,60 +143,14 @@ export default function Journal(props) {
                             
                         </div>}
 
-                    <div onClick={expandDay9} id="day9Expander" className="headings">
+                    <div onClick={expandDay9} id="day9ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 9</h4>
-                        <h5 className="dayLocation">Nuwaya Eliya and tea plantations</h5>
+                        <h5 className="dayLocation">Home</h5>
                     </div>
 
                     {day9 &&
                         <div>
                          </div>}
-
-                    <div onClick={expandDay10} id="day10Expander" className="headings">
-                        <h4 className="dayHeader">Day 10</h4>
-                        <h5 className="dayLocation">Little Adam's Peak and Mirissa</h5>
-                    </div>
-
-                    {day10 &&
-                        <div>
-                        
-                        </div>}
-
-                        <div onClick={expandDay11} id="day11Expander" className="headings">
-                        <h4 className="dayHeader">Day 11</h4>
-                        <h5 className="dayLocation">Mirissa and Galle</h5>
-                    </div>
-
-                    {day11 &&
-                        <div>
-                            </div>}
-
-                        <div onClick={expandDay12} id="day12Expander" className="headings">
-                        <h4 className="dayHeader">Day 12</h4>
-                        <h5 className="dayLocation">Mirissa to Colombo</h5>
-                    </div>
-
-                    {day12 &&
-                        <div>
-                            </div>}
-
-                        <div onClick={expandDay13} id="day13Expander" className="headings">
-                        <h4 className="dayHeader">Day 13</h4>
-                        <h5 className="dayLocation">Colombo</h5>
-                    </div>
-
-                    {day13 &&
-                        <div>
-                            </div>}
-
-                        <div onClick={expandDay14} id="day14Expander" className="headings">
-                        <h4 className="dayHeader">Day 14</h4>
-                        <h5 className="dayLocation">Home</h5>
-                    </div>
-
-                    {day14 &&
-                        <div>
-                        </div>}
 
                         
             </div>
