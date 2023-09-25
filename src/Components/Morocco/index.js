@@ -1,7 +1,5 @@
 import {useState} from 'react';
 
-import './style.css';
-
 export default function Journal(props) {
     const [day1, setDay1] = useState(false);
     const [day2, setDay2] = useState(false);
