@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import './style.css';
 
 export default function Journal(props) {
     const [day1, setDay1] = useState(false);
@@ -8,8 +9,9 @@ export default function Journal(props) {
     const [day5, setDay5] = useState(false);
     const [day6, setDay6] = useState(false);
     const [day7, setDay7] = useState(false);
-    const [day8, setDay8] = useState(false);
+    const [day8, setDay8]   = useState(false);
     const [day9, setDay9] = useState(false);
+
 
     function expandDay1() {
         setDay1(!day1);
@@ -79,7 +81,11 @@ export default function Journal(props) {
                         <p>On reflection, I regard all of these horror stories as a little silly. I'm not denying anyone's lived experience, but we did absolutely fine, and Moroccans have definitely been one of the more welcoming and hospitable people we've encountered on our journeys.</p>
                         <p>Our cab driver dropped us off at the outer entrance to the Medina and we made our way inside on foot, and I'll summarise the experience by saying that Fes is not a very welcoming place at night. The dirt piles up, there are mangy cats everywhere (normally I'd love a place that has thousands of stray cats, but between the mange and the rabies you don't want to go there) and the dust carts, which take up most of the path, give you a sense that you're penned in. We didn't get hassled here, not as much as during the day, but those that did looked like people we really wanted to get away from.</p>
                         <p>When walking through the Medina, you're on a narrow path between market stalls and indoor shops. It's a tight, winding path that is very difficult to navigate, especially at night. All we had to lead the way was my offline maps, and it was being very temperamental. As we approached our accomodation, we enountered what we would charitably describe as the 'food district'. I say charitable while it was a section in the souk that sold foodstuffs, it was nothing either of us particularly wanted to eat. Live chickens, meat left out, strange gelatinous substances in tubs, and the worst smell you can imagine. From when we'd started walking through the Medina we got periodically assaulted by an open-sewer smell, but this was something else, something rancid that forced itself into your nose.</p>
-                        <p>After a while we found our hotel, the <i>Riad Noujoum Medina</i>. Riads are the best place to stay in Morocco. They're </p>
+                        <p>After a while we found our hotel, the <i>Riad Noujoum Medina</i>. Riads are the best place to stay in Morocco. Instead of corporate hotels, they're old mansions that once belonged to wealthy Moroccan families, but have now been partitioned into several rooms around a large internal courtyard. We headed inside and noticed that the place seemed deserted. We waited in the courtyard - which was very grand, with a marble font containing water in the middle - for a bit, then I decided to go seek someone out to help us.</p>
+                        <p>The Riad's staircases were a sign of things to come - Morocco is not built for tall guys. I hunched over as I slowly made my way through the place until I got to the roof. I was struck by the amazing view, even though it was the dead of night. You could see lights stretching off into the distance beyond the Medina, showing me the very outer border of Fes. I saw a member of staff up here and greeted him. He didn't speak much English but I managed to communicate that we were here to check in, and he texted the receptionist to come over.</p>
+                        <p>He was already downstairs when I got down. His name was Youssuf (he didn't tell us his name, we found it out later after reading the negative reviews - but more on that later!) and he (initially) seemed polite. We paid for the room and went through some forms, and we were shown to our new room - right off of the courtyard. It was a curious space that didn't resemble any room we'd ever stayed at. On the ground level, you had two twin beds with velvety throws and a large space with a TV and a table and chairs. Then, on the right you had the bathroom, but just to the left of that you had some stairs that led up to a mezzannine where the double bed was. It was quite a big space.</p>
+                        <p>We showered and got ready for bed. The shower was another thing not built for a man my size. I had to hunch over to use it properly. As we settled into bed, I shared what was on my mind - that I didn't like the look of this place, the place meaning Fes as opposed to the Riad, and that maybe we should have gone to our runner-up choice Germany instead. It was all a very brief culture shock, of course, and Steph said as much. We made the decision to go to bed without dinner that first night. We were too tired - and too wary of nocturnal Fes - to go out and get something, and we hadn't got any snacks. We were slightly peckish, but not badly, and we managed to sleep very quickly.</p>
+                        <p>That was, until I woke up in the middle of the night to pee and made the bad miscalculation to try to descend the steep mezzanine stairs without my phone torch. I was fine until the last step, which I overshot, aiming my foot towards the ground and going down like a sack of spuds. My Judo falling skills saved my head and serious extremities, but I wiped out like half a layer of skin on my upper forearm and got a hell of a jolt. That was, thankfully, the last proper accident I would have in Fes.</p>
                     </div>}
 
                     <div onClick={expandDay2} id="day2ExpanderMor" className="headings">
@@ -89,7 +95,7 @@ export default function Journal(props) {
 
                     {day2 &&
                     <div className="days" id="day2">
-
+                        <p>If I don't take particularly well to a place, usually all it takes is a good night's sleep. You clear out the bad mood from yesterday and you get to see a place in the sunlight, which is always better than seeing it in the dark. I woke up first, my arm throbbing, but my belly not kiling me with hunger, which is nice. Steph woke up a little after me and we headed towards the roof for breakfast</p>
                     </div>}
 
                     <div onClick={expandDay3} id="day3ExpanderMor" className="headings">

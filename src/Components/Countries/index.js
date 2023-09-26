@@ -35,6 +35,8 @@ export default function Countries() {
 
             {!tripChosen && 
             <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+            <h1 style={{marginTop: '6vh'}}>Neil and Steph's travel journals</h1>
+                <h3>Finished journals</h3>
                 <div onClick={sriLanka} className="trips" style={{marginTop: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://cdn.britannica.com/13/4413-004-3277D2EF/Flag-Sri-Lanka.jpg" alt="Sri Lanka Flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>Sri Lanka, 2018</h4>
@@ -51,6 +53,7 @@ export default function Countries() {
                     <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Morocco_%28large_stroke%29.svg" alt="Morocco flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>Morocco, 2023</h4>
                 </div>
+                <h3>Unfinished journals</h3>
             </div>}
 
             {trip === 'USA2' &&
