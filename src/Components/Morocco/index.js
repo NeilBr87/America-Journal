@@ -143,7 +143,7 @@ export default function Journal(props) {
 
                     {day4 &&
                     <div className="days" id="day4">
-                        <p>Today was the day - Chefchaouen, the great blue city of the north. It's the city you've seen on Insta, that </p>
+                        <p>Today was the day - Chefchaouen, the great blue city of the north. It's the city you've seen on Insta, that you'll have seen pictures of, but nothing can really capture it. We walked out of the medina all the way to the outer square where the pickup location was. The bus was on time, but its passengers weren't, so we were waiting for a little bit. The bus itself was nice, modern, and air-conditioned, though didn't really have any mod cons. We set off for the first time outside of the city, heading into the open countryside and beyond. We'd be heading considerably north, far away from what we'd beenb used to so far. </p>
                     </div>}
 
                     <div onClick={expandDay5} id="day5ExpanderMor" className="headings">
