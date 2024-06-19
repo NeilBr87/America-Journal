@@ -3,6 +3,7 @@ import { useState } from 'react';
 import America2022 from '../America2022';
 import SriLanka from '../SriLanka';
 import Morocco from '../Morocco';
+import Japan from '../Japan';
 import './style.css';
 
 export default function Countries() {
@@ -29,6 +30,11 @@ export default function Countries() {
         setTripChosen(true);
     }
 
+    function japan() {
+        setTrip('Japan');
+        setTripChosen(true);
+    }
+
     return (
 
         <div>
@@ -49,11 +55,18 @@ export default function Countries() {
                     <img style={{width: '200px'}} src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" alt="USA flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>United States, 2022</h4>
                 </div>
+                
+                <h3>Unfinished journals</h3>
                 <div onClick={morocco} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Morocco_%28large_stroke%29.svg" alt="Morocco flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>Morocco, 2023</h4>
                 </div>
-                <h3>Unfinished journals</h3>
+                <div onClick={japan} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/125px-Flag_of_Japan.svg.png" alt="Japan flag" />
+                    <h4 className="countryText" style={{textAlign: 'center'}}>Japan, 2024</h4>
+                </div>
+                <br></br>
+                <br></br>
             </div>}
 
             {trip === 'USA2' &&
@@ -64,6 +77,9 @@ export default function Countries() {
                 }
             {trip === 'Morocco' &&
                 <Morocco tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
+            }
+            {trip === 'Japan' &&
+                <Japan tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
             }
 
 

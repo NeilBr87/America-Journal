@@ -1,0 +1,39 @@
+#day1ExpanderMor {
+    background: url(./Day1Header.jpg);
+    background-size: 92vw 28vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day2ExpanderMor {
+    background: url(./Day2Header.jpg);
+    background-size: 92vw 16vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day3ExpanderMor {
+    background: url(./Day3Header.jpg);
+    background-size: 92vw 14vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day4ExpanderMor {
+    background: url(./Day4Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day5ExpanderMor {
+    background: url(./Day5Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}

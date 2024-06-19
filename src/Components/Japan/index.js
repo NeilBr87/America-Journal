@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import './style.css';
+import './style.css'
 
 export default function Journal(props) {
     const [day1, setDay1] = useState(false);
@@ -11,6 +11,12 @@ export default function Journal(props) {
     const [day7, setDay7] = useState(false);
     const [day8, setDay8]   = useState(false);
     const [day9, setDay9] = useState(false);
+    const [day10, setDay10] = useState(false);
+    const [day11, setDay11] = useState(false);
+    const [day12, setDay12] = useState(false);
+    const [day13, setDay13] = useState(false);
+    const [day14, setDay14] = useState(false);
+    const [day15, setDay15] = useState(false);
 
 
     function expandDay1() {
@@ -49,6 +55,30 @@ export default function Journal(props) {
         setDay9(!day9);
     }
 
+    function expandDay10() {
+        setDay10(!day10);
+    }
+
+    function expandDay11() {
+        setDay11(!day11);
+    }
+
+    function expandDay12() {
+        setDay12(!day12);
+    }
+
+    function expandDay13() {   
+        setDay13(!day13);
+    }
+
+    function expandDay14() {
+        setDay14(!day14);
+    }
+
+    function expandDay15() {
+        setDay15(!day15);
+    }
+
     function back() {
         props.setTripChosen(false);
         props.setTrip('');
@@ -57,13 +87,13 @@ export default function Journal(props) {
     return (
         <div>
 
-            <h2 style={{marginTop: '5vh'}}>Morocco, 2023</h2>
+            <h2 style={{marginTop: '5vh'}}>Japan, 2024</h2>
             <h3 style={{marginBottom: '5vh'}}>Travel journal</h3>
 
             <div id="expand">
                 <div onClick={expandDay1} id="day1ExpanderMor" className="headings">
                     <h4 className="dayHeader">Day 1</h4>
-                    <h5 className="dayLocation">Fès</h5>
+                    <h5 className="dayLocation">Shibuya City, Tokyo</h5>
                 </div>
 
                 {day1 &&
@@ -90,7 +120,7 @@ export default function Journal(props) {
 
                     <div onClick={expandDay2} id="day2ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 2</h4>
-                        <h5 className="dayLocation">Fès</h5>
+                        <h5 className="dayLocation">Ginza City, Tokyo</h5>
                     </div>
 
                     {day2 &&
@@ -118,7 +148,7 @@ export default function Journal(props) {
 
                     <div onClick={expandDay3} id="day3ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 3</h4>
-                        <h5 className="dayLocation">Fès</h5>
+                        <h5 className="dayLocation">Asakusa City, Tokyo</h5>
                     </div>
 
                     {day3 &&
@@ -138,7 +168,7 @@ export default function Journal(props) {
 
                     <div onClick={expandDay4} id="day4ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 4</h4>
-                        <h5 className="dayLocation">Chefchaouen</h5>
+                        <h5 className="dayLocation">Sumida City, Tokyo</h5>
                     </div>
 
                     {day4 &&
@@ -148,7 +178,7 @@ export default function Journal(props) {
 
                     <div onClick={expandDay5} id="day5ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 5</h4>
-                        <h5 className="dayLocation">Fès to Marrakech</h5>
+                        <h5 className="dayLocation">Hitachi Seaside Park</h5>
                     </div>
 
                     {day5 &&
@@ -158,7 +188,7 @@ export default function Journal(props) {
 
                     <div onClick={expandDay6} id="day6ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 6</h4>
-                        <h5 className="dayLocation">Marrakech to Ouarzazate</h5>
+                        <h5 className="dayLocation">Tokyo to Kyoto</h5>
                     </div>
 
                     {day6 &&
@@ -168,7 +198,7 @@ export default function Journal(props) {
 
                         <div onClick={expandDay7} id="day7ExpanderMor" className="headings">
                             <h4 className="dayHeader">Day 7</h4>
-                            <h5 className="dayLocation">Ouarzazate to the Sahara</h5>
+                            <h5 className="dayLocation">Kyoto</h5>
                     </div>
 
                     {day7 &&
@@ -178,7 +208,7 @@ export default function Journal(props) {
 
                     <div onClick={expandDay8} id="day8ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 8</h4>
-                        <h5 className="dayLocation">Ait Ben Haddou</h5>
+                        <h5 className="dayLocation">Kyoto</h5>
                     </div>
 
                     {day8 &&
@@ -188,14 +218,67 @@ export default function Journal(props) {
 
                     <div onClick={expandDay9} id="day9ExpanderMor" className="headings">
                         <h4 className="dayHeader">Day 9</h4>
-                        <h5 className="dayLocation">Home</h5>
+                        <h5 className="dayLocation">Kyoto</h5>
                     </div>
 
                     {day9 &&
                         <div>
                          </div>}
 
+                         <div onClick={expandDay10} id="day9ExpanderMor" className="headings">
+                        <h4 className="dayHeader">Day 10</h4>
+                        <h5 className="dayLocation">Kyoto to Sapporo</h5>
+                    </div>
+
+                    {day10 &&
+                        <div>
+                         </div>}     
+
+                         <div onClick={expandDay11} id="day9ExpanderMor" className="headings">
+                        <h4 className="dayHeader">Day 11</h4>
+                        <h5 className="dayLocation">Sapporo</h5>
+                    </div>
+
+                    {day11 &&
+                        <div>
+                         </div>}
+
+                         <div onClick={expandDay12} id="day9ExpanderMor" className="headings">
+                        <h4 className="dayHeader">Day 12</h4>
+                        <h5 className="dayLocation">Shikotsu Toya National Park</h5>
+                    </div>
+
+                    {day12 &&
+                        <div>
+                         </div>}
+
+                            <div onClick={expandDay13} id="day9ExpanderMor" className="headings">
+                        <h4 className="dayHeader">Day 13</h4>
+                        <h5 className="dayLocation">Sapporo</h5>
+                        </div>
                         
+                        {day13 &&
+                        <div>
+                         </div>}
+
+                            <div onClick={expandDay14} id="day9ExpanderMor" className="headings">
+                        <h4 className="dayHeader">Day 14</h4>
+                        <h5 className="dayLocation">Shinjuku City, Tokyo</h5>
+                        </div>
+
+                        {day14 &&
+                        <div>
+                         </div>}
+
+                            <div onClick={expandDay15} id="day9ExpanderMor" className="headings">
+                        <h4 className="dayHeader">Day 15</h4>
+                        <h5 className="dayLocation">Home</h5>
+                        </div>
+
+                        {day15 &&
+                        <div>
+                         </div>}
+                            
             </div>
 
             <h3 onClick={back}>Back</h3>
