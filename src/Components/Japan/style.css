@@ -1,4 +1,4 @@
-#day1ExpanderMor {
+#day1ExpanderMorJpn {
     background: url(./Day1Header.jpg);
     background-size: 92vw 28vh;
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-#day2ExpanderMor {
+#day2ExpanderMorJpn {
     background: url(./Day2Header.jpg);
     background-size: 92vw 16vh;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-#day3ExpanderMor {
+#day3ExpanderMorJpnJpn {
     background: url(./Day3Header.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 
-#day4ExpanderMor {
+#day4ExpanderMorJpn {
     background: url(./Day4Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
     flex-direction: column;
 }
 
-#day5ExpanderMor {
+#day5ExpanderMorJpn {
     background: url(./Day5Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
