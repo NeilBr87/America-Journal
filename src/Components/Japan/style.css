@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-#day3ExpanderMorJpnJpn {
+#day3ExpanderMorJpn {
     background: url(./Day3Header.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
@@ -37,3 +37,84 @@
     display: flex;
     flex-direction: column;
 }
+
+#day6ExpanderMorJpn {
+    background: url(./Day6Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day7ExpanderMorJpn {
+    background: url(./Day7Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day8ExpanderMorJpn {
+    background: url(./Day8Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day9ExpanderMorJpn {
+    background: url(./Day9Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day10ExpanderMorJpn {
+    background: url(./Day10Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day11ExpanderMorJpn {
+    background: url(./Day11Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day12ExpanderMorJpn {
+    background: url(./Day12Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day13ExpanderMorJpn {
+    background: url(./Day13Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day14ExpanderMorJpn {
+    background: url(./Day14Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day15ExpanderMorJpn {
+    background: url(./Day15Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
