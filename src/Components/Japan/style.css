@@ -118,3 +118,18 @@
     flex-direction: column;
 }
 
+.landscapePictures {
+    width: 70vw;
+    height: 21vh;
+    border-radius: 5px;
+    margin-top: 1.4vh;
+    margin-bottom: 1.4vh;
+}
+
+.portraitPictures {
+    width: 32vw;
+    height: 24vh;
+    border-radius: 5px;
+    margin-top: 1.4vh;
+    margin-bottom: 1.4vh;
+}
