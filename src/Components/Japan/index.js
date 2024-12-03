@@ -36,7 +36,6 @@ import Day5Pic3 from './Day5Pic3.jpg';
 import Day5Header from './Day5Header.jpg';
 import Day6Pic1 from './Day6Pic1.jpg';
 import Day6Pic2 from './Day6Pic2.jpg';
-import Day6Header from './Day6Header.jpg';
 import Day7Pic1 from './Day7Pic1.jpg';
 import Day7Pic2 from './Day7Pic2.jpg';
 import Day7Pic3 from './Day7Pic3.jpg';
