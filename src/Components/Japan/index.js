@@ -42,17 +42,13 @@ import Day7Pic3 from './Day7Pic3.jpg';
 import Day7Pic4 from './Day7Pic4.jpg';
 import Day7Pic5 from './Day7Pic5.jpg';
 import Day7Pic6 from './Day7Pic6.jpg';
-import Day7Pic7 from './Day7Pic7.jpg';
-import Day7Pic8 from './Day7Pic8.jpg';
 import Day7Pic9 from './Day7Pic9.jpg';
 import Day8Pic1 from './Day8Pic1.jpg';
 import Day8Pic2 from './Day8Pic2.jpg';
 import Day8Pic3 from './Day8Pic3.jpg';
-import Day8Pic4 from './Day8Pic4.jpg';
 import Day8Pic5 from './Day8Pic5.jpg';
 import Day8Pic6 from './Day8Pic6.jpg';
 import Day8Pic7 from './Day8Pic7.jpg';
-import Day8Header from './Day8Header.jpg';
 import './style.css'    
 
 export default function Journal(props) {
