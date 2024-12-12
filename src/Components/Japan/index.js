@@ -491,10 +491,10 @@ export default function Journal(props) {
                             <img src={Day11Pic4} alt="Day 2 Pic 7" className="landscapePictures" />
                             <p>We bought a good deal of our souvenirs as well as some food, like wagyu cheese, fine peaches, ramen, pistachio milk, and lots more. We headed back to the room to drop off the stuff, and Steph - against my mild complaints - booked us in for another excursion, this time to the nearby Shikotsu Toya National Park, as well as a bear sanctuary, Lake Toya, and Otaru.</p> 
                             <p>Once we'd dropped the stuff off, we headed to Sapporo Station, where we'd be catching a bus to the beer museum. Sapporo is one of Japan's best breweries, and we'd seen their products all over. In Japan, they're an Asahi-beater, but in the rest of the world, they're unknown.</p>
-                            <img src={Day11Pic5} alt="Day 2 Pic 7" className="landscapePictures" />
+                            <img src={Day11Header} alt="Day 2 Pic 7" className="landscapePictures" />
                             <p>The brewery was a classic faded redbrick building that wouldn't be out of place in one of the nicer Engish industrial towns, back in the mid eighteenth century when industrialism meant somewhat neoclassical, well-built local factories instead of grim industrial buildings that would symbolise the age later on.</p>
                             <p>There was a paid tour but it seemed a bit of a ripoff, and the free tour looked pretty great. We took it, and started to learn the history of Sapporo brewing. It had all started with a Japanese guy who'd gone to Germany to train as a brewer, then once he was a master he went back to his native Sapporo to set up shop. It's a neat story, a real underdog classic even if the worlds 'Japan' 'Gernany' and 'master' are often used in a worse context. But the place was cool, and the exhibits that charted the rise of the brewery from its early beginnings to mass market distribution.</p>
-                            <img src={Day11Pic6} alt="Day 2 Pic 7" className="landscapePictures" />
+                            <img src={Day11Pic5} alt="Day 2 Pic 7" className="landscapePictures" />
                             <p>We headed to the tasting room afterwards and had a couple of sampler glasses of the different Sapporo favourites, all of which were very yummy. After we were done sampling, we decided to head over to the beer hall that was part of the musem to get a few more drinks as well as some food.</p>
                             <p>The beer hall is designed based on the bavarian beer halls that the brewery's inventor must have enjoyed while he was learning to make the stuff, and as it had been constructed in the nineteenth century, it had an air of authenticity even as a cultural transplant.</p>
                             <p>There was food and lots of different beers and drinks on offer, and one thing that Steph in particular wanted to try was Jingisukan, translated into English (and Mongolian, I suppose) as Genghis Khan. It's a Mongolian mutton barbecue dish that was introduced during the Mongol invasion of Japan in the 12th Century, hence the name, but we ordered some sausages and I, very ill-advised, suggested an all-you-can-drink order. We agreed on a two-hour order and started getting the beers in.</p>
@@ -506,7 +506,7 @@ export default function Journal(props) {
                          <div onClick={expandDay12} id="day12ExpanderMorJpn" className="headings">
                         <h4 className="dayHeader">Day 12</h4>
                         <h5 className="dayLocation">Shikotsu Toya National Park</h5>
-                    </div>
+                    </div>5
 
                     {day12 &&
                         <div>
