@@ -40,6 +40,11 @@ export default function Countries() {
         setTripChosen(true);
     }
 
+    function mexico() {
+        setTrip("mexico");
+        setTripChosen(true);
+    }
+
     return (
 
         <div>
@@ -98,6 +103,10 @@ export default function Countries() {
             }
             {trip === 'Japan' &&
                 <Japan tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
+            }
+
+            {trip === 'mexico' &&
+                <Mexico tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
             }
 
 
