@@ -35,6 +35,11 @@ export default function Countries() {
         setTripChosen(true);
     }
 
+    function franceGermany() {
+        setTrip('germany');
+        setTripChosen(true);
+    }
+
     return (
 
         <div>
@@ -66,6 +71,17 @@ export default function Countries() {
                     <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Morocco_%28large_stroke%29.svg" alt="Morocco flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>Morocco, 2023</h4>
                 </div>
+
+                <div onClick={franceGermany} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/255px-Flag_of_Europe.svg.png" alt="Morocco flag" />
+                    <h4 className="countryText" style={{textAlign: 'center'}}>France and Germany, 2024</h4>
+                </div>
+
+                <div onClick={mexico} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Morocco flag" />
+                    <h4 className="countryText" style={{textAlign: 'center'}}>Mexico, 2025</h4>
+                </div>
+
 
                 <br></br>
                 <br></br>

@@ -128,6 +128,7 @@ import Day20Pic2 from './Day20Pic2.jpg'
 import Day20Pic3 from './Day20Pic3.jpg'
 import Day20Pic4 from './Day20Pic4.jpg'
 import Day20Pic5 from './Day20Pic5.jpg'
+
 import './style.css';
 
 export default function Journal(props) {
