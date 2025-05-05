@@ -4,6 +4,7 @@ import America2022 from '../America2022';
 import SriLanka from '../SriLanka';
 import Morocco from '../Morocco';
 import Japan from '../Japan';
+import Mexico from '../Mexico'
 import './style.css';
 
 export default function Countries() {
