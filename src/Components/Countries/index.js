@@ -4,7 +4,7 @@ import America2022 from '../America2022';
 import SriLanka from '../SriLanka';
 import Morocco from '../Morocco';
 import Japan from '../Japan';
-import Mexico from '../Mexico'
+// import Mexico from '../Mexico'
 import './style.css';
 
 export default function Countries() {
@@ -41,10 +41,10 @@ export default function Countries() {
         setTripChosen(true);
     }
 
-    function mexico() {
-        setTrip("mexico");
-        setTripChosen(true);
-    }
+    // function mexico() {
+    //     setTrip("mexico");
+    //     setTripChosen(true);
+    // }
 
     return (
 
@@ -82,11 +82,11 @@ export default function Countries() {
                     <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/255px-Flag_of_Europe.svg.png" alt="Morocco flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>France and Germany, 2024</h4>
                 </div>
-
+{/* 
                 <div onClick={mexico} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Morocco flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>Mexico, 2025</h4>
-                </div>
+                </div> */}
 
 
                 <br></br>
@@ -106,9 +106,9 @@ export default function Countries() {
                 <Japan tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
             }
 
-            {trip === 'mexico' &&
+            {/* {trip === 'mexico' &&
                 <Mexico tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
-            }
+            } */}
 
 
         </div>
