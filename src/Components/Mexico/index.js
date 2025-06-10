@@ -1,7 +1,7 @@
-import './style.css'    
+import './style.css'   
 import {useState} from 'react';
 
-export default function Journal(props) {
+export default function Mexico(props) {
     const [day1, setDay1] = useState(false);
     const [day2, setDay2] = useState(false);
     const [day3, setDay3] = useState(false);
@@ -70,7 +70,7 @@ export default function Journal(props) {
             <h3 style={{marginBottom: '5vh'}}>Travel journal</h3>
 
             <div id="expand">
-                <div onClick={expandDay1} id="day1ExpandermorMex" className="headings">
+                <div onClick={expandDay1} id="day1ExpanderMorMex" className="headings">
                     <h4 className="dayHeader">Day 1</h4>
                     <h5 className="dayLocation">Cancun</h5>
                 </div>
@@ -93,7 +93,7 @@ export default function Journal(props) {
                     </div>
 
                     <div id="expand">
-                        <div onClick={expandDay2} id="day1ExpandermorMex" className="headings">
+                        <div onClick={expandDay2} id="day2ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 2</h4>
                             <h5 className="dayLocation">Chichen Itza</h5>
                         </div>
@@ -127,7 +127,7 @@ export default function Journal(props) {
                     </div>
 
                     <div id="expand">
-                        <div onClick={expandDay3} id="day1ExpandermorMex" className="headings">
+                        <div onClick={expandDay3} id="day3ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Days 3-6</h4>
                             <h5 className="dayLocation">Cancun</h5>
                         </div>
@@ -149,92 +149,106 @@ export default function Journal(props) {
                     </div>
 
                     <div id="expand">
-                        <div onClick={expandDay4} id="day1ExpandermorMex" className="headings">
+                        <div onClick={expandDay4} id="day4ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 7</h4>
                             <h5 className="dayLocation">CDMY</h5>
                         </div>
 
                         {day4 && <div className="days" id="day4">
-                            <p>dfdfd</p>
+                            <p>6am in a resort has a bit of a strange, liminal quality. The lobby, normally a bustling place where people can thread in and out of the beach, the bars, and the restaurants, is empty, staffed only by a skeleton staff and devoid of customers. People do party the night away here, so it's the rough spot between the people stumbling back to their rooms at 3am and the march of the sunbed snatchers at around 8.</p>
+                            <p>We were getting a minibus to the airport. There were about six other people on it, and we trundled in with that sort of early morning, hungover haze that is felt on airport runs all over the resort world. Today we were going to Mexico City. But no one calls it Mexico City. Instead it's Ciudad de M&eacute;xico, shortened most commonly as CDMX. Do you want amazing food, great culture and fantastic colonial architecture? CDMX gon' give it to ya. I'm here all week, folks.</p>
+                            <p>One thing I noticed about CDMX airport is that it's insanely close to the city center. When you go to Gatwick or Heathrow, you get this feeling of being far away from central London, but in the case of Benito Juarez, it's basically a five minute cab ride away. We had a bit of initial awkwardness finding the right exit for the Uber but then we were set off, zipping through CDMX on a hot dusty day.</p>
+                            <p>Within 20 minutes we were at our hotel, a place with a hostel vibe (an actual hostel, not the movie) but with a big enough room even if we were in two smallish, horizontal bunks separated by a wooden bar that took up all the space of an armrest. It had all the hallmarks of a city break hotel; very little pretense, bright, contrasting colours, and a very modernist shower.</p>
+                            <p>Not that we knew the finer details of the room yet, because we'd arrived at half two and the woman on duty had informed us - curtly - that the room wasn't ready yet. We dropped off our suitcases then went exploring down the road. We'd had no food on the flight and were peckish, and it didn't take us long to find what we wanted - birria tacos.</p>
+                            <p>Birria is a delicious broth that you have alongside equally-delicious tacos. You can pour the broth on top, you can dip the taco in; it's designed for customisable eating, and it's absolutely amazing. We found a couple of seats in a little restaurant the size of an off-license, eating with the locals and watching the world go by.</p>
+                            <p>We finished, checked in, and had a quick unpack before opting for a walk. We were going to the Medellin Market, which has nothing to do with Pablo Escobar or his choice of merchandise and everything to do with the freshest produce you can get in the city. Chefs all over the city shop there, and if there's anything food-wise you can't get there, it's probably not worth getting.</p>
+                            <p>It was around a twenty minute walk to Medellin, and we took it easy, checking out the city center as we went. There was a large cross-section of chilis we wanted to buy so we could prepare birria and everything else we wanted back home, but there was a lot more that was on the shopping list and that Steph was very eager to get her chef's hands on. Chief among them were guajillo chilis, and I'm glad that we asked the right person about it. They didn't have them, but they directed us to the perfect market stall, and its stallholder Carlos.</p>
+                            <p>Carlos was the perfect person to help a couple of tourists who wanted everything. He spoke great English and was a born salesman. Normally when you say that about someone it calls to mind a snake-oil salesman that you can't trust as far as you can throw. But he's that other kind, that honest trader who genuinely loves what they do and gets some sort of genuine buzz from matching customers to what they need that salary workers in our dull apathy couldn't hope to understand. He was quick to listen to whatever we needed, including samples, and the best part was that he gives his Whatsapp number out so that people can ask him for his advice on the recipes he buys the ingredients for!</p>
+                            <p>What's more, the prices were so much lower than what we thought that I can't think of any of it that we could have haggled on in any sort of conscience. We tipped him in the end; it was the least we could do for such amazing service. We walked through the streets of downtown CDMX in the early evening sun, wanting to check out the nightlife. Our walk took us to a gorgeously colonial part of Doctores just north of where we were staying in Roma Sur. We found a cool-looking place called Bar Las Brujas - the Witch Bar. It was an extremely happening place. The best part of it was that the cocktail menu was in the form of a comic book all about women in the Americas who have either practiced witchcraft or been accused of it, and who'd done interesting things. I knew one of these - Marie Laveau, the voodoo queen of New Orleans. We had a few of these lovely cocktails as well as snacks, but we weren't hungry enough for a proper dinner. We headed back to our horizontal bunks and got some sleep.</p>
                         </div>}
 
                     </div>
 
                     <div id="expand">
-                        <div onClick={expandDay5} id="day1ExpandermorMex" className="headings">
+                        <div onClick={expandDay5} id="day5ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 8</h4>
                             <h5 className="dayLocation">Xochimilco</h5>
                         </div>
 
                         {day5 && <div className="days" id="day5">
-                            <p>dfdfd</p>
+                            <p>We woke up bright and early at just after 7. We had to get up, grab some early breakfast, and head out to the town center, where we'd be meeting the bus for today's excursion. Today, we were going to see a few highlights we'd wanted to check out all in one. There was the Casa Azul, the home and studio of the artist Frida Kahlo and her husband, Diego Rivera. There was the Mexico City University Campus, a brutalist classic full of murals by Rivera and other key artists. And there was the Xochimilco, the series of canals that intersect the city and that feature colourful barges doing the equivalent of what Cambridge students do when they operate punts.</p>
+                            <p>We left at 8am, taking a 15 minute walk to the MIGA cafe between our Roma Norte and Juarez (the neighbourhood, not the violent northern city) where we were meeting our bus. From the excursion to Chich&eacute;n Itz&aacute; we assumed there'd be like twenty other people, but the absolute mob we were greeted with was quite striking. There must have been a hundred people there, and we were in the back of the line. We were divided between two buses, and we found it impossible to get seats together. Steph was seated next to a cheerful, friendly slightly older Mexican woman, and I was sat next to Hugo.</p>
+                            <p>Hugo was Argentinian, and a very interesting guy, but an odd duck. We didn't speak straight away, more of a nod, and I wouldn't learn his name until the afternoon. He used to make all sorts of strange noises as the bus drove along; throat-clears, grunts, and various unpleasant noises. He also tended to run cold, putting a jumper on and turning both of our air con nozzles off before I politely turned mine back on and angled it more in my direction. But I'd come to learn that he was a good guy and I'd enjoy his company greatly later on.</p>
+                            <p>Our first stop was the town center of Coyocan, the upscale neighbourhood in CDMX where Frida Kahlo lived and spent her formative years. It's an artsy, colonial neighbourhood, harking right back to the 'glory' days of New Spain. We went to a churro place that was one of the oldest establishments of its kind in the city, and from the classical courtyard in muted cream colours, it showed. We ordered a bunch of churros in chocolate sauce, the classic recipe, and devoured them happily outside.</p>
+                            <p>We explored around slightly, but didn't have long. We met in the main plaza of Coyocan and walked the short distance to the Casa Azul, or the Blue House: Frida and Diego's primarly residence.</p>
+                            <p>Now, I'm not ashamed to admit it: if it wasn't for the Salma Hayek film, I'd never have known about Frida Kahlo, and we wouldn't have given the Casa Azul as much prominence - to our detriment. The attendance figures before and after the film back this up too.</p>
                         </div>}
                     </div>
 
                     <div id="expand">
-                        <div onClick={expandDay6} id="day1ExpandermorMex" className="headings">
+                        <div onClick={expandDay6} id="day6ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 9</h4>
                             <h5 className="dayLocation">CDMY</h5>
                         </div>
 
                         {day6 && <div className="days" id="day6">
-                            <p>dfdfd</p>
+                            <p>Under construction</p>
                         </div>}
                     </div>
 
                     <div id="expand">
-                        <div onClick={expandDay7} id="day1ExpandermorMex" className="headings">
+                        <div onClick={expandDay7} id="day7ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 10</h4>
                             <h5 className="dayLocation">CDMY</h5>
                         </div>
 
                         {day7 && <div className="days" id="day7">
-                            <p>dfdfd</p>
+                            <p>Under construction</p>
                         </div>}
                         </div>
 
                         <div id="expand">
-                            <div onClick={expandDay8} id="day1ExpandermorMex" className="headings">
+                            <div onClick={expandDay8} id="day8ExpanderMorMex" className="headings">
                                 <h4 className="dayHeader">Day 11</h4>
                                 <h5 className="dayLocation">Teotihuacán</h5>
                             </div>
 
                             {day8 && <div className="days" id="day8">
-                                <p>dfdfd</p>
+                                <p>Under construction</p>
                             </div>}
                             </div>
 
                             <div id="expand">
-                                <div onClick={expandDay9} id="day1ExpandermorMex" className="headings">
+                                <div onClick={expandDay9} id="day9ExpanderMorMex" className="headings">
                                     <h4 className="dayHeader">Day 12</h4>
                                     <h5 className="dayLocation">Tolantongo</h5>
                                 </div>
 
                                 {day9 && <div className="days" id="day9">
-                                    <p>dfdfd</p>
+                                    <p>Under construction</p>
                                 </div>}
                                 </div>
 
                                 <div id="expand">
-                                    <div onClick={expandDay10} id="day1ExpandermorMex" className="headings">
+                                    <div onClick={expandDay10} id="day10ExpanderMorMex" className="headings">
                                         <h4 className="dayHeader">Day 13</h4>
                                         <h5 className="dayLocation">Cocobongo</h5>
                                     </div>
 
                                     {day10 && <div className="days" id="day10">
-                                        <p>dfdfd</p>
+                                        <p>Under construction</p>
                                     </div>}
                                     </div>
 
                                     
                                 <div id="expand">
-                                    <div onClick={expandDay11} id="day1ExpandermorMex" className="headings">
+                                    <div onClick={expandDay11} id="day11ExpanderMorMex" className="headings">
                                         <h4 className="dayHeader">Day 14</h4>
                                         <h5 className="dayLocation">Home</h5>
                                     </div>
 
                                     {day10 && <div className="days" id="day10">
-                                        <p>dfdfd</p>
+                                        <p>Under construction</p>
                                     </div>}
                                     </div>
 

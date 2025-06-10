@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import './style.css';
 
-export default function Journal(props) {
+export default function Morocco(props) {
     const [day1, setDay1] = useState(false);
     const [day2, setDay2] = useState(false);
     const [day3, setDay3] = useState(false);

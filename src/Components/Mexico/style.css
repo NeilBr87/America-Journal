@@ -1,4 +1,4 @@
-#day1ExpanderMorJpn {
+#day1ExpanderMorMex {
     background: url(./Day1Header.jpg);
     background-size: 92vw 28vh;
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-#day2ExpanderMorJpn {
+#day2ExpanderMorMex {
     background: url(./Day2Header.jpg);
     background-size: 92vw 16vh;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-#day3ExpanderMorJpn {
+#day3ExpanderMorMex {
     background: url(./Day3Header.jpg);
     background-size: 92vw 14vh;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 
-#day4ExpanderMorJpn {
+#day4ExpanderMorMex {
     background: url(./Day4Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
     flex-direction: column;
 }
 
-#day5ExpanderMorJpn {
+#day5ExpanderMorMex {
     background: url(./Day5Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
     flex-direction: column;
 }
 
-#day6ExpanderMorJpn {
+#day6ExpanderMorMex {
     background: url(./Day6Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
     flex-direction: column;
 }
 
-#day7ExpanderMorJpn {
+#day7ExpanderMorMex {
     background: url(./Day7Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     flex-direction: column;
 }
 
-#day8ExpanderMorJpn {
+#day8ExpanderMorMex {
     background: url(./Day8Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
     flex-direction: column;
 }
 
-#day9ExpanderMorJpn {
+#day9ExpanderMorMex {
     background: url(./Day9Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@
     flex-direction: column;
 }
 
-#day10ExpanderMorJpn {
+#day10ExpanderMorMex {
     background: url(./Day10Header.jpg);
     background-size: 92vw 15vh;
     background-repeat: no-repeat;
@@ -78,45 +78,7 @@
     flex-direction: column;
 }
 
-#day11ExpanderMorJpn {
-    background: url(./Day11Header.jpg);
-    background-size: 92vw 15vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
 
-#day12ExpanderMorJpn {
-    background: url(./Day12Header.jpg);
-    background-size: 92vw 15vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
-
-#day13ExpanderMorJpn {
-    background: url(./Day13Header.jpg);
-    background-size: 92vw 15vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
-
-#day14ExpanderMorJpn {
-    background: url(./Day14Header.jpg);
-    background-size: 92vw 15vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
-
-#day15ExpanderMorJpn {
-    background: url(./Day15Header.jpg);
-    background-size: 92vw 15vh;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
 
 .landscapePictures {
     width: 70vw;
