@@ -4,7 +4,7 @@ import America2022 from '../America2022';
 import SriLanka from '../SriLanka';
 import Morocco from '../Morocco';
 import Japan from '../Japan';
-import Mexico from '../Mexico'
+import Mexico from '../Mexico';
 import './style.css';
 
 export default function Countries() {
@@ -16,10 +16,10 @@ export default function Countries() {
         setTripChosen(true);
     }
 
-    function usa1() {
-        setTrip('USA1');
-        setTripChosen(true);
-    }
+    // function usa1() {
+    //     setTrip('USA1');
+    //     setTripChosen(true);
+    // }
 
     function usa2() {
         setTrip('USA2');
@@ -36,10 +36,10 @@ export default function Countries() {
         setTripChosen(true);
     }
 
-    function franceGermany() {
-        setTrip('germany');
-        setTripChosen(true);
-    }
+    // function franceGermany() {
+    //     setTrip('germany');
+    //     setTripChosen(true);
+    // }
 
     function mexico() {
         setTrip("mexico");
@@ -52,16 +52,16 @@ export default function Countries() {
 
             {!tripChosen && 
             <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-            <h1 style={{marginTop: '6vh'}}>Neil and Steph's travel journals</h1>
+            <h1 style={{h1marginTop: '6vh'}}>Neil and Steph's travel journals</h1>
                 <h3>Finished journals</h3>
                 <div onClick={sriLanka} className="trips" style={{marginTop: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://cdn.britannica.com/13/4413-004-3277D2EF/Flag-Sri-Lanka.jpg" alt="Sri Lanka Flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>Sri Lanka, 2018</h4>
                 </div>
-                <div onClick={usa1} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                {/* <div onClick={usa1} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" alt="USA flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>United States, 2019</h4>
-                </div>
+                </div> */}
                 <div onClick={usa2} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" alt="USA flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>United States, 2022</h4>
@@ -78,10 +78,10 @@ export default function Countries() {
                     <h4 className="countryText" style={{textAlign: 'center'}}>Morocco, 2023</h4>
                 </div>
 
-                <div onClick={franceGermany} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                {/* <div onClick={franceGermany} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/255px-Flag_of_Europe.svg.png" alt="Morocco flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>France and Germany, 2024</h4>
-                </div>
+                </div> */}
 
                 <div onClick={mexico} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Morocco flag" />

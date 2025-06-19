@@ -85,8 +85,7 @@ import Day13Pic1 from './Day13Pic1.jpg';
 import Day13Pic2 from './Day13Pic2.jpg';
 import Day13Pic3 from './Day13Pic3.jpg';
 import Day13Pic4 from './Day13Pic4.jpg';
-import Day13Pic5 from './Day13Pic5.jpg';
-import Day13Pic6 from './Day13Pic6.jpg';
+
 import Day13Pic7 from './Day13Pic7.jpg';
 import Day13Pic11 from './Day13Pic11.jpg';
 import Day13Pic12 from './Day13Pic12.jpg';
@@ -337,7 +336,7 @@ export default function Journal(props) {
 
                     {day5 &&
                     <div className="days" id="day5">
-                        <p>I woke up feeling almost as rotten as yesterday. I say almost, because I know that if the excursion had been booked yesterday, even the threat of a hefty nonrefundable reservation wouldn't have got me out of bed. As it happened I was able to drag myself out of my sickbed, kicking and screaming all the way, pleading with poor Steph to find some way to cancel.</p>,
+                        <p>I woke up feeling almost as rotten as yesterday. I say almost, because I know that if the excursion had been booked yesterday, even the threat of a hefty nonrefundable reservation wouldn't have got me out of bed. As it happened I was able to drag myself out of my sickbed, kicking and screaming all the way, pleading with poor Steph to find some way to cancel.</p>
                         <p>Alas, there was none. We'd lose way too much money for no good reason if I couldn't drag my skeleton up. We headed to Tokyo Central Station, finding the right bus after about ten minutes of frantic exploration. We got into a couple of seats and, yes, I fell asleep within about thirty seconds. By the time I woke up we were about two hours into a two and a half hour drive. Not only that, but were far away from Tokyo, into the wide open. One thing I'd been key to see was the real, rural Japan, the side that most tourists will never see. We were on a motorway, but I was still excited. I felt much better after a long morning nap, though I was still far from my best.</p>
                         <p>What was more, Steph was excited. Unlike me, she loved excursions, and didn't mind the time-restricted nature of the day. In just over half an hour - for which I danced in and out of sleep - we arrived at Ōarai for the Ōarai Isosaki Shrine. It was called a city, but it was really a small town with a threadbare - but lovely - main road. We parked outside the entrance to the shrine itself, which unlike the others we'd seen which were squared-away compounds, this one extended from the main shrine site, down some strairs past the main road and all the way to the sea. My legs immediately croaked as I walked, and the pouring rain didn't do much to improve that, but the nap had done me good.</p>
                         <img src={Day5Pic1} alt="Day 2 Pic 7" className="landscapePictures" />
@@ -540,10 +539,10 @@ export default function Journal(props) {
                          <div onClick={expandDay12} id="day12ExpanderMorJpn" className="headings">
                         <h4 className="dayHeader">Day 12</h4>
                         <h5 className="dayLocation">Shikotsu Toya National Park</h5>
-                    </div>5
+                    </div>
 
                     {day12 &&
-                        <div>
+                        <div><div>
                             <p>I can't speak for Steph, but for me, it was worse than I imagined.</p>
                             <p>I can think of only a few times I've had a <b>serious</b> hangover on one of our proper holidays. The rest day we had in Helena after going to that bar. At least one Vegas night. But this must have beaten them all. We had to physically force ourselves out the door and towards the bus station for today's excursion, every step an exercise in self-inflicted agony. But the bus was relatively comfortable, and we settled near the back.</p>
                             <p>Unlike our last excursion, it was only half Chinese, and the rest of us were a combination of English, French and American, as well as some others. It may have been the hangover, but the Mandarin was starting to grate on me. I don't like Mandarin. I think Japanese is an elegant, beautiful-sounding language, and I would probably think the same about Korean, Tagalog, and Thai if I heard it more. But Mandarin is an ugly language, at least to my ears, that has too many unappealing <i>sh</i> noises made from equally unappealing mouth movements.</p>
@@ -576,7 +575,7 @@ export default function Journal(props) {
                             <p>The dance teams started up, and they were amazing. Their choreography was absolutely on point and the costumes were vivid and amazing. It also less fortunately gave me one of those 'reasons I hate England' thoughts that I get on holiday, normally when the flight home rears into view. I thought, and voiced, that something like this - a major city putting on a huge festival, with independent food stalls, and stadium entertainment that can either be watched for free in a nice setting or for cheap inside the stadium - wouldn't happen in the UK. There are council-run festivals here and there but they're few and far between, and designed to be geared towards profit only, with big expensive corporate stalls, £12 beer, and expensive parking. Maybe it's slightly different up north, but I do know that this - an event where the only goal is to make people happy - is not really a UK thing.</p>
                             <img src={Day12Pic8} alt="Day 2 Pic 7" className="portraitPictures" />
                             <p>We stayed for about half an hour - it was getting very late, and cold outside. We took a short walk back to the room and passed out.</p>
-                         </div>}
+                         </div></div>}
 
                             <div onClick={expandDay13} id="day13ExpanderMorJpn" className="headings">
                         <h4 className="dayHeader">Day 13</h4>
@@ -592,9 +591,7 @@ export default function Journal(props) {
                             <img src={Day13Pic3} alt="Day 2 Pic 7" className="landscapePictures" />
                             <p>We took the bus there, gobsmacked to see such a place amid a modern city. It was a boiling hot day. We were hungry, and decided on a soup curry that's a Hokkaido speciality. I was a bit of a skeptic where the soup curry was concerned, especially once the smell hit. Since I'd got ill I'd been a lot less adventurous with good, and I initially considered fried chicken, but Steph vetoed that - I'd had a lot of it. So instead I got the soup curry - it was alright, but not a high point.</p>
                             <img src={Day13Pic4} alt="Day 2 Pic 7" className="landscapePictures" />
-                            <img src={Day13Pic5} alt="Day 2 Pic 7" className="landscapePictures" />
                             <p>Once we'd eaten, we started off with the chocolate factor tour. Shiroi Koibito are a sort of white chocolate and filling snack, like a hard white rectangular Oreo or a chocalatey custard cream. They're not realy sold in the same way though; they're served as little treats on airplanes, in hotels and generally free. The tour involves a circular walk around the main producdtion floor, and it looks like a modernist Willy Wonka factory with its bright colours, uniforms and smooth operation. It was all very interesting, and we got a couple of the snacks themselves to eat. It was pretty good.</p>
-                            <img src={Day13Pic6} alt="Day 2 Pic 7" className="landscapePictures" />
                             <img src={Day13Pic7} alt="Day 2 Pic 7" className="landscapePictures" />
                             <p>After the tour we headed to a chocalate shop downstairs and bought some chocalate bars and sweets to eat outside. We ate in the sun, looking over the country garden, before heading down there. It had very familiar vibes, and I saw a lot of what I'd expect to see at Kew or the Eden Project as well as some common English garden staples. It had a little cottage which we could poke our heads into. It was absolutely surreal, but it was also time to be moving along.</p>
                             <img src={Day13Pic11} alt="Day 2 Pic 7" className="landscapePictures" />
@@ -606,7 +603,7 @@ export default function Journal(props) {
                             <p>There were a few clouds in the sky but the sunset was glorious all the same. But as dusk set in it started to turn cold. We stood out there watching as the lights of Sapporo came on one by one. We alternated for a while, between the deck and the inside bit downstairs, which had a cafe and a shop - only the latter was open. We went down here when the cold got too hard to take before heading back up.</p>
                             <p>By the time we decided to make our way back, it was below freezing and the platform was absolutely jam packed with people. It was so busy that it took us aroud an hour to get down to the funicular station the queues were so bad. They were offering a free minibus service to the tram stop (of course they were; it's not England) so we got a tram into town for our very last stop - Susukino, Sapporo's entertainment central. </p>
                             <img src={Day13Pic14} alt="Day 2 Pic 7" className="landscapePictures" />
-                            <p>It's utterly bizarre for the north island, just like Sapporo itself. A neon spectacle almost the equal of Akihabara or Dotonbori. We stopped at a place called the 500 Yen bar, first hejading straight in to find a seat then being remonstrated by a stern waitress who told us we had to wait at the door. We waited then headed in, drinking for cheap and ordering popcorn chicken which was delicious.</p>
+                            <p>It's utterly bizarre for the north island, just like Sapporo itself. A neon spectacle almost the equal of Akihabara or Dotonbori. We stopped at a place called the 500 Yen bar, first heading straight in to find a seat then being remonstrated by a stern waitress who told us we had to wait at the door. We waited then headed in, drinking for cheap and ordering popcorn chicken which was delicious.</p>
                             <p>It was late so we headed back, doing our last minute packing of our now-properly bulging suitcases. We showered and slept, ready to go back to Tokyo for the final stretch.</p>
                          </div>}
 

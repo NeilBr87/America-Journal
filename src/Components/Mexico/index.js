@@ -90,9 +90,7 @@ export default function Mexico(props) {
                             <p>We headed towards our first hotel, the Golf Villa Inn. It was a rustic, slightly decayed 19th century colonial villa that looked like it was made of Mayan temple stone but was very comfy and had a great atmosphere to it. When we got home it was around nine at night and we weren't really feeling dinner after the inflight meals. So we got an early night's sleep ready for our first big trip the next day: Chich&eacute;n Itz&aacute;.</p>
                         </div>}
                     
-                    </div>
 
-                    <div id="expand">
                         <div onClick={expandDay2} id="day2ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 2</h4>
                             <h5 className="dayLocation">Chichen Itza</h5>
@@ -124,9 +122,7 @@ export default function Mexico(props) {
                             <p>We got another easy night's sleep, thankfully unaffected by jetlag.</p>
                         </div>}
 
-                    </div>
 
-                    <div id="expand">
                         <div onClick={expandDay3} id="day3ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Days 3-6</h4>
                             <h5 className="dayLocation">Cancun</h5>
@@ -146,9 +142,7 @@ export default function Mexico(props) {
                             <p>And with that, our few days of idle excess were over. They'd gone too quick, but we'd been glad of the lazy break. Tomorrow it was off to Mexico City. To the culture. To the actual Mexican people I'd spent most of the holiday so far with fellow tourists, and I was eager for a break, and I think Steph - though she's now very eager to go back to Cancun - felt the same.</p>
                         </div>}
                     
-                    </div>
-
-                    <div id="expand">
+        
                         <div onClick={expandDay4} id="day4ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 7</h4>
                             <h5 className="dayLocation">CDMY</h5>
@@ -167,9 +161,7 @@ export default function Mexico(props) {
                             <p>What's more, the prices were so much lower than what we thought that I can't think of any of it that we could have haggled on in any sort of conscience. We tipped him in the end; it was the least we could do for such amazing service. We walked through the streets of downtown CDMX in the early evening sun, wanting to check out the nightlife. Our walk took us to a gorgeously colonial part of Doctores just north of where we were staying in Roma Sur. We found a cool-looking place called Bar Las Brujas - the Witch Bar. It was an extremely happening place. The best part of it was that the cocktail menu was in the form of a comic book all about women in the Americas who have either practiced witchcraft or been accused of it, and who'd done interesting things. I knew one of these - Marie Laveau, the voodoo queen of New Orleans. We had a few of these lovely cocktails as well as snacks, but we weren't hungry enough for a proper dinner. We headed back to our horizontal bunks and got some sleep.</p>
                         </div>}
 
-                    </div>
 
-                    <div id="expand">
                         <div onClick={expandDay5} id="day5ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 8</h4>
                             <h5 className="dayLocation">Xochimilco</h5>
@@ -189,9 +181,7 @@ export default function Mexico(props) {
                             <p>So Leon Trotsky's life in Mexico was a lockbox that the video had just opened. I've always had an interest in Trotsky. He was one of Lenin's top proteges during the Bolshevik era and one of the best ideological thinkers the party had. But he messed up one major job that Lenin had assigned to him - stop Stalin seizing power. Stalin steamrolled him and took the top slot, sending Leon running to Mexico. For years he lived in Mexico City, hobnobbing with the intellectual elite - Frida and Diego, it seems, included! Then, a KGB asset in Mexico put an icepick through his head.</p>
                             factors<p>I found out that Leon Trotsky's house was only about twenty minutes walk away - and that's one thing I would have loved to see if we weren't on an excursion. But we moved on. Our next stop was the National Autonomous University of Mexico campus, with vast, sweeping murals done by Diego Rivera and other artists. It's a superbly brutalist but not in the purely functional way that I hate.</p>
                         </div>}
-                    </div>
-
-                    <div id="expand">
+                    
                         <div onClick={expandDay6} id="day6ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 9</h4>
                             <h5 className="dayLocation">CDMY</h5>
@@ -200,9 +190,7 @@ export default function Mexico(props) {
                         {day6 && <div className="days" id="day6">
                             <p>Under construction</p>
                         </div>}
-                    </div>
-
-                    <div id="expand">
+                    
                         <div onClick={expandDay7} id="day7ExpanderMorMex" className="headings">
                             <h4 className="dayHeader">Day 10</h4>
                             <h5 className="dayLocation">CDMY</h5>
@@ -211,9 +199,7 @@ export default function Mexico(props) {
                         {day7 && <div className="days" id="day7">
                             <p>Under construction</p>
                         </div>}
-                        </div>
-
-                        <div id="expand">
+                        
                             <div onClick={expandDay8} id="day8ExpanderMorMex" className="headings">
                                 <h4 className="dayHeader">Day 11</h4>
                                 <h5 className="dayLocation">Teotihuacán</h5>
@@ -222,9 +208,7 @@ export default function Mexico(props) {
                             {day8 && <div className="days" id="day8">
                                 <p>Under construction</p>
                             </div>}
-                            </div>
-
-                            <div id="expand">
+                          
                                 <div onClick={expandDay9} id="day9ExpanderMorMex" className="headings">
                                     <h4 className="dayHeader">Day 12</h4>
                                     <h5 className="dayLocation">Tolantongo</h5>
@@ -233,9 +217,7 @@ export default function Mexico(props) {
                                 {day9 && <div className="days" id="day9">
                                     <p>Under construction</p>
                                 </div>}
-                                </div>
-
-                                <div id="expand">
+                               
                                     <div onClick={expandDay10} id="day10ExpanderMorMex" className="headings">
                                         <h4 className="dayHeader">Day 13</h4>
                                         <h5 className="dayLocation">Cocobongo</h5>
@@ -244,10 +226,7 @@ export default function Mexico(props) {
                                     {day10 && <div className="days" id="day10">
                                         <p>Under construction</p>
                                     </div>}
-                                    </div>
-
                                     
-                                <div id="expand">
                                     <div onClick={expandDay11} id="day11ExpanderMorMex" className="headings">
                                         <h4 className="dayHeader">Day 14</h4>
                                         <h5 className="dayLocation">Home</h5>
@@ -256,9 +235,15 @@ export default function Mexico(props) {
                                     {day10 && <div className="days" id="day10">
                                         <p>Under construction</p>
                                     </div>}
+
+                                    
                                     </div>
 
+                                
 
-                    <button onClick={back} style={{marginTop: '5vh'}}>Back</button>
+                                    
+
+
+            <h3 onClick={back}>Back</h3>
                 </div>
     )}

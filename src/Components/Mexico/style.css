@@ -78,7 +78,46 @@
     flex-direction: column;
 }
 
+#day11ExpanderMorMex {
+    background: url(./Day1Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
 
+
+#day12ExpanderMorMex {
+    background: url(./Day1Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day13ExpanderMorMex {
+    background: url(./Day1Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day14ExpanderMorMex {
+    background: url(./Day1Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#day15ExpanderMorMex {
+    background: url(./Day1Header.jpg);
+    background-size: 92vw 15vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
 
 .landscapePictures {
     width: 70vw;
