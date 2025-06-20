@@ -1,0 +1,75 @@
+.expandRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-bottom: 6vh;
+}
+
+.desktopHeadings {
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);    
+    cursor: pointer;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border: 0.5px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.headerImageDesktop {
+    width: 14vw;
+    height: 20vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+}
+
+.desktopDays {
+    position: absolute;
+    top: 10%;
+    left: 36%;
+    height: 80vh;
+    z-index: 9999;
+    width: 30vw;
+    border: 3px solid black;
+    overflow-y: auto;
+    background-color: white;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);  
+    padding: 20px 40px;   
+    overflow-x: hidden;
+    border-radius: 8px;
+}
+
+.desktopDays p {
+    width: 30vw;
+}
+
+.landscapePicturesDesktop {
+    width: 30vw;
+    height: 30vh;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.overlayDesktop {
+      position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* grey/black with transparency */
+  z-index: 999; /* Make sure it sits below the modal but above the rest */
+  display: flex;
+}
