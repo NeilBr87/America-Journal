@@ -278,8 +278,8 @@ export default function JPNdesktop(props) {
                         <h5 style={{marginTop: '-10px'}}>Asakusa City, Tokyo</h5>
                     </div>
 
-                    {day3 &&
-                    <div className="days" id="day3">
+                    {day3 && <div className="overlayDesktop" onClick={back}>
+                    <div className="desktopDays">
                         <p>We woke up the next morning to glorious sunshine, replacing the grim weather of yesterday. Unfortunately, that wasn't the only thing I woke up to; I had a sore, scratchy throat. At first I thought it was just the aircon (I always get a sore throat with strong air conditioning) but it proved to be something different entirely - but more on that later.</p>
                         <p>This morning we were headed over to Senso-Ji, probably the most famous Shinto shrine in Japan (or anywhere really because it doesn't really exist outside of Japan and her diaspora) and one of Tokyo's must-sees. We took a quick trip on the subway and got there without much hassle. Steph, normally my equal when it came to navigation, had really taken the lead here. Only her phone was able to use an eSim, so she was able to get directions up, but she took charge when it came to getting us around, me only occasionally providing observational support when she was too short to see a particular sign.</p>
                         <img src={Day3Pic1} alt="Day 2 Pic 7" className="landscapePictures" />
@@ -312,7 +312,7 @@ export default function JPNdesktop(props) {
                         <p>Unfortunately, that guilt wasn't the only thing I started to feel. The sore throat now made every sip of beer hurt, and I was getting all sorts of weird feelings: muscle pain, coldness, and a burning forehead along with it. I prayed that this was just me fighting some sort of nasty bug and that I'd be right as rain tomorrow, but soon Steph noticed something was wrong and I mentioned I wasn't feeling well.</p>
                         <img src={Day3Pic11} alt="Day 2 Pic 7" className="landscapePictures" />
                         <p>We headed home - it was around 1am and the streets were still bustling. I was shivering even though it wasn't that cold. I collapsed into bed, hoping that a good sleep would sort me out.</p>
-                    </div>}
+                    </div></div>}
 
                     <div onClick={expandDay4} className="desktopHeadings">
                         <img className="headerImageDesktop" src={Day4Pic2} alt="day2"/>
@@ -320,8 +320,8 @@ export default function JPNdesktop(props) {
                         <h5 style={{marginTop: '-10px'}}>Sumida City, Tokyo</h5>
                     </div>
 
-                    {day4 &&
-                    <div className="days" id="day4">
+                    {day4 && <div className="overlayDesktop" onClick={back}>
+                    <div className="desktopDays">
                         <p>A good sleep didn't sort me out.</p>
                         <p>I woke up feeling pain in every muscle in my body. My nose and throat were completey blocked up and I felt utterly, completely dreadful. Steph - who'd quite reasonably thought that my illness may have been in my head, given how I am about things - immediately saw how bad things were. My face had badly puffed up and every word from out of my mouth sounded like a death rattle. I relayed the sad news - there was absolutey no way I could leave the bed. I stood up even and got intense vertigo before I'd even taken a step. Steph tried to gently coax me out but knew it was a lost cause, but I insisted that she shouldn't lose a day of holiday because of me. We had a reservation at Tokyo Skytree, an observation deck with amazing views of Tokyo, at seven that evening and I vowed that after a day of sleeping I'd be ready to do that, albeit wearing a mask throughout in the likely event that I was contageous.</p>
                         <p>So I settled back down and Steph headed out. First, she headed to the nearby pharmacy and bought some meds for me, being helped out by a nice lady on the checkout despite the obvious language barrier. Following that, she headed into a coffee shop and grabbed a matcha latte for me and an orange juice for herself - she was slightly hungover, as was I in addition to the illness. She kindly dropped them back to me before heading out, walking from Shibuya to nearby Harajuku.</p>
@@ -336,7 +336,7 @@ export default function JPNdesktop(props) {
                         <p>We left after about an hour, me falling immediately asleep on the subway back. On the way back, Steph suggested an excursion for tomorrow in case I couldn't manage a day in Tokyo. One of the ones she found was the Hitachi Seaside Park excursion. It included a trip to the Ōarai Isosaki Shrine and the Nakaminato fish market. The selling point was that I could fall asleep on the bus for almost three hours on the way. I felt guilty about being ill and on a bus full of people, but I rationalised it - I might not be contageous, I'd be wearing a mask all throughout the journey, and everyone else in the last few months had saw fit to travel with anything from a minor cold to full-blown COVID.</p>
                         <img src={Day4Pic4} alt="Day 2 Pic 7" className="landscapePictures" />
                         <p>Therefore, I reluctantly agreed, hoping that this was a 24 hour bug and I'd feel better in the morning. We showered and went to bed, me falling asleep within seconds.</p>
-                    </div>}
+                    </div></div>}
 
                     </div>
 
@@ -350,8 +350,8 @@ export default function JPNdesktop(props) {
                     </div>
 
 
-                    {day5 &&
-                    <div className="days" id="day5">
+                    {day5 && <div className="overlayDesktop" onClick={back}>
+                    <div className="desktopDays">
                         <p>I woke up feeling almost as rotten as yesterday. I say almost, because I know that if the excursion had been booked yesterday, even the threat of a hefty nonrefundable reservation wouldn't have got me out of bed. As it happened I was able to drag myself out of my sickbed, kicking and screaming all the way, pleading with poor Steph to find some way to cancel.</p>
                         <p>Alas, there was none. We'd lose way too much money for no good reason if I couldn't drag my skeleton up. We headed to Tokyo Central Station, finding the right bus after about ten minutes of frantic exploration. We got into a couple of seats and, yes, I fell asleep within about thirty seconds. By the time I woke up we were about two hours into a two and a half hour drive. Not only that, but were far away from Tokyo, into the wide open. One thing I'd been key to see was the real, rural Japan, the side that most tourists will never see. We were on a motorway, but I was still excited. I felt much better after a long morning nap, though I was still far from my best.</p>
                         <p>What was more, Steph was excited. Unlike me, she loved excursions, and didn't mind the time-restricted nature of the day. In just over half an hour - for which I danced in and out of sleep - we arrived at Ōarai for the Ōarai Isosaki Shrine. It was called a city, but it was really a small town with a threadbare - but lovely - main road. We parked outside the entrance to the shrine itself, which unlike the others we'd seen which were squared-away compounds, this one extended from the main shrine site, down some strairs past the main road and all the way to the sea. My legs immediately croaked as I walked, and the pouring rain didn't do much to improve that, but the nap had done me good.</p>
@@ -367,7 +367,7 @@ export default function JPNdesktop(props) {
                         <p>I slept the duration of the trip back, waking up when we'd got into the city proper. I'm glad I slept, because it gave me enough energy for our evening plans. My birthday present from Steph had been dinner at Fushikino, a delightful Michelin-star restaurant in Shinjuku that offered a kaiseiki meal (lots and lots of plates) with a sake pairing. We'd been really looking forward to it, though I was worried about my appetite and being in a place where I couldn't wear a mask. I felt a pang of guilt of possibly infecting people (in case I was contageous, or still contageous after a couple of days) but we couldn't cancel without losing lots of money and for the last four years so many people had been walking around and eating dinner with open symptoms, so I can reconcile that slightly ethics-wise.</p>
                         <p>It was a beautiful place, small and minimalist, but it's the kind of sleek traditional minialism that stands for pure class. The waitress was very nice, and I hope I didn't give her a bug. We tucked into, I think, around eleven plates, and even with my appetite and my taste buds suppressed I couldn't describe them as anything other than delicious. We started off with abelone, watercress and asparagus, then moved onto shrimp dumplings, abrame and red snapper, grunt fish that had been dried overnight, swordfish, several different platters of wonderful seafood and shellfish, and miso. Each of them were expertly paired with a delicious sake. Of the eleven dishes, I was starting to seriously struggle wtih fullness. But by the middle of the course, the chef had come to watch us eat. You're really supposed to fawn over the food and proclaim that it's the best thing you've ever tasted when the chef comes to inspect you, which was not a tough sell for either of us. The chef seemed delighted im a stern way, and there was lots of mutual bowing at the end of our meal.</p>
                         <p>It was our last night in Tokyo (well, until the return leg) and in any other situation we'd have made use of the time as it wasn't that late. But I was on death's door, and we were both incredibly full after the keiseikei, so we went to bed.</p>
-                    </div>}
+                    </div></div>}
 
                     <div onClick={expandDay6} className="desktopHeadings">
                         <img className="headerImageDesktop" src={Day6Header} alt="day2"/>
