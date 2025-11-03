@@ -1,5 +1,197 @@
 import './style.css'   
 import {useState} from 'react';
+import Day1Pic1 from './Day1Pic1.jpg';
+import Day1Pic2 from './Day1Pic2.jpg';
+import Day1Pic3 from './Day1Pic3.jpg';
+import Day1Pic4 from './Day1Pic4.jpg';
+import Day1Pic5 from './Day1Pic5.jpg';
+import Day1Pic6 from './Day1Pic6.jpg';
+import Day1Pic7 from './Day1Pic7.jpg';
+import Day1Pic8 from './Day1Pic8.jpg';
+import Day1Pic9 from './Day1Pic9.jpg';
+import Day1Pic10 from './Day1Pic10.jpg';
+import Day4Header from './Day4Header.jpg';
+import Day4Pic1 from './Day4Pic1.jpg';
+import Day4Pic2 from './Day4Pic2.jpg';
+import Day4Pic3 from './Day4Pic3.jpg';
+import Day4Pic4 from './Day4Pic4.jpg';
+import Day4Pic5 from './Day4Pic5.jpg';
+import Day5Header from './Day5Header.jpg';
+import Day5Pic1 from './Day5Pic1.jpg';
+import Day5Pic2 from './Day5Pic2.jpg';
+import Day5Pic3 from './Day5Pic3.jpg';
+import Day5Pic4 from './Day5Pic4.jpg';
+import Day5Pic6 from './Day5Pic6.jpg';
+import Day5Pic7 from './Day5Pic7.jpg';
+import Day5Pic10 from './Day5Pic10.jpg';
+import Day5Pic11 from './Day5Pic11.jpg';
+import Day5Pic12 from './Day5Pic12.jpg';
+import Day5Pic13 from './Day5Pic13.jpg';
+import Day5Pic16 from './Day5Pic16.jpg';
+import Day5Pic17 from './Day5Pic17.jpg';
+import Day5Pic18 from './Day5Pic18.jpg';
+
+import Day6Header from './Day6Header.jpg';
+import Day6Pic1 from './Day6Pic1.jpg';
+import Day6Pic2 from './Day6Pic2.jpg';
+import Day6Pic3 from './Day6Pic3.jpg';
+import Day6Pic4 from './Day6Pic4.jpg';
+// import Day6Pic5 from './Day6Pic5.jpg';
+// import Day6Pic6 from './Day6Pic6.jpg';
+// import Day6Pic7 from './Day6Pic7.jpg';
+// import Day6Pic8 from './Day6Pic8.jpg';
+// import Day6Pic9 from './Day6Pic9.jpg';
+// import Day6Pic10 from './Day6Pic10.jpg';
+// import Day6Pic11 from './Day6Pic11.jpg';
+// import Day6Pic12 from './Day6Pic12.jpg';
+// import Day6Pic13 from './Day6Pic13.jpg';
+// import Day6Pic14 from './Day6Pic14.jpg';
+// import Day6Pic15 from './Day6Pic15.jpg';
+// import Day6Pic16 from './Day6Pic16.jpg';
+// import Day6Pic17 from './Day6Pic17.jpg';
+// import Day6Pic18 from './Day6Pic18.jpg';
+// import Day6Pic19 from './Day6Pic19.jpg';
+// import Day6Pic20 from './Day6Pic20.jpg';
+// import Day6Pic21 from './Day6Pic21.jpg';
+// import Day6Pic22 from './Day6Pic22.jpg';
+// import Day6Pic23 from './Day6Pic23.jpg';
+// import Day6Pic24 from './Day6Pic24.jpg';
+// import Day6Pic25 from './Day6Pic25.jpg';
+
+// import Day7Header from './Day7Header.jpg';
+// import Day7Pic1 from './Day7Pic1.jpg';
+// import Day7Pic2 from './Day7Pic2.jpg';
+// import Day7Pic3 from './Day7Pic3.jpg';
+// import Day7Pic4 from './Day7Pic4.jpg';
+// import Day7Pic5 from './Day7Pic5.jpg';
+// import Day7Pic6 from './Day7Pic6.jpg';
+// import Day7Pic7 from './Day7Pic7.jpg';
+// import Day7Pic8 from './Day7Pic8.jpg';
+// import Day7Pic9 from './Day7Pic9.jpg';
+// import Day7Pic10 from './Day7Pic10.jpg';
+// import Day7Pic11 from './Day7Pic11.jpg';
+// import Day7Pic12 from './Day7Pic12.jpg';
+// import Day7Pic13 from './Day7Pic13.jpg';
+// import Day7Pic14 from './Day7Pic14.jpg';
+// import Day7Pic15 from './Day7Pic15.jpg';
+// import Day7Pic16 from './Day7Pic16.jpg';
+// import Day7Pic17 from './Day7Pic17.jpg';
+// import Day7Pic18 from './Day7Pic18.jpg';
+// import Day7Pic19 from './Day7Pic19.jpg';
+// import Day7Pic20 from './Day7Pic20.jpg';
+// import Day7Pic21 from './Day7Pic21.jpg';
+// import Day7Pic22 from './Day7Pic22.jpg';
+// import Day7Pic23 from './Day7Pic23.jpg';
+// import Day7Pic24 from './Day7Pic24.jpg';
+// import Day7Pic25 from './Day7Pic25.jpg';
+
+// import Day8Header from './Day8Header.jpg';
+// import Day8Pic1 from './Day8Pic1.jpg';
+// import Day8Pic2 from './Day8Pic2.jpg';
+// import Day8Pic3 from './Day8Pic3.jpg';
+// import Day8Pic4 from './Day8Pic4.jpg';
+// import Day8Pic5 from './Day8Pic5.jpg';
+// import Day8Pic6 from './Day8Pic6.jpg';
+// import Day8Pic7 from './Day8Pic7.jpg';
+// import Day8Pic8 from './Day8Pic8.jpg';
+// import Day8Pic9 from './Day8Pic9.jpg';
+// import Day8Pic10 from './Day8Pic10.jpg';
+// import Day8Pic11 from './Day8Pic11.jpg';
+// import Day8Pic12 from './Day8Pic12.jpg';
+// import Day8Pic13 from './Day8Pic13.jpg';
+// import Day8Pic14 from './Day8Pic14.jpg';
+// import Day8Pic15 from './Day8Pic15.jpg';
+// import Day8Pic16 from './Day8Pic16.jpg';
+// import Day8Pic17 from './Day8Pic17.jpg';
+// import Day8Pic18 from './Day8Pic18.jpg';
+// import Day8Pic19 from './Day8Pic19.jpg';
+// import Day8Pic20 from './Day8Pic20.jpg';
+// import Day8Pic21 from './Day8Pic21.jpg';
+// import Day8Pic22 from './Day8Pic22.jpg';
+// import Day8Pic23 from './Day8Pic23.jpg';
+// import Day8Pic24 from './Day8Pic24.jpg';
+// import Day8Pic25 from './Day8Pic25.jpg';
+
+// import Day9Header from './Day9Header.jpg';
+// import Day9Pic1 from './Day9Pic1.jpg';
+// import Day9Pic2 from './Day9Pic2.jpg';
+// import Day9Pic3 from './Day9Pic3.jpg';
+// import Day9Pic4 from './Day9Pic4.jpg';
+// import Day9Pic5 from './Day9Pic5.jpg';
+// import Day9Pic6 from './Day9Pic6.jpg';
+// import Day9Pic7 from './Day9Pic7.jpg';
+// import Day9Pic8 from './Day9Pic8.jpg';
+// import Day9Pic9 from './Day9Pic9.jpg';
+// import Day9Pic10 from './Day9Pic10.jpg';
+// import Day9Pic11 from './Day9Pic11.jpg';
+// import Day9Pic12 from './Day9Pic12.jpg';
+// import Day9Pic13 from './Day9Pic13.jpg';
+// import Day9Pic14 from './Day9Pic14.jpg';
+// import Day9Pic15 from './Day9Pic15.jpg';
+// import Day9Pic16 from './Day9Pic16.jpg';
+// import Day9Pic17 from './Day9Pic17.jpg';
+// import Day9Pic18 from './Day9Pic18.jpg';
+// import Day9Pic19 from './Day9Pic19.jpg';
+// import Day9Pic20 from './Day9Pic20.jpg';
+// import Day9Pic21 from './Day9Pic21.jpg';
+// import Day9Pic22 from './Day9Pic22.jpg';
+// import Day9Pic23 from './Day9Pic23.jpg';
+// import Day9Pic24 from './Day9Pic24.jpg';
+// import Day9Pic25 from './Day9Pic25.jpg';
+
+// import Day10Header from './Day10Header.jpg';
+// import Day10Pic1 from './Day10Pic1.jpg';
+// import Day10Pic2 from './Day10Pic2.jpg';
+// import Day10Pic3 from './Day10Pic3.jpg';
+// import Day10Pic4 from './Day10Pic4.jpg';
+// import Day10Pic5 from './Day10Pic5.jpg';
+// import Day10Pic6 from './Day10Pic6.jpg';
+// import Day10Pic7 from './Day10Pic7.jpg';
+// import Day10Pic8 from './Day10Pic8.jpg';
+// import Day10Pic9 from './Day10Pic9.jpg';
+// import Day10Pic10 from './Day10Pic10.jpg';
+// import Day10Pic11 from './Day10Pic11.jpg';
+// import Day10Pic12 from './Day10Pic12.jpg';
+// import Day10Pic13 from './Day10Pic13.jpg';
+// import Day10Pic14 from './Day10Pic14.jpg';
+// import Day10Pic15 from './Day10Pic15.jpg';
+// import Day10Pic16 from './Day10Pic16.jpg';
+// import Day10Pic17 from './Day10Pic17.jpg';
+// import Day10Pic18 from './Day10Pic18.jpg';
+// import Day10Pic19 from './Day10Pic19.jpg';
+// import Day10Pic20 from './Day10Pic20.jpg';
+// import Day10Pic21 from './Day10Pic21.jpg';
+// import Day10Pic22 from './Day10Pic22.jpg';
+// import Day10Pic23 from './Day10Pic23.jpg';
+// import Day10Pic24 from './Day10Pic24.jpg';
+// import Day10Pic25 from './Day10Pic25.jpg';
+
+// import Day11Header from './Day11Header.jpg';
+// import Day11Pic1 from './Day11Pic1.jpg';
+// import Day11Pic2 from './Day11Pic2.jpg';
+// import Day11Pic3 from './Day11Pic3.jpg';
+// import Day11Pic4 from './Day11Pic4.jpg';
+// import Day11Pic5 from './Day11Pic5.jpg';
+// import Day11Pic6 from './Day11Pic6.jpg';
+// import Day11Pic7 from './Day11Pic7.jpg';
+// import Day11Pic8 from './Day11Pic8.jpg';
+// import Day11Pic9 from './Day11Pic9.jpg';
+// import Day11Pic10 from './Day11Pic10.jpg';
+// import Day11Pic11 from './Day11Pic11.jpg';
+// import Day11Pic12 from './Day11Pic12.jpg';
+// import Day11Pic13 from './Day11Pic13.jpg';
+// import Day11Pic14 from './Day11Pic14.jpg';
+// import Day11Pic15 from './Day11Pic15.jpg';
+// import Day11Pic16 from './Day11Pic16.jpg';
+// import Day11Pic17 from './Day11Pic17.jpg';
+// import Day11Pic18 from './Day11Pic18.jpg';
+// import Day11Pic19 from './Day11Pic19.jpg';
+// import Day11Pic20 from './Day11Pic20.jpg';
+// import Day11Pic21 from './Day11Pic21.jpg';
+// import Day11Pic22 from './Day11Pic22.jpg';
+// import Day11Pic23 from './Day11Pic23.jpg';
+// import Day11Pic24 from './Day11Pic24.jpg';
+// import Day11Pic25 from './Day11Pic25.jpg';
 
 export default function Mexico(props) {
     const [day1, setDay1] = useState(false);
@@ -101,23 +293,33 @@ export default function Mexico(props) {
                             <p>The Mayans are a fascinating culture all in all, and the grand architecture is only the tip of the iceberg. They had a devotion to their gods that would put the Abbasid Caliphate to shame and a dedicated culture of bathing, grooming, and self-improvement. Just as they're at the bottom end of Mexico, they're at the bottom end of the map of major Pre-Columbian civilisations. Tribes above Mexico (ie Apaches, Navajo and the like) and beneath (like the Lenca and the Taino over in Cuba) have nothing really in common with this advanced group of civilisations, and there are a few reasons behind that - you've got resources, for example, like plentiful stone to build cities. But the major contender is land suitable to transition from hunter-gathering to farming, and that always kinda brings civilisation with it.</p>
                             <p>We were going to have breakfast first though, and headed out to the grand dining room and poolside area. It was early and we were the only people there. We had a couple of cups of coffee each, and while Steph had fruits, I was initially pushing to something a bit more familiar and pedestrian, if only to avoid accidentally eating something mega-spicy before spending the day on a coach sans-toilet.</p>
                             <p>After some prompting from Steph and a chili check, I went for what was definitely going to be one of the breakfast highlights of the trip, Chilaquiles. It's pronounced <i>cheela-keelays</i>, which is a lot of fun to say, and it's got salsa, tortillas, avocado, cream, and onions. It was delicious and nowhere near spicy enough to pose a problem, so I wolfed it down and we headed down the road.</p>
+                            <img src={Day1Pic1} alt="day1" className="landscapePicture" />
                             <p>We bought some water from a bodega and I bought one thing that I'd completely forgotten - some flip flops for both the beach and for the dirtier hotel rooms. We caught the coach at the nearby bus stop and set off, ready to start our adventure out of Cancun.</p>
+                            <img src={Day1Pic2} alt="day1" className="landscapePicture" />
                             <p>The Yucatan countryside is very distinct from what we're used to. It's very lush, forest verging on jungle, and apart from the road you can really get a sense of how this place would have looked a thousand years before being seen by European eyes. Our guide, a wiry older man who looked a bit like Ciar&aacute;n Hinds, gave us some fascinating facts about the Mayan pantheon, calendar, and hieroglyphs. It was a couple of hours to our first stop, the cenotes. Cenotes are these large underground lakes that you can swim in, and we'd be having our lunch and a tequila tasting in the same area. We did the tequila tasting first, and gathered around a small cabana where a large number of tequilas were laid out. The tasting guide gave an overview of the history and distillation of tequila, and also gave us some knowledge that would ruin tequila in the UK for us going forward: That only lesser tequila was generally exported, and that the reason we see tequila as a 'burning' drink is because the stuff that hits foreign shores is generally only good enough for shots nor mixers. The only burnless, sippable tequila is only available on the domestic market.</p>
+                            <img src={Day1Pic3} alt="day1" className="landscapePicture" />
                             <p>Of course, he was a salesman first and foremost, but I'd be lying if I said that the tequila I'd had before coming to Mexico was half as good as what we had over there. He was also a no-nonsense sort of guy, and an inconsiderate couple who'd been talking amongst themselves quickly found themselves on the receiving end of his ire. We listened politely, Steph intently and me doing the whole overeager active listening thing that always seems to get any speaker to look my way. We tried a couple of pure, aged tequilas which were delicious, but also tried some tequilas with chocolate, marzipan and some other surprising favourites. We thought about buying, but reasoned that we'd have lots of opportunities to buy and didn't want to carry a bottle around.</p>
                             <p>We went for lunch after and had delicious, flavoursome tacos, the first of many of the trip. There was a taco bar and we loaded up our plates. Steph stuck to the tacos while I also went to the buffet and had some delicious empanadas. After lunch, we headed over to the cenotes. At first, we thought we thought in filling our bellies we'd lost ourselves all but twenty minutes' swimming before we had to move on, but we realised that despite still being in the Yucatan and only around two hours out from Cancun, we'd somehow gone back an hour. It's like London and Birmingham being on two different timezones - though in all fairness that wouldn't be a bad thing.</p>
                             <p>We changed into our bathing stuff and headed down to the cenote. We had to wear a life jacket because due to the depth and other environmental factors, there's no buoyancy, so unless you're doggy-paddling with some gusto, you're going to sync. The water was lovely and cold, perfect after lunch in the sun. There was a wooden diving platform too, and while I didn't have the cajones to do a full blown dive into that water, it was a big enough jump in that I felt myself freefalling through the air for a couple of seconds.</p>
                             <p>We got back to our shoes and towels only to discover that, bizarrely, someone had tried Steph's sandals on. We were weirded out by that but we got to the lockers, changed, and headed back onto the bus.</p>
+                            <img src={Day1Pic4} alt="day1" className="landscapePicture" />
                             <p>Our next stop was Valladolid, and unlike Cancun, this is a real life Mexican city. Well, it's more like a large town, but it's very pretty and picturesque, with a leafy park that forms the main square. In the same city center there's a large, crumbling cathedral that dates back to the first hundred years of New Spain. There's also several picturesque bodegas and places to eat, and we helped ourselves to a delicious tamarind slushie. We only had around half an hour here, but we used it well.</p>
+                            <img src={Day1Pic5} alt="day1" className="landscapePicture" />
                             <p>It was three quarters of an hour to our primary destination - Chich&eacute;n Itz&aacute;. As we drove through Valladolid and the surrounding countryside, our guide told us more about the social division in the Yucatan between those of primarily Mayan or Spanish DNA, including all sorts of caste terms depending on how much of each side's DNA you had - naturally and unfortunately with Spanish DNA being on top. Castes like Peninsulares (born in Spain) and Criollos (their direct descendants) have historically lorded it over castes like the Mestizos (half indigenous) and Mulatos (half African). While the caste system is nowhere near as enforced today, there are apparently very exclusionist Spanish enclaves in Yucatan and other parts of Mexico that exclude others from their chuches and neighbourhoods. Of course, if you know much about the slave trade up in the USA, you'll know that they had the same stupid, racist caste distinctions, but they were less a hierarchical pyramid and more of a bar checking whether you could be a slave or not. If you're ever watching a period drama and you hear words like 'octoroon', you'll understand it's broadly the same thing.</p>
+                            <img src={Day1Pic6} alt="day1" className="landscapePicture" />
                             <p>We arrived and made our way through a small complex where the vendors were very eager to sell hats to counteract the lack of sun cover in the main compound. Within ten minutes of ticket processing we were through, where we were met by a local tour guide. He was a proud Mayan, and his ancestors probably worked very hard to keep Spanish DNA out of their bloodline, which during the formative years of New Spain was more a matter of personal defense than simple partner choice. He took us into the main compound and there it was, bang ahead of us - the temple that everyone - myself included before I visited - thinks is Chich&eacute;n Itz&aacute; itself. In actual fact, it's the Temple of Kukulcan and Chich&eacute;n Itz&aacute; is the city itself, but that's not what you're thinking when you see it.</p>
+                            <img src={Day1Pic7} alt="day1" className="landscapePicture" />
                             <p>It's very easy to be taken in by the grandeur of it. It's huge, first and foremost, and made with an ordered craftmanship that matches anything you'll see in Giza. But of course, like everything we saw, it's not a pyramid; pyramids are built as a tomb. It's a temple to living gods, not to mention the home of the high priest. You used to be able to climb up it, but then a couple of things happened: People started to chip away at the temple with their pocket knives (the scum) and a Canadian woman fell to her death from the top. It would have been amazing to see the jungle from up there, but it's not particularly safe, and we'd much prefer that the temple stands undamaged for another millennium so that countless more people can see it and keep the Mayan culture alive than get a nice photo op.</p>
+                            <img src={Day1Pic8} alt="day1" className="landscapePicture" />
                             <p>He next took us to the ballcourt, and here's where my only pre-existing knowledge comes in. You see, the Mayans played an early version of basketball, with a large stone ring being a sort of vertical hoop either side. You're able to use any part of your body - feet, knees, elbows, hips, and more - to bounce the ball to your team mates, and eventually, to your teammate on the raised platform on your side so they can go for a throw to the hoop. Pretty simple, but there's a lot more to it than that. You see, at the end of the game, one of the teams gets sacrificed. I'd assumed based on my prior reading that it was always the losing team, which seemed to make sense to me - I think football would be a lot more interesting if each team knew they faced being chopped to bits if they lost. But the truth is that in many cases, it was the winners that were sacrified.</p>
+                            <img src={Day1Pic9} alt="day1" className="landscapePicture" />                            
                             <p>You might be thinking that if you were playing any sort of sport where winning you would give you a painful death, you'd do your utmost to throw the game like Marcellus Wallace was waiting outside our locker room. But the truth is, being sacrificed to the gods was in many instances a huge honour, and a way to avoid a one-way ticket to the underworld. You see, despite being from two different continents and living aeons apart, the Aztecs and Mayans had a very similar afterlife concept to the Norse. In Norse myth, you are sent to Valhalla if you die honourably in battle, but you went to the underworld if you died of old age. It's very similar in Aztec and Mayan religion; the only differences being that you can equally get into the best afterlife by being a worthy sacrifice, and your host; in Norse tradition you're going to be spending some time with Hel, the beautiful and gothic goddess of the underworld, but in Aztec myth you're under the thumb of Mictlantecuhtli who is a terrifying skeletal figure whose liver hangs nauseatingly from the bottom of his spinal chord.</p>
                             <p>So if you're a Mayan noble, you can expect to get sacrificed in the event of a win, but if you're a prisoner of war, losing will see you on the chopping block. The ballgames are fascinating, and what's amazing is that the tradition (minus the bloody aftermath) has been restarted by dedicated ballplayers in the last couple of years. Whatever you can say about the Mayan culture, with its limitless brutality, strong social inequality and more, it didn't deserve obliteration at the hands of Cortes, Coronados and their ilk, and it's great to see it still be celebrated.</p>
                             <p>We explored the complex, seeing all sorts of residences and fascinating smaller temples. Our new guide gave us all the key information before letting us explore freely. By the time it was time to go we'd seen every inch of the place, and had bought a couple of souvenirs from the vendors that were everywhere here.</p>
                             <p>We napped on the coach back to Cancun, then asked the driver to drop us off in the middle of the tourist zone rather than going straight to the bus stop. We were hungry. We'd booked into a seafood restaurant but were already late - but luckily the place seemed to be empty. It was right in the middle of the party zone, and we got our first look at the place we'd be going to on our last night; Cocobongo, the famous Cancun nightclub. The music was absolutely pounding, and we were glad that it got slightly cut off by the glass doors into the seafood place.</p>
                             <p>We were very interested in the ceviche, which is very famous in Mexico and Latin America. If you're Steph and you're reading this, you can skip to the next paragraph, but if you're a friend or family member we've shared this with that doesn't know about it, ceviche is a way of enjoying seafood functionally raw; you cure it in lemon juice, which provides the absolute bare minimum of 'cooking' a dish and gets rid of the bacteria. It's delicious, fresh and flavoursome, and this place's variant was absolutely fantastic. But we tried something else here, and it would be something that we'd be enjoying a lot in Mexico; Micheladas.</p>
                             <p>Steph had heard about Micheladas in a Netflix show she'd watched about Mexican cuisine. They are an absolutely delicious beer cocktail that could reductively be described as a beer margarita. On the rim is a mix of tajin (a chili spice mix) and chamoy, a rich umami sauce very popular in Mexico. Mixed with the beer itself are all sorts of flavours; tamarind, soy sauce, Maggi sauce, Worcester sauce, or peppers. Its an absolutely delicious drink, and it's mixed with sweet or savoury snacks. We shared the ceviche and had a michelada each, which contained accompaniments like prawns and nuts. We were quite full by the end, and while the place had been deserted by the time we got in, it was very happening by the time we were done, with a band that we enjoyed listening to.</p>
+                            <img src={Day1Pic10} alt="day1" className="landscapePicture" />
                             <p>We walked around twenty minutes back to our hotel. Tomorrow, we'd be beginning a new chapter to our holiday; the resort. We'd go over in the morning and start ingratiating ourselves into resort life until we flew to Mexico City.</p>
                             <p>We got another easy night's sleep, thankfully unaffected by jetlag.</p>
                         </div>}
@@ -154,11 +356,17 @@ export default function Mexico(props) {
                             <p>One thing I noticed about CDMX airport is that it's insanely close to the city center. When you go to Gatwick or Heathrow, you get this feeling of being far away from central London, but in the case of Benito Juarez, it's basically a five minute cab ride away. We had a bit of initial awkwardness finding the right exit for the Uber but then we were set off, zipping through CDMX on a hot dusty day.</p>
                             <p>Within 20 minutes we were at our hotel, a place with a hostel vibe (an actual hostel, not the movie) but with a big enough room even if we were in two smallish, horizontal bunks separated by a wooden bar that took up all the space of an armrest. It had all the hallmarks of a city break hotel; very little pretense, bright, contrasting colours, and a very modernist shower.</p>
                             <p>Not that we knew the finer details of the room yet, because we'd arrived at half two and the woman on duty had informed us - curtly - that the room wasn't ready yet. We dropped off our suitcases then went exploring down the road. We'd had no food on the flight and were peckish, and it didn't take us long to find what we wanted - birria tacos.</p>
+                            <img src={Day4Header} alt="day1" className="landscapePicture" />
                             <p>Birria is a delicious broth that you have alongside equally-delicious tacos. You can pour the broth on top, you can dip the taco in; it's designed for customisable eating, and it's absolutely amazing. We found a couple of seats in a little restaurant the size of an off-license, eating with the locals and watching the world go by.</p>
+                            <img src={Day4Pic1} alt="day1" className="landscapePicture" />                         
                             <p>We finished, checked in, and had a quick unpack before opting for a walk. We were going to the Medellin Market, which has nothing to do with Pablo Escobar or his choice of merchandise and everything to do with the freshest produce you can get in the city. Chefs all over the city shop there, and if there's anything food-wise you can't get there, it's probably not worth getting.</p>
+                            <img src={Day4Pic2} alt="day1" className="landscapePicture" />      
                             <p>It was around a twenty minute walk to Medellin, and we took it easy, checking out the city center as we went. There was a large cross-section of chilis we wanted to buy so we could prepare birria and everything else we wanted back home, but there was a lot more that was on the shopping list and that Steph was very eager to get her chef's hands on. Chief among them were guajillo chilis, and I'm glad that we asked the right person about it. They didn't have them, but they directed us to the perfect market stall, and its stallholder Carlos.</p>
+                            <img src={Day4Pic3} alt="day1" className="landscapePicture" />                            
                             <p>Carlos was the perfect person to help a couple of tourists who wanted everything. He spoke great English and was a born salesman. Normally when you say that about someone it calls to mind a snake-oil salesman that you can't trust as far as you can throw. But he's that other kind, that honest trader who genuinely loves what they do and gets some sort of genuine buzz from matching customers to what they need that salary workers in our dull apathy couldn't hope to understand. He was quick to listen to whatever we needed, including samples, and the best part was that he gives his Whatsapp number out so that people can ask him for his advice on the recipes he buys the ingredients for!</p>
+                            <img src={Day4Pic4} alt="day1" className="landscapePicture" />                            
                             <p>He also gave us the opportunity to try <i>chapulines</i>, ie grasshoppers. We'd read beforehand that insects are quite a big part of Mexican street food cuisine, but save for some insect pasta we hadn't had any insects before. It was tasty - a bit of an odd sensation, but they'd spiced it right, and it's not really much different to eating mammal meat.</p>
+                            <img src={Day4Pic5} alt="day1" className="landscapePicture" />      
                             <p>What's more, the prices were so much lower than what we thought that I can't think of any of it that we could have haggled on in any sort of conscience. We tipped him in the end; it was the least we could do for such amazing service. We walked through the streets of downtown CDMX in the early evening sun, wanting to check out the nightlife. Our walk took us to a gorgeously colonial part of Doctores just north of where we were staying in Roma Sur. We found a cool-looking place called Bar Las Brujas - the Witch Bar. It was an extremely happening place. The best part of it was that the cocktail menu was in the form of a comic book all about women in the Americas who have either practiced witchcraft or been accused of it, and who'd done interesting things. I knew one of these - Marie Laveau, the voodoo queen of New Orleans. We had a few of these lovely cocktails as well as snacks, but we weren't hungry enough for a proper dinner. We headed back to our horizontal bunks and got some sleep.</p>
                         </div>}
 
@@ -171,19 +379,33 @@ export default function Mexico(props) {
                         {day5 && <div className="days" id="day5">
                             <p>We woke up bright and early at just after 7. We had to get up, grab some early breakfast, and head out to the town center, where we'd be meeting the bus for today's excursion. Today, we were going to see a few highlights we'd wanted to check out all in one. There was the Casa Azul, the home and studio of the artist Frida Kahlo and her husband, Diego Rivera. There was the Mexico City University Campus, a brutalist classic full of murals by Rivera and other key artists. And there was Xochimilco, the series of canals that intersect the city and that feature colourful barges doing the equivalent of what Cambridge students do when they operate punts.</p>
                             <p>We left at 8am, taking a 15 minute walk to the MIGA cafe between our Roma Norte and Juarez (the neighbourhood, not the violent northern city) where we were meeting our bus. From the excursion to Chich&eacute;n Itz&aacute; we assumed there'd be like twenty other people, but the absolute mob we were greeted with was quite striking. There must have been a hundred people there, and we were in the back of the line. We were divided between two buses, and we found it impossible to get seats together. Steph was seated next to a cheerful, friendly slightly older Mexican woman, and I was sat next to Hugo.</p>
+                            <img src={Day5Pic1} alt="day1" className="landscapePicture" />      
                             <p>Hugo was Argentinian, and a very interesting guy, but an odd duck. We didn't speak straight away, more of a nod, and I wouldn't learn his name until the afternoon. He used to make all sorts of strange noises as the bus drove along; throat-clears, grunts, and various unpleasant noises. He also tended to run cold, putting a jumper on and turning both of our air con nozzles off before I politely turned mine back on and angled it more in my direction. But I'd come to learn that he was a good guy and I'd enjoy his company greatly later on.</p>
+                            <img src={Day5Pic2} alt="day1" className="landscapePicture" />      
                             <p>Our first stop was the town center of Coyocan, the upscale neighbourhood in CDMX where Frida Kahlo lived and spent her formative years. It's an artsy, colonial neighbourhood, harking right back to the 'glory' days of New Spain. We went to a churro place that was one of the oldest establishments of its kind in the city, and from the classical courtyard in muted cream colours, it showed. We ordered a bunch of churros in chocolate sauce, the classic recipe, and devoured them happily outside.</p>
+                            <img src={Day5Pic3} alt="day1" className="landscapePicture" />      
                             <p>We explored around slightly, but didn't have long. We met in the main plaza of Coyocan and walked the short distance to the Casa Azul, or the Blue House: Frida and Diego's primarly residence.</p>
+                            <img src={Day5Pic4} alt="day1" className="landscapePicture" />      
                             <p>Now, I'm not ashamed to admit it: if it wasn't for the Salma Hayek film, I'd never have known about Frida Kahlo, and we wouldn't have given the Casa Azul as much prominence - to our detriment. The attendance figures before and after the film back this up too.</p>
+                            <img src={Day5Pic6} alt="day1" className="landscapePicture" />      
                             <p>As soon as we saw the house, we saw where it got its name. The house is a deep, dark shade of navy that looks almost cartoonish when contrasted with the muted pastels of its colonial neighbours. It's a large house, a whole compound in of itself. The queue was short and we stepped into a bright, flowery courtyard with a concrete reproduction of a Aztec temple and the main house occupying half of the overall compound. We went through the house, seeing prints made by the artist as well as information snippets on her life.</p>
+                            <img src={Day5Pic7} alt="day1" className="landscapePicture" />      
                             <p>Museums devoted to artists don't always have the most glowing things to say about their subjects. The Van Gogh museum in Amsterdam, for instance, may as well have hung a sign above the entrance saying &quot;this guy was a leech&quot; withe amount of attention they paid to the fact that he mooched off of the people in his life. But the Casa Azul speaks of Frida Kahlo and Diego Rivera with a sort of sweet sentimentality that really makes you think positively of the life they shared together and the impact of their art. It also totally steamrolls through the parts of their relationship that were less savoury, like the 21 year age gap.</p>
+                            <img src={Day5Pic10} alt="day1" className="landscapePicture" />      
                             <p>We found out lots of details of Frida's life, like the tram accident that gave her lifelong injuries at sixteen (the poor girl had her <i>uterus</i> pierced by a steel bar) and the couple's fascinating circle of international friends. We saw the house's kitchen, several reception rooms, and their bedrooms. But it wasn't until we got to the top floor, a sort of archive and study, that we saw her ashes contained within a bizarre urn. We'd never seen a museum to a person that features their ashes before. We got outside and saw a video showing some footage of the couple, and I noticed a familiar face - Leon Trotsky.</p>
+                            <img src={Day5Pic11} alt="day1" className="landscapePicture" />      
                             <p>As I've explained to Steph before, my historical brain isn't an endless fountain of knowledge. I'm not one of those guys who can endlessly reel off facts in general conversation and who starts off sentences with &quot;Well, in the immortal words of Pliny the Elder&quot;. My knowledge - and I'll be stuck up and say it's pretty deep - is like a long room full of tiny lockboxes. If you unlock the box, the contents will spill out in a barely-articulated machine gun fire of pure autism, but otherwise, it'll stay firmly locked up.</p>
+                            <img src={Day5Pic12} alt="day1" className="landscapePicture" />      
                             <p>So Leon Trotsky's life in Mexico was a lockbox that the video had just opened. I've always had an interest in Trotsky. He was one of Lenin's top proteges during the Bolshevik era and one of the best ideological thinkers the party had. But he messed up one major job that Lenin had assigned to him - stop Stalin seizing power. Stalin steamrolled him and took the top slot, sending Leon running to Mexico. For years he lived in Mexico City, hobnobbing with the intellectual elite - Frida and Diego, it seems, included! Then, a KGB asset in Mexico put an icepick through his head.</p>
+                            <img src={Day5Pic13} alt="day1" className="landscapePicture" />      
                             <p>I found out that Leon Trotsky's house was only about twenty minutes walk away - and that's one thing I would have loved to see if we weren't on an excursion. But we moved on. Our next stop was the National Autonomous University of Mexico campus, with vast, sweeping murals done by Diego Rivera and other artists. It's a superbly brutalist but not in the purely functional way that I hate.</p>
+                            <img src={Day5Header} alt="day1" className="landscapePicture" />      
                             <p>The most impressive mural wasn't by the disturbingly Nabokovian Rivera, however. It was <i>Representaci&oacute;n Hist&oacute;rica de la Cultura</i> by Juan O'Gorman. This huge mural essentially covers all four sides of a major campus building, and depicts the entirety of Mexican history, from the pre-Columbian period, through to the conquests of Cortes, Coronados and their ilk, through to the many formative years of New Spain then the new Mexican Empire and after. It's very impressive, both in the artistry and the sheer scale</p>
+                            <img src={Day5Pic16} alt="day1" className="landscapePicture" />      
                             <p>The campus itself was impressive. Students were debating, sketching still lifes, and doing spoken word. We headed back to the bus and went on to our major destination: Xochimilco. This is the part of CDMX that is the leftover from when CDMX used to be a set of lakes. The neighbourhood is intersected with canals and floats that operate in the exact same way punts in Cambridge do, except they have bright colours that make their float stand out. These are neonish colours that look like a cross between the Ultimate Warrior's wrestling costume and the film <i>Batman Forever</i>.</p>
+                            <img src={Day5Pic17} alt="day1" className="landscapePicture" />      
                             <p>We started drinking fairly early on; the canal has plenty of boat-based Michelada sellers. An American couple on the other side helped us order and soon we were chatting away about the only thing that is guaranteed to keep the conversation flowing on what is essentially a drinking expedition; talking about other famous drinking stories we've had. Of course, the conversation progressed and soon we were talking about - of all things - DB Cooper, which of course prompted me to go into the 'Tommy Wiseau is DB Cooper' theory I've heard a few times. We probably spent an hour talking to them both on the boat and in the little stopping area in the middle.</p>
+                            <img src={Day5Pic18} alt="day1" className="landscapePicture" />      
                             <p>But they were sitting in a different part of the coach, and more to the point, Hugo was now feeling chatty. He told me about his trip so far and I told him about ours. He was keen to talk politics and history but I don't know much about Argentinian history except for Galtieri, and that's not a topic a Brit typically talks to an Argentinan about. He'd spent some time in Chile, and I'd noticed that the Casa Azul was on Allende Avenue, so I talked about Salvador Allende and that seemed to keep the conversation going.</p>
                             <p>We got off the bus and headed for a bite to eat. We headed to the Cantina la Riviera de Sur in Roma Norte. I had Tacos Chomoros, ie flavoured with chamoy, and Steph had lime soup. It was getting late so we took an Uber back and crashed out.</p>
 
@@ -196,10 +418,16 @@ export default function Mexico(props) {
 
                         {day6 && <div className="days" id="day6">
                             <p>Day Nine was a classic Neil and Steph city break. No excursions, no laying on a beach, just us and the best food, museums and culture the city had to offer. We grabbed a quick breakfast and headed out, getting an Uber over to our first stop, Chapultepec Castle.</p>
+                            <img src={Day6Header} alt="day1" className="landscapePicture" />      
                             <p>Chapultepec is a large hill and nature area on the edge of the city, and it's where many of the major tourist attractions are. The castle is a large, European-style palace with amazing views of the surrounding city.</p>
+                            <img src={Day6Pic1} alt="day1" className="landscapePicture" />      
                             <p>Chapultepec was designed for, and partially by, Maximilian I, Emperor of Mexico for a very short time in the 1860s. And therein lies a tale. You see, after the Mexicans threw the Spanish out they got a touch of the imperial fever, going against the idea of setting up a Bolivar-style republic and setting up a European-style monarchy in its place. That gave way to a republic after a short time, and stayed that way until the 1860s, when the new republic got into financial trouble and decided they weren't fussed about paying their debts to France and other European powers. </p>
+                            <img src={Day6Pic2} alt="day1" className="landscapePicture" />      
                             <p>France, under Napoleon's nephew, decided that a clear and rational course of action would be an invasion and a forced reinstatement of the Mexican monarchy. Only this time, they didn't have a Mexican in mind. They were looking for a European who could be their puppet as they kept a tight grip on the country; colonialism in practice but not name.</p>
+                            <img src={Day6Pic3} alt="day1" className="landscapePicture" />      
                             <p>They decided on Maximilian, a Habsurg archduke, who probably couldn't have been a worse choice. He didn't speak a word of Spanish. He was used to the chilly Austrian climate. And he knew nothing about Mexico, its culture or its people. The republican factio led by the deposed president had no trouble gaining popular support against him, and within three years he was ousted and executed.</p>
+                            <img src={Day6Pic4} alt="day1" className="landscapePicture" />      
+                            
                             <p>Chapultepec, naturally, outlasted him. It's now a heritage site featuring a museum about Mexican history. We made a rough trek up the hill, the sun already blazing overhead, and stood in a short queue. We got inside to the beautiful main courtyard featuring peaceful gardens, also featuring a commanding view.</p>
                             <p>The museum was very informative and traced a gradual path throughout the history of New Spain and thereafter. We started off with a set of murals; Aztec imagery, revolutionary leaders such as Pancho Villa, Emiliano Zapata, and various moments in history.</p>
                             <p>The best of these was a huge mural of Mexico City of the 1700s across a large wooden screen. It was amazing in its scale and intricate detail, both in the city streets and the surrounding canals.</p>
