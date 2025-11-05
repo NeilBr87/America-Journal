@@ -36,162 +36,62 @@ import Day6Pic1 from './Day6Pic1.jpg';
 import Day6Pic2 from './Day6Pic2.jpg';
 import Day6Pic3 from './Day6Pic3.jpg';
 import Day6Pic4 from './Day6Pic4.jpg';
-// import Day6Pic5 from './Day6Pic5.jpg';
-// import Day6Pic6 from './Day6Pic6.jpg';
-// import Day6Pic7 from './Day6Pic7.jpg';
-// import Day6Pic8 from './Day6Pic8.jpg';
-// import Day6Pic9 from './Day6Pic9.jpg';
-// import Day6Pic10 from './Day6Pic10.jpg';
-// import Day6Pic11 from './Day6Pic11.jpg';
-// import Day6Pic12 from './Day6Pic12.jpg';
-// import Day6Pic13 from './Day6Pic13.jpg';
-// import Day6Pic14 from './Day6Pic14.jpg';
-// import Day6Pic15 from './Day6Pic15.jpg';
-// import Day6Pic16 from './Day6Pic16.jpg';
-// import Day6Pic17 from './Day6Pic17.jpg';
-// import Day6Pic18 from './Day6Pic18.jpg';
-// import Day6Pic19 from './Day6Pic19.jpg';
-// import Day6Pic20 from './Day6Pic20.jpg';
-// import Day6Pic21 from './Day6Pic21.jpg';
-// import Day6Pic22 from './Day6Pic22.jpg';
-// import Day6Pic23 from './Day6Pic23.jpg';
-// import Day6Pic24 from './Day6Pic24.jpg';
-// import Day6Pic25 from './Day6Pic25.jpg';
+import Day6Pic5 from './Day6Pic5.jpg';
+import Day6Pic6 from './Day6Pic6.jpg';
+import Day6Pic10 from './Day6Pic10.jpg';
+import Day6Pic11 from './Day6Pic11.jpg';
+import Day6Pic18 from './Day6Pic18.jpg';
+import Day6Pic21 from './Day6Pic21.jpg';
+import Day6Pic22 from './Day6Pic22.jpg';
+import Day6Pic24 from './Day6Pic24.jpg';
+import Day6Pic25 from './Day6Pic25.jpg';
+import Day6Pic26 from './Day6Pic26.jpg'; 
 
-// import Day7Header from './Day7Header.jpg';
-// import Day7Pic1 from './Day7Pic1.jpg';
-// import Day7Pic2 from './Day7Pic2.jpg';
-// import Day7Pic3 from './Day7Pic3.jpg';
-// import Day7Pic4 from './Day7Pic4.jpg';
-// import Day7Pic5 from './Day7Pic5.jpg';
-// import Day7Pic6 from './Day7Pic6.jpg';
-// import Day7Pic7 from './Day7Pic7.jpg';
-// import Day7Pic8 from './Day7Pic8.jpg';
-// import Day7Pic9 from './Day7Pic9.jpg';
-// import Day7Pic10 from './Day7Pic10.jpg';
-// import Day7Pic11 from './Day7Pic11.jpg';
-// import Day7Pic12 from './Day7Pic12.jpg';
-// import Day7Pic13 from './Day7Pic13.jpg';
-// import Day7Pic14 from './Day7Pic14.jpg';
-// import Day7Pic15 from './Day7Pic15.jpg';
-// import Day7Pic16 from './Day7Pic16.jpg';
-// import Day7Pic17 from './Day7Pic17.jpg';
-// import Day7Pic18 from './Day7Pic18.jpg';
-// import Day7Pic19 from './Day7Pic19.jpg';
-// import Day7Pic20 from './Day7Pic20.jpg';
-// import Day7Pic21 from './Day7Pic21.jpg';
-// import Day7Pic22 from './Day7Pic22.jpg';
-// import Day7Pic23 from './Day7Pic23.jpg';
-// import Day7Pic24 from './Day7Pic24.jpg';
-// import Day7Pic25 from './Day7Pic25.jpg';
+import Day7Pic1 from './Day7Pic1.jpg';
+import Day7Pic2 from './Day7Pic2.jpg';
+import Day7Pic3 from './Day7Pic3.jpg';
+import Day7Pic4 from './Day7Pic4.jpg';
+import Day7Pic5 from './Day7Pic5.jpg';
+import Day7Pic6 from './Day7Pic6.jpg';
+import Day7Pic7 from './Day7Pic7.jpg';
+import Day7Pic8 from './Day7Pic8.jpg';
+import Day7Pic9 from './Day7Pic9.jpg';
+import Day7Pic11 from './Day7Pic11.jpg';
 
-// import Day8Header from './Day8Header.jpg';
-// import Day8Pic1 from './Day8Pic1.jpg';
-// import Day8Pic2 from './Day8Pic2.jpg';
-// import Day8Pic3 from './Day8Pic3.jpg';
-// import Day8Pic4 from './Day8Pic4.jpg';
-// import Day8Pic5 from './Day8Pic5.jpg';
-// import Day8Pic6 from './Day8Pic6.jpg';
-// import Day8Pic7 from './Day8Pic7.jpg';
-// import Day8Pic8 from './Day8Pic8.jpg';
-// import Day8Pic9 from './Day8Pic9.jpg';
-// import Day8Pic10 from './Day8Pic10.jpg';
-// import Day8Pic11 from './Day8Pic11.jpg';
-// import Day8Pic12 from './Day8Pic12.jpg';
-// import Day8Pic13 from './Day8Pic13.jpg';
-// import Day8Pic14 from './Day8Pic14.jpg';
-// import Day8Pic15 from './Day8Pic15.jpg';
-// import Day8Pic16 from './Day8Pic16.jpg';
-// import Day8Pic17 from './Day8Pic17.jpg';
-// import Day8Pic18 from './Day8Pic18.jpg';
-// import Day8Pic19 from './Day8Pic19.jpg';
-// import Day8Pic20 from './Day8Pic20.jpg';
-// import Day8Pic21 from './Day8Pic21.jpg';
-// import Day8Pic22 from './Day8Pic22.jpg';
-// import Day8Pic23 from './Day8Pic23.jpg';
-// import Day8Pic24 from './Day8Pic24.jpg';
-// import Day8Pic25 from './Day8Pic25.jpg';
+import Day8Pic1 from './Day8Pic1.jpg';
+import Day8Pic2 from './Day8Pic2.jpg';
+import Day8Pic3 from './Day8Pic3.jpg';
+import Day8Pic5 from './Day8Pic5.jpg';
+import Day8Pic9 from './Day8Pic9.jpg';
+import Day8Pic11 from './Day8Pic11.jpg';
+import Day8Pic12 from './Day8Pic12.jpg';
+import Day8Pic13 from './Day8Pic13.jpg';
+import Day8Pic14 from './Day8Pic14.jpg';
+import Day8Pic15 from './Day8Pic15.jpg';
+import Day8Pic16 from './Day8Pic16.jpg';
 
-// import Day9Header from './Day9Header.jpg';
-// import Day9Pic1 from './Day9Pic1.jpg';
-// import Day9Pic2 from './Day9Pic2.jpg';
-// import Day9Pic3 from './Day9Pic3.jpg';
-// import Day9Pic4 from './Day9Pic4.jpg';
-// import Day9Pic5 from './Day9Pic5.jpg';
-// import Day9Pic6 from './Day9Pic6.jpg';
-// import Day9Pic7 from './Day9Pic7.jpg';
-// import Day9Pic8 from './Day9Pic8.jpg';
-// import Day9Pic9 from './Day9Pic9.jpg';
-// import Day9Pic10 from './Day9Pic10.jpg';
-// import Day9Pic11 from './Day9Pic11.jpg';
-// import Day9Pic12 from './Day9Pic12.jpg';
-// import Day9Pic13 from './Day9Pic13.jpg';
-// import Day9Pic14 from './Day9Pic14.jpg';
-// import Day9Pic15 from './Day9Pic15.jpg';
-// import Day9Pic16 from './Day9Pic16.jpg';
-// import Day9Pic17 from './Day9Pic17.jpg';
-// import Day9Pic18 from './Day9Pic18.jpg';
-// import Day9Pic19 from './Day9Pic19.jpg';
-// import Day9Pic20 from './Day9Pic20.jpg';
-// import Day9Pic21 from './Day9Pic21.jpg';
-// import Day9Pic22 from './Day9Pic22.jpg';
-// import Day9Pic23 from './Day9Pic23.jpg';
-// import Day9Pic24 from './Day9Pic24.jpg';
-// import Day9Pic25 from './Day9Pic25.jpg';
+import Day9Pic1 from './Day9Pic1.jpg';
+import Day9Pic2 from './Day9Pic2.jpg';
+import Day9Pic3 from './Day9Pic3.jpg';
+import Day9Pic5 from './Day9Pic5.jpg';
+import Day9Pic6 from './Day9Pic6.jpg';
+import Day9Pic7 from './Day9Pic7.jpg';
+import Day9Pic12 from './Day9Pic12.jpg';
+import Day9Pic13 from './Day9Pic13.jpg';
+import Day9Pic14 from './Day9Pic14.jpg';
+import Day9Pic16 from './Day9Pic16.jpg';
+import Day9Pic17 from './Day9Pic17.jpg';
+import Day9Pic18 from './Day9Pic18.jpg';
+import Day9Pic19 from './Day9Pic19.jpg';
 
-// import Day10Header from './Day10Header.jpg';
-// import Day10Pic1 from './Day10Pic1.jpg';
-// import Day10Pic2 from './Day10Pic2.jpg';
-// import Day10Pic3 from './Day10Pic3.jpg';
-// import Day10Pic4 from './Day10Pic4.jpg';
-// import Day10Pic5 from './Day10Pic5.jpg';
-// import Day10Pic6 from './Day10Pic6.jpg';
-// import Day10Pic7 from './Day10Pic7.jpg';
-// import Day10Pic8 from './Day10Pic8.jpg';
-// import Day10Pic9 from './Day10Pic9.jpg';
-// import Day10Pic10 from './Day10Pic10.jpg';
-// import Day10Pic11 from './Day10Pic11.jpg';
-// import Day10Pic12 from './Day10Pic12.jpg';
-// import Day10Pic13 from './Day10Pic13.jpg';
-// import Day10Pic14 from './Day10Pic14.jpg';
-// import Day10Pic15 from './Day10Pic15.jpg';
-// import Day10Pic16 from './Day10Pic16.jpg';
-// import Day10Pic17 from './Day10Pic17.jpg';
-// import Day10Pic18 from './Day10Pic18.jpg';
-// import Day10Pic19 from './Day10Pic19.jpg';
-// import Day10Pic20 from './Day10Pic20.jpg';
-// import Day10Pic21 from './Day10Pic21.jpg';
-// import Day10Pic22 from './Day10Pic22.jpg';
-// import Day10Pic23 from './Day10Pic23.jpg';
-// import Day10Pic24 from './Day10Pic24.jpg';
-// import Day10Pic25 from './Day10Pic25.jpg';
+import Day10Header from './Day10Header.jpg';
+import Day10Pic1 from './Day10Pic1.jpg';
+import Day11Pic1 from './Day11Pic1.jpg';
 
-// import Day11Header from './Day11Header.jpg';
-// import Day11Pic1 from './Day11Pic1.jpg';
-// import Day11Pic2 from './Day11Pic2.jpg';
-// import Day11Pic3 from './Day11Pic3.jpg';
-// import Day11Pic4 from './Day11Pic4.jpg';
-// import Day11Pic5 from './Day11Pic5.jpg';
-// import Day11Pic6 from './Day11Pic6.jpg';
-// import Day11Pic7 from './Day11Pic7.jpg';
-// import Day11Pic8 from './Day11Pic8.jpg';
-// import Day11Pic9 from './Day11Pic9.jpg';
-// import Day11Pic10 from './Day11Pic10.jpg';
-// import Day11Pic11 from './Day11Pic11.jpg';
-// import Day11Pic12 from './Day11Pic12.jpg';
-// import Day11Pic13 from './Day11Pic13.jpg';
-// import Day11Pic14 from './Day11Pic14.jpg';
-// import Day11Pic15 from './Day11Pic15.jpg';
-// import Day11Pic16 from './Day11Pic16.jpg';
-// import Day11Pic17 from './Day11Pic17.jpg';
-// import Day11Pic18 from './Day11Pic18.jpg';
-// import Day11Pic19 from './Day11Pic19.jpg';
-// import Day11Pic20 from './Day11Pic20.jpg';
-// import Day11Pic21 from './Day11Pic21.jpg';
-// import Day11Pic22 from './Day11Pic22.jpg';
-// import Day11Pic23 from './Day11Pic23.jpg';
-// import Day11Pic24 from './Day11Pic24.jpg';
-// import Day11Pic25 from './Day11Pic25.jpg';
+import ResortPic1 from './ResortPic1.jpg';
+import ResortPic2 from './ResortPic2.jpg';
+import ResortPic3 from './ResortPic3.jpg';
+
 
 export default function Mexico(props) {
     const [day1, setDay1] = useState(false);
@@ -334,10 +234,13 @@ export default function Mexico(props) {
                             <p>I can take a sort of sense of pride in these journals in that, even in our downtime, we've given every day its own entry. Of course, that's not to say that every day we've been on holiday I've put into the journal; I know in my heart of hearts that I'll never write a journal now for Cuba, Italy, Norway, Iceland, Turkey, or Germany. But of the holidays that I've documented, even the days that had the most downtime have their own entry.</p>
                             <p>When it comes to our four days in the Royalton resort, I'm at a loss. I simply have to combine these days in order to have something to write about. Because or those four days, we lived the easiest life imaginable. We had the easiest schedule in the world; wake up at some indeterminate point before 10am, head to one of the fine restaurants for breakfast, head down to the beach, sunbathe, swim in the sea, drink cocktails, nap, shower, eat dinner, watch the entertainment, more cocktails, bed, rinse and repeat.</p>
                             <p>We kept fairly lubricated throughout, but we were slightly wary because of the first afternoon. We'd failed to realise the effect the cocktails were having on us. Steph was definitely worse for wear, but I was absolutely catatonic, to the point that a wheelchair was offered when Steph went to be shown the room! I'd been chatting to a guy from Coventry who was staying at a nearby hostel but pretended to be a guest when I completely blacked out, and didn't wake up for several hours. It taught us to handle the free-flowing cocktails with caution, and apart from the last night, we finished each evening tipsy at best.</p>
+                            <img src={ResortPic1} alt="day1" className="landscapePicture" />
                             <p>The cocktails had an impressive range. We'd primarily dived into margaritas and other tequila cocktails, but they also made rum and other spirit cocktails. Food-wise, we were well--served; we had four restaurants to choose from, each delicious. There was a Mexican place, a buffet, a pan-Asian place, and a steakhouse. We went to each of of these across our four nights and defaulted to the buffet or the Mexican for breakfast.</p>
                             <p>Life was good. I did unfortunately get a bit ill, either as a result of the sunburn or the air conditioning. When it had happened in Japan the same time last year I'd considered it the height of unfairness, but this time I understood. Because for the last two years, prompted mainly by my company's annual leave, we'd gone away across the April bank holidays. And I believe fully that the reason I get ill is because I go straight to an extremely hot, humid country straight from winter and early spring, which in the UK averages out at fifteen degrees or less.</p>
+                            <img src={ResortPic2} alt="day1" className="landscapePicture" />
                             <p>So I get an unholy combination of a bad throat from the powerful aircon, fluey symptoms from sunburn, streaming eyes and nose from the pollen, and general malaise from the humidity. I also recognised a couple of random symptoms returning from Japan like loss of appetite and the shivers. It passes, but I don't think I'm the easiest to handle when I'm at my worst with it.</p>
                             <p>We kept mostly to ourselves in those few days, but we did speak to a few people. We got on well with Pablo, the guy at the towel stand, and our concierge Samara, though she's much more customer-focused so there may have been an element of 'working' us. Guest wise, there were only two sets of guests we chatted to for more than a few minutes. The first were English, and they'd been everything I'd feared when considering a resort holiday. They were from Luton, first and foremost, which is enough grounds for a restraining order in my book. The wife never stopped talking and the husband never started. They'd been at the resort for two weeks with only minimal trips to the outside world, a feat of inertia I wouldn't have thought possible outside of some species of barnacle. But this wasn't their worst crime against humanity; that came in the admission that they didn't even like Mexican food. What possessed them to come here as opposed to, say, Benidorm I don't know, but they were here and determined to chat to everyone misfortunate enough to make eye contact with them. The woman also said that Steph &quot;didn't look English&quot; but she immediately followed up by saying that &quot;neither did she&quot; as she was Bengali and Jewish. Could have fooled me - I would have gone with &quot;white but too much sun&quot;.</p>
+                            <img src={ResortPic3} alt="day1" className="landscapePicture" />
                             <p>The second group we met were much more our speed. They were Americans from Texas, and we bonded over music choices during a concert that was being played on the entertainment stage. They were a couple, Dan and Amanda, and their friend Chad. They were in their late forties and all worked in natural gas. Steph chatted to the couple and I chatted to Chad.</p>
                             <p>For some reason, whenever I chat to an American guy over drinks, he always ends up baring his soul to me. I remember the guy who took all of three minutes to tell me he was in Vegas to search the morgues for his drug-addict sister who he suspects came to the city to die. In Chad's case, he had a lot of self-loathing and lack of confidence issues, despite being a manager of a great team for a successful company. Tipsy enough to speak plainly, I gave him some general advice - you're too hard on yourself, Dunnings-Kruger is the curse of successful people, that sort of thing. He ate it up, acting like I was importing vital truths and seeming to brighten up considerably, and shaking my hand every two minutes. If I'm being slightly unfair, I'd say part of the reason my generic, untherapeutic advice ('you're doing great by those kids', 'you should be proud of your service', 'I'm sure your sister will turn up just fine') seems to go down like such as truth bomb is that Americans are much better at venting their problems than listening and giving advice.</p>
                             <p>We took the party to the rooftop where our friends had a cabana - these guys were not averse to additional expenditure. They ordered so many drinks, from Patr&oacute;n to goddamn Veuve Clicquot - whom we'd been lucky enough to visit back in Rennes - which was insane considering that regular drinks, including cocktails, were included. We got drunk and hung out in the cabana - I honestly can't remember what we talked about, but the thing I remember is that they are coming to London in a couple months and we may have definitely offered them a place to stay.</p>
@@ -427,19 +330,28 @@ export default function Mexico(props) {
                             <img src={Day6Pic3} alt="day1" className="landscapePicture" />      
                             <p>They decided on Maximilian, a Habsurg archduke, who probably couldn't have been a worse choice. He didn't speak a word of Spanish. He was used to the chilly Austrian climate. And he knew nothing about Mexico, its culture or its people. The republican factio led by the deposed president had no trouble gaining popular support against him, and within three years he was ousted and executed.</p>
                             <img src={Day6Pic4} alt="day1" className="landscapePicture" />      
-                            
                             <p>Chapultepec, naturally, outlasted him. It's now a heritage site featuring a museum about Mexican history. We made a rough trek up the hill, the sun already blazing overhead, and stood in a short queue. We got inside to the beautiful main courtyard featuring peaceful gardens, also featuring a commanding view.</p>
+                            <img src={Day6Pic5} alt="day1" className="landscapePicture" />      
                             <p>The museum was very informative and traced a gradual path throughout the history of New Spain and thereafter. We started off with a set of murals; Aztec imagery, revolutionary leaders such as Pancho Villa, Emiliano Zapata, and various moments in history.</p>
+                            <img src={Day6Pic6} alt="day1" className="landscapePicture" />                                  
                             <p>The best of these was a huge mural of Mexico City of the 1700s across a large wooden screen. It was amazing in its scale and intricate detail, both in the city streets and the surrounding canals.</p>
+                            <img src={Day6Pic18} alt="day1" className="landscapePicture" />                                 
                             <p>Another major highlight was the original 1824 Declaration of Independence, which I naturally enthused about quite a lot. That enthusiasm caught the attention of a couple of students from Veracruz who were curious about my interest. One thing I didn't pick up on is that (and Steph noticed that, so I'm not being bigheaded) they also had a bit of a crush.</p>
+                            <img src={Day6Pic21} alt="day1" className="landscapePicture" />           
                             <p>But I was happy to chat, and they introduced me to their tutor, who was an English tutor but a real Mexican history expert. He was a nice guy too, and on hearing that he knew his stuff, I decided I wanted to take advantage and ask a question. I'm proud of the question, too. I asked him why Mexico didn't follow the Bolivarian (I actually used the word) model after independence and form a republic. He told me - it's because of the conservative faction of the post-imperial period had a lot of power and didn't want a republic. We chatted for about half an hour, his students listening, interested. I feel bad though, as they missed the bulk of their tour as a result.</p>
+                            <img src={Day6Pic22} alt="day1" className="landscapePicture" />      
                             <p>So we slipped away and finished the four, then took a walk over to our next stop, the National Anthropology Museum. This is an absolutely unparalled collection of pre-Columbian artefacts, split among different cultures and eras. We saw the same students as we got inside, as well as their tutor once we got through, but we didn't want to bother them anymore.</p>
                             <p>Every department in the museum is all centered around the main atrium, which has an eyecatching water feature, a large central tower that creates a constant three-sixty waterfall. We navigated around, heading first to the Aztec section.</p>
                             <p>The Aztecs have always ben a bit of a blind spot for me history-wise, and what I did know, I now know to be mostly wrong. Like the Mayans, their culture is tremendously violent, true, but it was also vastly more advanced than its neighbours above and below Mexico. A great way to highlight that is two major exhibits of the section. The first is a reproduction of the main facade Temple of the Feathered Serpent at Teotihuacán. Now Teotihuacán wasn't built by the Aztecs, but the temple reconstruction is in very Aztec design, so I think the conclusion was that this was added during the Aztec occupation.</p>
+                            <img src={Day6Pic10} alt="day1" className="landscapePicture" />      
                             <p>It's an incredibly colourful, vibrant and well-constructed facade, and has these impressive murals of crocodiles and other animals. It's an extremely impressive structure, looking like something you'd expect to see in Ephasus or Pompeii.</p>
+                            <img src={Day6Pic11} alt="day1" className="landscapePicture" />      
                             <p>The other exhibit <i>is</i> fully Aztec in its construction, and it's one of the most famous structures in the world - the Aztec Sunstone. This is a huge - gargantian - rounded stone tablet, exquisitely carved with ornate patterns. It was primarily for worship, and based on what the information said I'm surprised that it wasn't painted red. You'd get Jaguar warriors dueling on top of it, with the loser's blood caking the thing. It was a very common sacrificial altar, but I imagine it would have been cleaned thoroughly inbetween.</p>
+                            <img src={Day6Pic24} alt="day1" className="landscapePicture" />      
                             <p>The Olmecs were next. The literal only thing I know about the Olmecs is that they carved giant heads, and I only know that because I remember the Simpsons episode where Mr Burns gets the family a giant Olmec head as a gift ("No Maggie, not Aztec, Olmec!"). Sure enough, the star attraction was a giant head, carved with impressive detail. It was very Easter Island-esque, and I can imagine that while the two cultures would never have met, they would have been used for the same purpose.</p>
+                            <img src={Day6Pic25} alt="day1" className="landscapePicture" />      
                             <p>The Mayan section was impressive too, and had its own temple, a grand, fully intact construction that looks both impressive and, frankly, foreboding.</p>
+                            <img src={Day6Pic26} alt="day1" className="landscapePicture" />      
                             <p>After a few hours, we'd done the bulk of the collection, and wanted to stop for lunch. We went to a food truck and got a couple of local sandwiches, before getting an Uber to our next stop, the Artesans' Market. The market is the best stop for art and handicrafts in the city. We explored the stalls, looking for some souvenirs for us and the family. We bought some amazing Aztec prints that were made on site; one for us and one for my mum, as well as a pipe for my dad, and a serving plate and cup for John and Michele.</p>
                             <p>It was early evening by this point, so we dropped the stuff off back in the room and headed out to eat. We found a place in Roma Norte with outside seating and a decent wine list. It also, interestingly, had insect tacos. We'd had grasshoppers back at the food market, but this was a step up. There was scorpion, (as in a whole scorpion in a taco) carpenter ants, and most nauseatingly, escamoles, which is buttered <i>ant larvae</i>. Any one of them would have been unique, but I wanted something at least I knew I liked, so I ordered the grasshopper tacos and Steph got a raw fish tacos. Steph didn't like hers and mine came absolutely loaded with grasshoppers, making it quite unpleasant to eat.</p>
                             <p>We drank some wine and took a quick walk back, ready for our next day of city exploration.</p>
@@ -456,15 +368,25 @@ export default function Mexico(props) {
                             <p>The Mercado de Sonora doesn't look anything like an occult market should look like. You expect something similar to Knockturn Alley from Harry Potter, with dark alcoves and sinister potions bubbling away in the darkness. In reality, it's a series of aluminiumn warehouses in a tight compound, each packed very tightly with different stalls.</p>
                             <p>We started and finished our exploration with a simple mistake; going to the animal part yet. There's a large animal market at Sonora. Some of them are sold for meat, others as pets, and others for sacrifice. Animal sacrifice sounds like such a pulp horror topic, but it's a major aspect of Santeria, a major Latin-American folk religion that has some commonalities with Voodoo. You'd never think based on life in the UK that animal sacrifices would be a key part of life in certain regions in 2025, but it's a serious business.</p>
                             <p>It reminded us of the meat market in Fez, with the exception that a higher number of animals were alive - but smelt otherwise. The smell, plus the clutter and general unsanitary feeling, was overpowering, and we got the hell out of there as soon as we could. Would I have wanted to go back and buy a voodoo doll or a spellbook? Sure. Would I have waded through another single row of the animal market in order to do so? No.</p>
+                            <img src={Day7Pic1} alt="day1" className="landscapePicture" />       
                             <p>There were, however, a number of gem stalls outside of the main market and we shopped for some gems for Michele with her on the line. We chose a medium-size handful of (artificial) gemstones both for Michele and for the house. </p>
+                            <img src={Day7Pic2} alt="day1" className="landscapePicture" />       
                             <p>Our next stop was one of CDMX's unmissable sites: the Templo Mayor, one of the only remaining traces of the original Aztec capital, Tenochtitlan, which lies where the modern city stands. Of course, as I mentioned before, CDMX used to be a series of lakes, and Tenochtitlan was very much a Venice-type city. The Templo Mayor (main temple) covers a large chunk of the city's historical quarter (or one historical quarter; the other being Chapultepec) and was visible from street level.</p>
+                            <img src={Day7Pic3} alt="day1" className="landscapePicture" />       
                             <p>The historical center was busy today; there was some sort of parade or festival going on, and the crowds were tightly penned in. We made our way through with some difficulty and queued up at the temple entrance, where you could still see a section of the temple itself. The Templo Mayor is visibly similar to the other temples we'd seen and would be seeing, with its thick square buttresses and distinctive sheer edges, but it had a much different construction setup. While they'd been made of smoothed stone, this had a much more igneous feel. It's made of these thick, reddish, possibly volcanic stones with some sort of white ceramic moulding. We got through and started exploring the temple grounds via a raised wooden platform that intercut the temple walls.</p>
+                            <img src={Day7Pic4} alt="day1" className="landscapePicture" />       
                             <p>It's impressive in both its size and its detail. While Chichen Itza is tall, Templo Mayor is wide, and looks more impressive for it. It's also a very unique place in terms of building. The temples of Tenochtitlan, and Teotihuacán too, started off relatively small and got made bigger along the way. How was this achieved, you might ask? Simple. By building over the initial shell no more than around a meter thicker each time. Each temple is like a nesting doll with several different layers built on top. Did they use the building materials from the inner layers to add to the outer layer? Nope. Nor was the actual interior temple particularly used for anything, as all the worship was commenced on the exterior platforms. It seems a novel, if wasteful, building method, and thanks to strategic gaps made in the temples, you could see the telltale signs of this process having taken place several times.</p>
+                            <img src={Day7Pic5} alt="day1" className="landscapePicture" />       
                             <p>We walked through the temple grounds and saw the various rooms (though they were rooms in the same way that the Sims rooms are when you delete the ceiling accidentally) that were part of it, from sacrificial halls to the priests' quarters. Once you get through the main temple you also get access to the Templo Mayor museum, which is much more expansive and has lots of different exhibitions.</p>
+                            <img src={Day7Pic6} alt="day1" className="landscapePicture" />       
                             <p>We saw some amazing exhibits, but the number one is the Coyolxauhqui Stone. It depicts the goddess Coyolxāuhqui and was used as a sacrificial stone similar to the Sunstone. There are also lots of statues, such as the aforementioned Mictlantecuhtli with his liver hanging from the bottom of his spinal chord and other Aztec gods, such as Quetzalcōātl. Quetzalcōātl is the Aztec wind god, but he's been worshipped through cross-cultural exchange all over Mesoamerica. </p>
+                            <img src={Day7Pic7} alt="day1" className="landscapePicture" />       
                             <p>We explored the rest of the collection and got out back into the heritage quarter. We had an excursion for this afternoon that I in particular was looking forward to: A Lucha Libre event. Lucha Libre is the colourful, masked form of high-flying wrestling that is phenomenally popular in Mexico. When I was into wrestling, my main knowledge of Lucha Libre came in the form of Ray Mysterio Junior, the man, the myth, the legend. And while I'd never watched it directly, I was definitely a big supporter of high-flying wrestling.</p>
+                            <img src={Day7Pic8} alt="day1" className="landscapePicture" />       
                             <p>Steph had known next to nothing about the sport and had little interest in wrestling, but was excited after reading into it more. We had a meet and greet with food with an actual luchador including complimentary beer and mezcal, the latter I was more interested in, before getting to see part of a show. We had a little bit of time so we headed up to a nearby rooftop terrace for a beer. CDMX is a city of rooftop terraces. It wasn't too dissimmilar to Fez and Marrakech, but while those tended to be more classic rooftops, the ones in CDMX are more modern and trendy.</p>
+                            <img src={Day7Pic9} alt="day1" className="landscapePicture" />       
                             <p>We had a beer that we got overcharged for while we got our bearings. The view was fascinating, including the cathedral and most of historic downtown. The crowds down on the ground were just as busy as before, and we checked our maps to ensure we were still making good time. We weren't. We were already running late and Steph was already requesting the Uber before we'd got our bags. We raced to the pickup then kept our eyes on the time as we weaved through traffic. When we got to the drop off site we were in full sprint mode and met the host at the back of the apartment building where the meet and greet was taking place.</p>
+                            
                             <p>She led us to the top, us out of breath and apologising profusely, and told us that we weren't the last to arrive. That couple did arrive shortly after, equally out of breath and shamefaced.</p>
                             <p>We were a curious lot up there on the terrace. It was a lovely rooftop garden with creeping vines and an excellent view, and a grand table in the center of the patio where we were sat. Our guide was a short woman that wore VO5 in the same way I do, slicking back short hair that was jet black. She had a huge passion for the sport and was a good host. Then there was an Indian-American family from Chicago and the couple that came afterwards, black Americans who were nice and friendly. Then there was a quiet, friendly guy that looked a bit like a younger Dave Matthews. Then there were the weirdos.</p>
                             <p>I separate out these excursioners because everyone I've described previously was cool and on the level. The weirdos were not. First there was Dave Matthews' girlfriend, an American woman with the most grating accent I've ever heard. She was drunk and talking endlessly about Trump, Ron DeSantis, and Florida. You'd think that her paralysing hatred of Trump would make her less annoying, but I look back at that drunk two hour debate I had in Vegas with the girl who loved him, and while both were very drunk, I actually preferred talking to the Trump supporter. Then there was Marcus. He was a black guy that way overdressed for the climate in a thick hoodie and tracksuit bottoms. He started off quite aloof, not really engaging with anyone. Then I (who was sat next to him) asked a question in the Q&A round that demonstrated at least a basic knowledge of the fundamentals of wrestling and suddenly he was all over me, going on little diatribes about the history of wrestling while we paused for a quick break.</p>
@@ -473,7 +395,9 @@ export default function Mexico(props) {
                             <p>The host had a fantastic knowledge of Lucha Lbre, but we got a great firsthand view when we met the special guest - a real life Luchador, brother of superstar Luchador Mystico. He was a powerhouse of a dude, not tall but hench, and obviously had an immense strength about him. He told us about the tricks of the trade and the Luchador's life. He told us that he was training his daughters to be Luchadors, at which Marcus chimed in and said that he wouldn't train his daughters to be Luchadors. </p>
                             <p>I soon realised the dude's issue - he was a mysogynist. It became clearer and clearer by the minute, and the thing about girls learning Lucha Libre was definitley a red flag. As it turned out, Steph had clocked it too as he'd been totally uninterested in carrying out a conversation with her. Some people really tell on themselves.</p>
                             <p>What did I say, incidentally, when he said his piece about training your daughters to be Luchadors? He asked me if I'd do that for my daughters and I said "Well yes, if they're hench". We didn't talk so much after that.</p>
+                            <img src={Day8Pic16} alt="day1" className="landscapePicture" />       
                             <p>Despite needing 100% translation, Mystico's brother was a cool guy, and he responded well to both my questions and my brief Spanish courtesies. Throughout the meet and greet we also had lots of mezcal and these strange vegetable tacos, which were nice at first but quickly got bland. We asked for more because we were hungry, but then they got very unpleasant fast. After we were done we went to the show, and were able to enter for the final match. I'm not sure why we only had the final match as part of the package; I feel like maybe the got a special discount. We entered the arena and were joined by a thousand braying, engaged fans. In any other instance a bunch of gringos entering at different points would have drawn attention but their focus was one hundred percent on the ring.</p>
+                            <img src={Day7Pic11} alt="day1" className="landscapePicture" />       
                             <p>The main event was a fatal fourway tag between a face and a heel faction we didn't know. It started off as very much a kerb stomp from the heel team onto one of the faces. Steph asked me why his teammates didn't intervene, and I said that was because you want to make things seem at their lowest ebb before the good guys make a comeback. Think about all the times in the WWE where the face is literally a half second away from the pin when their arm stiffens.</p>
                             <p>Soon enough, the faces rebounded, and the action was intense. One thing we clocked straight away was that Lucha Libre is very heavy on Hurricanranas - which if you're not familiar with Ray Mysterio's moveset is a high flying move where you basically wrap your legs around someone's neck and do a somersault. It was used at least once every few seconds until the faces came out triumphant.</p>
                             <p>We headed out, thinking we'd be rendevouzing with the group, which we didn't. But I still had to wait for Weirdo Number 3 as he had some merch in my rucksack. I haven't mentioned this individual before, but he was quite possibly the biggest weirdo of them all. This was Steve.</p>
@@ -492,16 +416,26 @@ export default function Mexico(props) {
                                 <p>Today was one of our last days in CDMX, one of our last excursions, and one of our last days in Mexico proper. We were headed to Teotihuacán, the great Aztec city in the mountains, one of the most impressive sights in Mesoamerican history.</p>
                                 <p>Our day started the same day as our other excursions had - a bright and early wakeup, a quick hotel breakfast then a walk to the MIGA cafe. We were delighted to note that the excursion wasn't as busy as last time, and we were able to get a seat together. It was a large bus and we took off barrelling through CDMX at rush our to our first spot, which is in the historical downtown. It was the Plaza of the Three Cultures, a large square that has architecture from three cultures - Aztec, Spanish, and Mexican. It's fascinating to see them stack on top of each other and a great example of Mexican history in action.</p>
                                 <p>Our gudide was a short, quite stern woman who had a keen interest in Teotihuacán's history. She held our attention well, giving us the best information she could cobble together about the city.Teotihuacán</p>
+                                <img src={Day8Pic1} alt="day1" className="landscapePicture" />       
                                 <p>We headed to the north of the city to Our Lady of Guadelope. This is a large cathedral and compound of the Catholic church with several gardens, churches and items of interest. As we got in, we saw the main basilica - it's a modernist, dare I say even brutalist, building, with natural acoustic boosting from the paneling by the organs. It's a fascinating building, a real nexus of faith, and the rest of the compound is fascinating too. It also has another large church as part of it that is, and I'm not joking here, sinking. Right now it looks like the leaning tower of Pisa but soon it will have dropped a few inches. It all harks back to CDMX being build on the water, and now it has a good share of buildings that are actively sinking into the mud.</p>
+                                <img src={Day8Pic2} alt="day1" className="landscapePicture" />
                                 <p>Once we'd visited the basilica we headed out of the city. We drove about an hour to an artesans' collective that made every possible use out of agave. They gave us a demonstration of all the things they could make out of agave. The first paper ever used in Mesoamerica was made of agave, and it's like tracing paper. It was used as part of trade, poetry and literature as well as a million other uses. They also told us about pulque, which is a drink made from fermenting agave - which sort of makes it a middlepoint to tequila. We got to try several types of tequila, with their sommelier or whatever the role is called for spirits distributing small sipping shots between us.</p>
+                                <img src={Day8Pic3} alt="day1" className="landscapePicture" />
+                                <img src={Day8Pic5} alt="day1" className="landscapePicture" />
                                 <p>There was a gift shop on site, and we knew this would be a lot better than what we'd see in town. We, and especially I, wanted more souvenirs for us, and this seemed like a great place. We shopped around and got helped by their staff, and I decided on a guyabara - a bright, airy, caribbean shirt that I'd been trying to get my hands on since Cuba. I bought one that had lattice threads and pockets built into the bottom of the shirt. It's an essential summer top for me and the craftsmanship speaks for itself.</p>
                                 <p>We bought it and a few other items and headed out to the restaurant nearby. They have one major USP - they serve molcajete, which is a style of food initially popularised by pre-Columbian peoples. It involves food served in a traditional granite bowl which is fired up on a hob. It's absolutely delicious, and we both munched down before the bus left while watching women perform a wardance in traditional Aztec costumes. It was all for us of course, but it was still very engaging.</p>
+                                <img src={Day8Pic9} alt="day1" className="landscapePicture" />
                                 <p> The bus was very punctual, and our driver made it very clear straight away that she wasn't waiting around for people. We drove just under an hour before we got to Teotihuacán proper.</p>
                                 <p>A bit of history about Teotihuacán. Earlier on I alluded to the fact that it's got a lot more to it history-wise than you might think. It's true that the Aztecs used it as a capital and major city for the majority of their reign, but it's the understandable opinion of most people that know about it - as well as historians for decades - that they'd built it too.</p>
+                                <img src={Day8Pic11} alt="day1" className="landscapePicture" />
                                 <p>Not so. The Aztecs discovered the city and contributed to it particularly, but it was actually built by a precursor civilisation. When? Anywhere from 100 to 50BC, or BCE if you're cool like me. This great city was being built when Caesar crossed the Rubicon. It's closer to the Parthenon than Chichén Itzá and unlike Greece and Rome, it didn't have the Meditteranean and a thousand trading links across three continents. Not only would Teotihuacán have been isolated from the type of necessary trading routes needed to produce stone and materials, it's also far from a body of water right in the middle of the high plans. It's nothing short of miraculous, and while less-imaginative minds will jump right to ancient aliens, we have to remind ourselves that the ancient world wasn't ancient in terms of advancement.</p>
+                                <img src={Day8Pic12} alt="day1" className="landscapePicture" />
                                 <p>What adds to the decidedly non-alien mystique is that around a thousand years after it was built, Teotihuacán was abandoned. Historians don't know exactly why but point to internal division. After it got abandoned in about 800 AD, a very small number of people remained, but their descendents were long gone before the Aztecs took the place over in the early 1400s. I can't imagine what it would be like as an Aztec colonist or scout looking to increase your territory in that time. You make your way across the open plans expecting a prairie as far as the eye can see and you stumble across the mostly-intact ruins of an ancient city. It's positively Lovecraftian. </p>
+                                <img src={Day8Pic13} alt="day1" className="landscapePicture" />
                                 <p>We followed a dusty path to the open city remains. I say remains because, while the full city would have been much, much bigger, this place was far from a ruin. Neither of us had any sort of idea of the sheer size of the place before we walked out into the main center.</p>
+                                <img src={Day8Pic14} alt="day1" className="landscapePicture" />
                                 <p>Teotihuacán is huge, and very intact. You can see about twenty temples, all standing strong, down a long main city square that felt lived in. At its center was a large raised platform that was used as a market and an agora. You could imagine it bustling with Pre-Columbian peoples. You imagined yourself browsing the market before going to pray in front of the temple on a sunny afternoon.</p>
+                                <img src={Day8Pic15} alt="day1" className="landscapePicture" />
                                 <p>And sunny it was. It must have been approaching forty degrees, and due to the angles of the temples shade was few and far between. We actually took to standing in the narrow sliver of shade offered in the immediate metre beyond its bottom. Speaking of said tables, they were magnificent - immense structures tougher than bedrock and built to last without a shadow of a doubt. The two main events are the Temple of the Moon in the main square and the Temple of the Sun down a side street. The Temple of the Sun, as you'd imagine based on planetary scale, is a lot bigger than the Temple of the Moon. It's magnificent in its scope and grandeur and incredibly well-preserved.</p>
                                 <p>I think Teotihuacán is one of the most amazing sights I've ever seen, and I'm sure the same is true of Steph. It's not just the architectural style, it's the sheer completeness of it. You can go to the Roman Forum, and while it looks and feels authentic and fantastic, you can't imagine walking through it as an ancient Patrician. But you can definitely imagine yourself as a high priest or a member of the nobility strolling through Teotihuacán with your friends, immersed in a culture and a civilisation you don't realise is all too tenuous.</p>
                                 <p>We had to head back after, and we walked down a long road lined with a few stalls. We bought a few of our souvenirs, including one I'm looking at riught now, a skeleton married couple in porcelain. It's sweet, and not at all morbid.</p>
@@ -521,21 +455,34 @@ export default function Mexico(props) {
                                     <p>The car didn't have rear seatbelts, which I was nervous about, but I cared less and less about it as we got out of the city and towards the hills. It's a beautiful part of the country, and was punctuated by a beautiful sunrise that lit everything up nicely.</p>
                                     <p>We were getting into the mountains - not hills, mountains. The altitude, and the views, were immense, reminiscent of Austria or Germany but that kept its temperature better.</p>
                                     <p>After a couple of ours we stopped off at a breakfast place. I had Chilaquiles and Steph had Oaxaca cheese quesadillas. I made a faux pas by totally missing the order for coffee with milk - requesting cafe au laut instead of cafe con leche! Breakfast was pretty good and we didn't linger, heading out to Tolantongo proper.</p>
+                                    <img src={Day9Pic1} alt="day1" className="landscapePicture" />
                                     <p>It's truly magnificent. It's a huge mountain valley with a sheer drop and some of the most magnificent scenery you'll see. Jutting out of the mountainside are these incredible pools that could almost pass for naturally formed. They look incredible, and the view from inside them is even better. Because we jumped straight in. For the first few minutes, it was like a warm bath, but it got cool quickly as our bodies adjusted. It was about 7am at this point, and it was still quite chilly up in the mountains. What I wouldn't have given for these pools back in Teotihuacán, but right now we had to keep moving down to maintain the heat.</p>
+                                    <img src={Day9Pic2} alt="day1" className="landscapePicture" />
                                     <p>We swam around, taking in the beautiful views, and sunning ourselves as it climbed higher. We got out after about an hour, and proceeded to the next part of the valley - the caves. Tolantongo has an impressive cave system and a good chunk of it is completely swimmable. We headed inside, past a waterfall that was colder than Pluto to warm cave waters. We swam around, exploring the main cavern and the little side areas. We had our phones with us; our guys had provided us with these around-the-neck phone wallets that kept our phones waterproof; I'd been quite suspicious about it firstly but with some gentle prompting from Steph I relinquished my fervent attempts to keep the phone pocket above water. It didn't get a drop on it.</p>
+                                    <img src={Day9Pic3} alt="day1" className="landscapePicture" />
                                     <p>We proceeded through the cave system, getting further and further away from the main cavern. We found ourselves in another cavern with a large amount of open space separated by a guiding rope. We were unsure why no one was on the other side of the guide rope, but our questions were quickly answered.</p>
+                                    <img src={Day9Pic5} alt="day1" className="landscapePicture" />
                                     <p>Our older guide flashed a torch at the cavern wall on the other side of the great expanse - and disturbed a colony of bats sleeping upside down. There were dozens of them, each reacting to the torch how Steph does when I switch on the main light when I'm asleep. They did these little defensive swoops in their immediate vicinity before resettling themselves. Me and Steph both dived underwater, not wanting to have to spend £300 on a rabies vaccine. But they didn't go near us - bats aren't stupid. Instead they went back to sleep and we watched them in the darkness after the torch was off.</p>
                                     <p>The next step was just me and the guys. It involved fully diving under a section of rock to get to another small section. Steph found it a bit claustrophobic - both the fact that you're fully submerged under rock, and the fact that the cavern you get to on the other side is pretty tiny. Caves are born claustrophobia machines. All it takes is a picture of John Jones or any of the others stuck fast inside a cave to give me the willies, and that's not even a phobia I have. Of course, caves are also arachnophobia machines, and I have that in spades.</p>
+                                    <img src={Day9Pic6} alt="day1" className="landscapePicture" />
+                                    <img src={Day9Pic17} alt="day1" className="landscapePicture" />
                                     <p>After the caves, we headed down to the river at the valley bed. Down where the hot spring pools are, the river looked relatively straightforward, but further down near the caves, it looked entirely different. The river was a vibrant shade of teal which almost looked like it had been engineered, but looked amazingly beautiful in the shimmering sun. We walked down and got in. It was like a bath that you've been in for about an hour but it's still lovely and warm. We swam, we lay under the even hotter waterfalls, and we perched ourselves above the three foot waterfall to the next riverbed, feeling the current desperately trying to move us forward. It was a beautiful, relaxing time, and before we knew it the guys were signalling for us to head out.</p>
+                                    <img src={Day9Pic7} alt="day1" className="landscapePicture" />
                                     <p>We got a beautiful view of the mountains as we drove away. We got a few amazing photo ops, including when we stopped at a roadside stall for some refreshments. The vendors were selling pulque, that traditional Aztec drink of fermented agave. If you think of beer being like scotch if it was fermented instead of distilled, you'll get the relationship between pulque and tequila. It's sweet and delicious, but as we drove away, we realised that it made you incredibly gassy. We both made pains to fart discreetly as we made our way back into the city, only realising that it was a common symmtom once we were talking about it.</p>
+                                    <img src={Day9Pic18} alt="day1" className="landscapePicture" />
+                                    <img src={Day9Pic12} alt="day1" className="landscapePicture" />
                                     <p>We got back into CDMX late afternoon. It was to be our last evening, and we wanted to make the most of it. But there was business to be done. We had a few more souvenirs to buy, and we didn't fancy our chances of getting anything good once we got back to Cancun. We headed back to the Artisans Market, buying a some more gifts for friends and family as well as us.</p>
                                     <p>We got an Uber from the market to the centre of the historic city centre, to a place I'd been interested in since I'd read about it - La Cantina L'Opera. On the surface of things, La Cantina L'Opera is just a fairly fancy bar to visit before going to an opera. But that's excluding a certain purported event that took place in the 1910s. During the final days of the revolution, Pancho Villa was in CDMX ready for a final push. He was looking for a place for him and his men to get a drink, and stumbled across the cantina. On entering, he was disgusted with the bourgeois sensibilities of the establishment, and chose to express his loyalty for working class watering holes by shooting the ceiling. The bullet hole is still there.</p>
+                                    <img src={Day9Pic19} alt="day1" className="landscapePicture" />
                                     <p>When we got in we definitely got a sense of the fanciness that would have so offended Pancho Villa's Marxist sensibilities. It had this amazing old world charm about it, the kind of place where you'd imagine great people meeting each other. We asked to be seated near the bullet hole and sure enough, there it was, a small hole in the ceiling around a table over.</p>
+                                    <img src={Day9Pic13} alt="day1" className="landscapePicture" />
                                     <p>But it wasn't just one Mexican outlaw we were focused on. We - Steph firstly, but me also once she pointed it out - quickly came to the belief that the guys at the table next to us were Cartel.</p>
                                     <p>They were a group of five guys, one older Godfather types and four younger up-and-comers, all wearing expensive suits and ordering countless bottles of brandy, tequila and lord alone knows what else. They had the Mariachi band on retainer for at least two hours, which was great for us being on the next table.</p>
                                     <p>The guys didn't really have a sense of menace about them like you'd expect. It's not like they were acting like the Salamanca Brothers, not that I'd expect real cartel members to act like that. They were fairly genial and I shared a nod with one in mutual appreciation for the music.</p>
-                                    <p>I did get a vague, blurry video of them which I disguised as taking a video of the Mariachi band. We had a few delicious cocktails there before heading out, wanting to see what else the city had to offer on our last night.</p>
+                                    <p>I did get a vague, blurry photo of them which I disguised as taking a photo of the Mariachi band. We had a few delicious cocktails there before heading out, wanting to see what else the city had to offer on our last night.</p>
+                                    <img src={Day9Pic14} alt="day1" className="landscapePicture" />
                                     <p>We headed back to our rooftop bar, wanting to see the city at night and knowing that it wasn't going to be too busy. We got a beer and looked out at the busy downtown at night. We knew we'd miss the city both in Cancun and back in the UK. It's definitely one of the coolest cities we've been to, and anyone who's been to Cancun or elsewhere in Mexico without seeing it has done themselves a disservice.</p>
+                                    <img src={Day9Pic16} alt="day1" className="landscapePicture" />
                                     <p>We stayed for a beer, looking out onto the shining city at night. We were going to a place that Carlos had recommended to us on our very first day in CDMX, a little place called Tortas Al Fuego. After one more drink back at the cantina we got a cab over. The place was a lot more down-at-home than the cantina, looking like a school lunch hall, but had an amazing character to it. It was a very popular spot, but with locals rather than tourists - which means Carlos had steered us entirely right. We had delicious pastor tacos and enjoyed our status as the only non-Mexicans there. It wasn't too much of a walk back so despite the late hour we walked, drinking in the city while we could.</p>
                                 </div>}
                                
@@ -555,7 +502,9 @@ export default function Mexico(props) {
                                         <p>Cocobongo is set in a large single room that's got a dance floor in the middle and some elevated seating on either side. At the head is a large stage designed for huge set pieces. We got into our mezzanine seats and were one away from the front. Which in the money-talks atmosphere of Cocobongo means that we were going to be shamelessly upsold for a frontrow seat. The waitress tried it every which way but with the large fee - the amount of which I can't remember - we weren't tempted.</p>
                                         <p>The service definitely dipped after that, but we still tipped reasonably good. The whole thing is a cash grab. They were trying to sell everything from photos to merch as hard as they could. There was one guy with a bandanna who was without any semblance of shame and as he pushed his way past again and again I got the strong urge to hit him. But my cooler head prevailed.</p>
                                         <p>Soon the shows begum and they were incredible. There was the Mask, various dances, and even major set pieces like a load of hench dudes in Spartan armour recreating 300. The Mask was a consistent theme and I realised why on the plane home on rewatching the movie - Cocobongo is the name of the club in the film. It's interesting how naming conventions of things like clubs change. In the 70s and the 80s the standard naming format was The X Club, like The Cocobongo Club or the Babylon Club from Scarface. Somewhere in the 90s or Noughties the convention changed to a single name - Cocobongo, or Babylon.</p>
+                                        <img src={Day10Header} alt="day1" className="landscapePicture" />
                                         <p>Steph soon made friends with a group of American girls who were out for a good time, and they went up to dance on the little balcony above the stage. It's a major part of the night - women dressed to the nines queue up to dance to whatever song is playing, and Steph was one of those!</p>
+                                        <img src={Day10Pic1} alt="day1" className="landscapePicture" />
                                         <p>We partied til at least three in the morning. Everywhere that could have food was either closed or looked dodgy, and our beds were calling. We got an Uber back and found to our dismay that the main gate was closed - we were locked out.</p>
                                         <p>The first thing I did was to try and scale the gate - bad move. The wood is jagged and has no purchase whatsoever, and I quickly gave up. What I had to do was essentially barge and force the door until we could slip inside. It was a much better option than sleeping by the roadside so we showered and got into bed. We'd be feeling rough tomorrow - least of all because we were going home!</p>
                                     </div>}
@@ -569,7 +518,8 @@ export default function Mexico(props) {
                                         <p>I woke up quite a bit before Steph, as I often do - especially when we've had a drink. I was rough. This was a bad hangover, not a holiday push-through hangover. Steph woke up not long after and we started to think about how to spend our last day. We were flying late afternoon so didn't have timme for a full day's activity, but we could wrap up a few last bits.</p>
                                         <p>There's an outlet shopping center nearby and we got an Uber there. We were starving after not eating and ended up getting about three or four different dishes from the food court.</p>
                                         <p>After that, we wrapped up a few loose ends shopping-wise. We got some extra souvenirs for people and for our Mexican cooking journey on our return to the UK such as Mexican cornflower, hot sauce and other ingredients. The sunshine outside, and the walk around, was helping with the unending hangover and by the time we got back we were in fairly decent stead.</p>
-                                        <p>We got back well in time to make it to the airport. The hotel was able to offer us a lift for free apart from the tip to the guy. He got us there, us feeling down for reasons that had little to do with the still-remaining hangovers.</p>
+                                        <p>We got back well in time to make it to the airport. The hotel was able to offer us a lift for free apart from the tip to the guy. He got us there, us feeling down for reasons that had little to do with the still-remaining hangovers. We went to a Guy Fieri's for some final Micheladas and food, then boarded.</p>
+                                        <img src={Day11Pic1} alt="day1" className="landscapePicture" />
                                         <p>Mexico was a game-changer, and a life-changer of a holiday. It was a major shakeup in terms of food, and Steph has diligently made Mexican deliciousness a reality since we've got back. But also, this reflects a gateway - both to more of Mexico, like Oaxaca, and the rest of Central America. Watch this space.</p>
                                         <p>The flight was fairly spotless and we arrived early the next morning, exhausted from the night flight and missing Mexico but eager to continue the odyssey.</p>
                                         <b>The End</b>

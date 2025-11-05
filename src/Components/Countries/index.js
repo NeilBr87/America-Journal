@@ -5,6 +5,7 @@ import SriLanka from '../SriLanka';
 import Morocco from '../Morocco';
 import Japan from '../Japan';
 import Mexico from '../Mexico';
+import America2019 from '../America2019/Index'
 import './style.css';
 
 export default function Countries() {
@@ -16,10 +17,10 @@ export default function Countries() {
         setTripChosen(true);
     }
 
-    // function usa1() {
-    //     setTrip('USA1');
-    //     setTripChosen(true);
-    // }
+    function usa1() {
+        setTrip('USA1');
+        setTripChosen(true);
+    }
 
     function usa2() {
         setTrip('USA2');
@@ -46,6 +47,11 @@ export default function Countries() {
         setTripChosen(true);
     }
 
+    function poland() {
+        setTrip("poland");
+        setTripChosen(true);
+    }
+
     return (
 
         <div>
@@ -58,10 +64,10 @@ export default function Countries() {
                     <img style={{width: '200px'}} src="https://cdn.britannica.com/13/4413-004-3277D2EF/Flag-Sri-Lanka.jpg" alt="Sri Lanka Flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>Sri Lanka, 2018</h4>
                 </div>
-                {/* <div onClick={usa1} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                <div onClick={usa1} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" alt="USA flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>United States, 2019</h4>
-                </div> */}
+                </div>
                 <div onClick={usa2} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" alt="USA flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>United States, 2022</h4>
@@ -70,6 +76,11 @@ export default function Countries() {
                 <div onClick={japan} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                     <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/125px-Flag_of_Japan.svg.png" alt="Japan flag" />
                     <h4 className="countryText" style={{textAlign: 'center'}}>Japan, 2024</h4>
+                </div>
+
+                <div onClick={mexico} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Morocco flag" />
+                    <h4 className="countryText" style={{textAlign: 'center'}}>Mexico, 2025</h4>
                 </div>
                 
                 <h3>Unfinished journals</h3>
@@ -83,9 +94,9 @@ export default function Countries() {
                     <h4 className="countryText" style={{textAlign: 'center'}}>France and Germany, 2024</h4>
                 </div> */}
 
-                <div onClick={mexico} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Morocco flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>Mexico, 2025</h4>
+                <div onClick={poland} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                    <img style={{width: '200px', border: '0.5px solid black'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png" alt="Morocco flag" />
+                    <h4 className="countryText" style={{textAlign: 'center'}}>Poland, 2025</h4>
                 </div>
 
 
@@ -95,6 +106,9 @@ export default function Countries() {
 
             {trip === 'USA2' &&
                 <America2022 tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
+            }
+            {trip === 'USA1' &&
+                <America2019 tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
             }
             {trip === 'Sri Lanka' &&
                 <SriLanka tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
