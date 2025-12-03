@@ -5,126 +5,129 @@ import SriLanka from '../SriLanka';
 import Morocco from '../Morocco';
 import Japan from '../Japan';
 import Mexico from '../Mexico';
-import America2019 from '../America2019/Index'
+import America2019 from '../America2019/Index';
 import './style.css';
 
 export default function Countries() {
     const [trip, setTrip] = useState('');
     const [tripChosen, setTripChosen] = useState(false);
 
-    function sriLanka() {
-        setTrip('Sri Lanka');
-        setTripChosen(true);
-    }
+    const trips = {
+        finished: [
+            {
+                id: 'Sri Lanka',
+                label: 'Sri Lanka, 2018',
+                flag: 'https://cdn.britannica.com/13/4413-004-3277D2EF/Flag-Sri-Lanka.jpg',
+            },
+            {
+                id: 'USA1',
+                label: 'United States, 2019',
+                flag: 'https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg',
+            },
+            {
+                id: 'USA2',
+                label: 'United States, 2022',
+                flag: 'https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg',
+            },
+            {
+                id: 'Japan',
+                label: 'Japan, 2024',
+                flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/125px-Flag_of_Japan.svg.png',
+            },
+            {
+                id: 'mexico',
+                label: 'Mexico, 2025',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg',
+            },
+        ],
+        unfinished: [
+            {
+                id: 'Morocco',
+                label: 'Morocco, 2023',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Morocco_(large_stroke).svg',
+            },
+            {
+                id: 'poland',
+                label: 'Poland, 2025',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png',
+            },
+        ],
+    };
 
-    function usa1() {
-        setTrip('USA1');
-        setTripChosen(true);
-    }
-
-    function usa2() {
-        setTrip('USA2');
-        setTripChosen(true);
-    }
-
-    function morocco() {
-        setTrip('Morocco');
-        setTripChosen(true);
-    }
-
-    function japan() {
-        setTrip('Japan');
-        setTripChosen(true);
-    }
-
-    // function franceGermany() {
-    //     setTrip('germany');
-    //     setTripChosen(true);
-    // }
-
-    function mexico() {
-        setTrip("mexico");
-        setTripChosen(true);
-    }
-
-    function poland() {
-        setTrip("poland");
+    function chooseTrip(tripName) {
+        setTrip(tripName);
         setTripChosen(true);
     }
 
     return (
+        <div className="countries-page">
+            {!tripChosen && (
+                <div className="trips-landing">
+                    <header className="page-header">
+                        <p className="eyebrow">Travel journal collection</p>
+                        <h1>Neil &amp; Steph's adventures</h1>
+                        <p className="subhead">Tap a flag to open the story.</p>
+                    </header>
 
-        <div>
+                    <section className="trips-section">
+                        <div className="section-header">
+                            <h2>Finished journals</h2>
+                            <p>Complete write-ups and photos ready to explore.</p>
+                        </div>
+                        <div className="trip-grid">
+                            {trips.finished.map((item) => (
+                                <button
+                                    key={item.id}
+                                    onClick={() => chooseTrip(item.id)}
+                                    className="trip-card"
+                                >
+                                    <img className="trip-flag" src={item.flag} alt={`${item.label} flag`} />
+                                    <span className="trip-title">{item.label}</span>
+                                </button>
+                            ))}
+                        </div>
+                    </section>
 
-            {!tripChosen && 
-            <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-            <h1 style={{h1marginTop: '6vh'}}>Neil and Steph's travel journals</h1>
-                <h3>Finished journals</h3>
-                <div onClick={sriLanka} className="trips" style={{marginTop: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px'}} src="https://cdn.britannica.com/13/4413-004-3277D2EF/Flag-Sri-Lanka.jpg" alt="Sri Lanka Flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>Sri Lanka, 2018</h4>
+                    <section className="trips-section">
+                        <div className="section-header">
+                            <h2>Unfinished journals</h2>
+                            <p>Work in progress—check back for updates.</p>
+                        </div>
+                        <div className="trip-grid">
+                            {trips.unfinished.map((item) => (
+                                <button
+                                    key={item.id}
+                                    onClick={() => chooseTrip(item.id)}
+                                    className="trip-card"
+                                >
+                                    <img className="trip-flag" src={item.flag} alt={`${item.label} flag`} />
+                                    <span className="trip-title">{item.label}</span>
+                                </button>
+                            ))}
+                        </div>
+                    </section>
                 </div>
-                <div onClick={usa1} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px'}} src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" alt="USA flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>United States, 2019</h4>
-                </div>
-                <div onClick={usa2} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px'}} src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" alt="USA flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>United States, 2022</h4>
-                </div>
+            )}
 
-                <div onClick={japan} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/125px-Flag_of_Japan.svg.png" alt="Japan flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>Japan, 2024</h4>
-                </div>
+            {trip === 'USA2' && (
+                <America2022 tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip} />
+            )}
+            {trip === 'USA1' && (
+                <America2019 tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip} />
+            )}
+            {trip === 'Sri Lanka' && (
+                <SriLanka tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip} />
+            )}
+            {trip === 'Morocco' && (
+                <Morocco tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip} />
+            )}
+            {trip === 'Japan' && (
+                <Japan tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip} />
+            )}
 
-                <div onClick={mexico} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Morocco flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>Mexico, 2025</h4>
-                </div>
-                
-                <h3>Unfinished journals</h3>
-                <div onClick={morocco} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Morocco_%28large_stroke%29.svg" alt="Morocco flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>Morocco, 2023</h4>
-                </div>
-
-                {/* <div onClick={franceGermany} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/255px-Flag_of_Europe.svg.png" alt="Morocco flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>France and Germany, 2024</h4>
-                </div> */}
-
-                <div onClick={poland} className="trips" style={{marginTop: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                    <img style={{width: '200px', border: '0.5px solid black'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png" alt="Morocco flag" />
-                    <h4 className="countryText" style={{textAlign: 'center'}}>Poland, 2025</h4>
-                </div>
-
-
-                <br></br>
-                <br></br>
-            </div>}
-
-            {trip === 'USA2' &&
-                <America2022 tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
-            }
-            {trip === 'USA1' &&
-                <America2019 tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
-            }
-            {trip === 'Sri Lanka' &&
-                <SriLanka tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
-                }
-            {trip === 'Morocco' &&
-                <Morocco tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
-            }
-            {trip === 'Japan' &&
-                <Japan tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
-            }
-
-            {trip === 'mexico' &&
-                <Mexico tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip}/>
-            }
-
-
+            {trip === 'mexico' && (
+                <Mexico tripChosen={tripChosen} setTripChosen={setTripChosen} trip={trip} setTrip={setTrip} />
+            )}
         </div>
     )
 }
