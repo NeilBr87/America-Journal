@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Day1Header from './Day1Header.jpg';
 import Day1Pic1 from './Day1Pic1.jpg';
 import Day1Pic2 from './Day1Pic2.jpg';
 import Day1Pic3 from './Day1Pic3.jpg';
@@ -24,8 +25,10 @@ import Day3Pic9 from './Day3Pic9.jpg';
 import Day3Pic10 from './Day3Pic10.jpg';
 import Day3Pic11 from './Day3Pic11.jpg';
 import Day2Header from './Day2Header.jpg';
-import Day6Header from './Day6Header.jpg';
 import Day3Header from './Day3Header.jpg';
+import Day4Header from './Day4Header.jpg';
+import Day5Header from './Day5Header.jpg';
+import Day6Header from './Day6Header.jpg';
 import Day4Pic1 from './Day4Pic1.jpg';
 import Day4Pic2 from './Day4Pic2.jpg';
 import Day4Pic3 from './Day4Pic3.jpg';
@@ -33,9 +36,9 @@ import Day4Pic4 from './Day4Pic4.jpg';
 import Day5Pic1 from './Day5Pic1.jpg';
 import Day5Pic2 from './Day5Pic2.jpg';
 import Day5Pic3 from './Day5Pic3.jpg';
-import Day5Header from './Day5Header.jpg';
 import Day6Pic1 from './Day6Pic1.jpg';
 import Day6Pic2 from './Day6Pic2.jpg';
+import Day7Header from './Day7Header.jpg';
 import Day7Pic1 from './Day7Pic1.jpg';
 import Day7Pic2 from './Day7Pic2.jpg';
 import Day7Pic3 from './Day7Pic3.jpg';
@@ -43,6 +46,7 @@ import Day7Pic4 from './Day7Pic4.jpg';
 import Day7Pic5 from './Day7Pic5.jpg';
 import Day7Pic6 from './Day7Pic6.jpg';
 import Day7Pic9 from './Day7Pic9.jpg';
+import Day8Header from './Day8Header.jpg';
 import Day8Pic1 from './Day8Pic1.jpg';
 import Day8Pic2 from './Day8Pic2.jpg';
 import Day8Pic3 from './Day8Pic3.jpg';
@@ -57,6 +61,7 @@ import Day9Pic4 from './Day9Pic4.jpg';
 import Day9Pic5 from './Day9Pic5.jpg';
 import Day9Pic6 from './Day9Pic6.jpg';
 import Day9Pic7 from './Day9Pic7.jpg';
+import Day10Header from './Day10Header.jpg';
 import Day10Pic1 from './Day10Pic1.jpg';
 import Day10Pic2 from './Day10Pic2.jpg';
 import Day10Pic3 from './Day10Pic3.jpg';
@@ -81,6 +86,7 @@ import Day12Pic8 from './Day12Pic8.jpg';
 import Day12Pic9 from './Day12Pic9.jpg';
 import Day12Pic10 from './Day12Pic10.jpg';
 import Day12Pic11 from './Day12Pic11.jpg';
+import Day13Header from './Day13Header.jpg';
 import Day13Pic1 from './Day13Pic1.jpg';
 import Day13Pic2 from './Day13Pic2.jpg';
 import Day13Pic3 from './Day13Pic3.jpg';
@@ -91,6 +97,7 @@ import Day13Pic11 from './Day13Pic11.jpg';
 import Day13Pic12 from './Day13Pic12.jpg';
 import Day13Pic13 from './Day13Pic13.jpg';
 import Day13Pic14 from './Day13Pic14.jpg';
+import Day14Header from './Day14Header.jpg';
 import Day14Pic1 from './Day14Pic1.jpg';
 import Day14Pic2 from './Day14Pic2.jpg';
 import Day14Pic3 from './Day14Pic3.jpg';
@@ -188,13 +195,30 @@ export default function Journal(props) {
     }
     
     return (
-        <div>
+        <div className="japan-journal">
 
-            <h2 style={{marginTop: '5vh'}}>Japan, 2024</h2>
-            <h3 style={{marginBottom: '5vh'}}>Travel journal</h3>
+            <header
+                className="country-hero"
+                style={{
+                    backgroundImage:
+                        `linear-gradient(120deg, rgba(10, 14, 40, 0.82), rgba(14, 22, 58, 0.62)), url(${Day1Header})`,
+                }}
+            >
+                <button className="back-button" onClick={back}>
+                    Back to countries
+                </button>
+                <p className="hero-eyebrow">Travel journal</p>
+                <h1>Japan, 2024</h1>
+                <p className="hero-subhead">15 days through neon cities, mountains, and temples.</p>
+                <div className="hero-tags">
+                    <span>Tokyo</span>
+                    <span>Kyoto</span>
+                    <span>Hokkaido</span>
+                </div>
+            </header>
 
-            <div id="expand">
-                <div onClick={expandDay1} id="day1ExpanderMorJpn" className="headings">
+            <div id="expand" className="day-list">
+                <div onClick={expandDay1} data-expanded={day1} id="day1ExpanderMorJpn" className="headings">
                     <h4 className="dayHeader">Day 1</h4>
                     <h5 className="dayLocation">Shibuya City, Tokyo</h5>
                 </div>
@@ -223,7 +247,7 @@ export default function Journal(props) {
                         <p></p>
                         </div>}
 
-                    <div onClick={expandDay2} id="day2ExpanderMorJpn" className="headings">
+                    <div onClick={expandDay2} id="day2ExpanderMorJpn" className="headings" data-expanded={day2}>
                         <h4 className="dayHeader">Day 2</h4>
                         <h5 className="dayLocation">Ginza City, Tokyo</h5>
                     </div>
@@ -265,7 +289,7 @@ export default function Journal(props) {
                         <p>It wasn't the raucous karaoke bar experience we'd been expecting, but was instead a karaoke booth that you rented by the hour. The main area looked like a classy yet empty late night bar and the booths were nice and comfy. We paid for an hour and dove in, singing some of our favourite karaoke tunes from Vampire Weekend, OutKast, and Rush (me) and Beyonce, Rihanna and Credence Clearwater (Steph, that complex lass). We had a whale of a time, but the hour went way too quick. We headed back to the hotel, still enjoying the look of Tokyo in the rain, showered and slept.</p>  
                     </div>}
 
-                    <div onClick={expandDay3} id="day3ExpanderMorJpn" className="headings">
+                    <div onClick={expandDay3} id="day3ExpanderMorJpn" className="headings" data-expanded={day3}>
                         <h4 className="dayHeader">Day 3</h4>
                         <h5 className="dayLocation">Asakusa City, Tokyo</h5>
                     </div>
@@ -306,7 +330,7 @@ export default function Journal(props) {
                         <p>We headed home - it was around 1am and the streets were still bustling. I was shivering even though it wasn't that cold. I collapsed into bed, hoping that a good sleep would sort me out.</p>
                     </div>}
 
-                    <div onClick={expandDay4} id="day4ExpanderMorJpn" className="headings">
+                    <div onClick={expandDay4} id="day4ExpanderMorJpn" className="headings" data-expanded={day4}>
                         <h4 className="dayHeader">Day 4</h4>
                         <h5 className="dayLocation">Sumida City, Tokyo</h5>
                     </div>
@@ -329,7 +353,7 @@ export default function Journal(props) {
                         <p>Therefore, I reluctantly agreed, hoping that this was a 24 hour bug and I'd feel better in the morning. We showered and went to bed, me falling asleep within seconds.</p>
                     </div>}
 
-                    <div onClick={expandDay5} id="day5ExpanderMorJpn" className="headings">
+                    <div onClick={expandDay5} id="day5ExpanderMorJpn" className="headings" data-expanded={day5}>
                         <h4 className="dayHeader">Day 5</h4>
                         <h5 className="dayLocation">Hitachi Seaside Park</h5>
                     </div>
@@ -353,7 +377,7 @@ export default function Journal(props) {
                         <p>It was our last night in Tokyo (well, until the return leg) and in any other situation we'd have made use of the time as it wasn't that late. But I was on death's door, and we were both incredibly full after the keiseikei, so we went to bed.</p>
                     </div>}
 
-                    <div onClick={expandDay6} id="day6ExpanderMorJpn" className="headings">
+                    <div onClick={expandDay6} id="day6ExpanderMorJpn" className="headings" data-expanded={day6}>
                         <h4 className="dayHeader">Day 6</h4>
                         <h5 className="dayLocation">Tokyo to Kyoto</h5>
                     </div>
@@ -375,7 +399,7 @@ export default function Journal(props) {
                             <p>We headed out into Teramachi, walking around the stalls and shops and looking for a place to get some food or drink. I actually had something resembling an appetite for the first time in the last few days, but it was quite late and not a lot of places were open, including a place that shut the lights off as soon as they saw us looking at the menu outdoors. So we decided to head to the 7-11 round the corner of the hotel and get some food and a couple of beers. Supermarkets, and especially 7-11, are amazing in Japan and have all sorts of bespoke food and drink. We grabbed a few cans of Sapporo beer and a couple of delicious meat dishes each as well as some desert, then headed to the room. There was an anime on the TV, sans subtitles, and we had fun trying to discern what was going on. We had some beers and then the food, then got some sleep.</p>
                         </div>}
 
-                        <div onClick={expandDay7} id="day7ExpanderMorJpn" className="headings">
+                        <div onClick={expandDay7} id="day7ExpanderMorJpn" className="headings" data-expanded={day7}>
                             <h4 className="dayHeader">Day 7</h4>
                             <h5 className="dayLocation">Kyoto</h5>
                     </div>
@@ -411,7 +435,7 @@ export default function Journal(props) {
                             <p>Kyoto Station has a large food court just outside of the main station concourse. We'd spotted it on the way in. We headed back that way avoiding the rain and decided on an Omurice place. Omurice is a Japanese omlette stuffed with rice and other ingredients. We got it as a takeaway, going back to the reading room which was the only place in the hotel that had a microwave. Steph heated hers up and went to go eat upstairs, but I didn't heat mine up straight away - I wanted to do some reading. I picked up a chunky volume of Samurai history and went straight to the Sengoku period, wanting to find out more about the rise of Ieyasu, Sekigahara and what happened next. I went up after a little while and we watched some more of that anime program, still guessing at what was going on but enjoying ourselves anyway. </p>
                         </div>}
 
-                    <div onClick={expandDay8} id="day8ExpanderMorJpn" className="headings">
+                    <div onClick={expandDay8} id="day8ExpanderMorJpn" className="headings" data-expanded={day8}>
                         <h4 className="dayHeader">Day 8</h4>
                         <h5 className="dayLocation">Kyoto</h5>
                     </div>
@@ -443,7 +467,7 @@ export default function Journal(props) {
                             <p>I had to head out after a while and I dried off, heading back upstairs. We settled into our futons, which were extremely comfortable despite being bare, and got what was probably one of the best nights' sleep we got in a long time.</p>
                         </div>}
 
-                    <div onClick={expandDay9} id="day9ExpanderMorJpn" className="headings">
+                    <div onClick={expandDay9} id="day9ExpanderMorJpn" className="headings" data-expanded={day9}>
                         <h4 className="dayHeader">Day 9</h4>
                         <h5 className="dayLocation">Kyoto</h5>
                     </div>
@@ -473,7 +497,7 @@ export default function Journal(props) {
                             <p>We had a litle sushi feast and drank good sake, just the two of us. I went to the onsen afterwards and tried to convince Steph to try it, but she was slightly less enthused with public nudity than I was, not that I particularly was. I headed up and gave myself one final soak, hoping that I'd be able to get an onsen in Hokkaido. I didn't, as it goes.</p>
                          </div>}
 
-                         <div onClick={expandDay10} id="day10ExpanderMorJpn" className="headings">
+                         <div onClick={expandDay10} id="day10ExpanderMorJpn" className="headings" data-expanded={day10}>
                         <h4 className="dayHeader">Day 10</h4>
                         <h5 className="dayLocation">Kyoto to Sapporo</h5>
                     </div>
@@ -506,7 +530,7 @@ export default function Journal(props) {
                             <p>We headed to a sukiyaki restaurant downtown. Sukiyaki is a set of different plates that are cooked at the table. I ordered a tempura version whereas Steph went for the pure option. It was delicious and hearty for a cold summer winter's night, and we ate and headed back to a solid night's sleep.</p>
                          </div>}     
 
-                         <div onClick={expandDay11} id="day11ExpanderMorJpn" className="headings">
+                         <div onClick={expandDay11} id="day11ExpanderMorJpn" className="headings" data-expanded={day11}>
                         <h4 className="dayHeader">Day 11</h4>
                         <h5 className="dayLocation">Sapporo</h5>
                     </div>
@@ -536,7 +560,7 @@ export default function Journal(props) {
                             <p>Naturally we went more or less straight to sleep after that, ready to brace an excursion - and a vicious hangover - tomorrow.</p>
                          </div>}
 
-                         <div onClick={expandDay12} id="day12ExpanderMorJpn" className="headings">
+                         <div onClick={expandDay12} id="day12ExpanderMorJpn" className="headings" data-expanded={day12}>
                         <h4 className="dayHeader">Day 12</h4>
                         <h5 className="dayLocation">Shikotsu Toya National Park</h5>
                     </div>
@@ -577,7 +601,7 @@ export default function Journal(props) {
                             <p>We stayed for about half an hour - it was getting very late, and cold outside. We took a short walk back to the room and passed out.</p>
                          </div></div>}
 
-                            <div onClick={expandDay13} id="day13ExpanderMorJpn" className="headings">
+                            <div onClick={expandDay13} id="day13ExpanderMorJpn" className="headings" data-expanded={day13}>
                         <h4 className="dayHeader">Day 13</h4>
                         <h5 className="dayLocation">Sapporo</h5>
                         </div>
@@ -607,7 +631,7 @@ export default function Journal(props) {
                             <p>It was late so we headed back, doing our last minute packing of our now-properly bulging suitcases. We showered and slept, ready to go back to Tokyo for the final stretch.</p>
                          </div>}
 
-                            <div onClick={expandDay14} id="day14ExpanderMorJpn" className="headings">
+                            <div onClick={expandDay14} id="day14ExpanderMorJpn" className="headings" data-expanded={day14}>
                         <h4 className="dayHeader">Day 14</h4>
                         <h5 className="dayLocation">Shinjuku City, Tokyo</h5>
                         </div>
@@ -638,7 +662,7 @@ export default function Journal(props) {
                             <p>It felt fair and not-too-indulgent to get slightly sad, seeing as we had no actual holiday left - our only steps of the journey left would be sleep, then a dull ride to the airport, then the journey home. It was pouring with rain during our journey back, and we walked quickly, getting in and showering. I did watch out of the window for a little while, seeing the people as they ran soaked from bar to club to bar. We set our 4am alarm, got packed, and turned in.</p>
                          </div>}
 
-                            <div onClick={expandDay15} id="day15ExpanderMorJpn" className="headings">
+                            <div onClick={expandDay15} id="day15ExpanderMorJpn" className="headings" data-expanded={day15}>
                         <h4 className="dayHeader">Day 15</h4>
                         <h5 className="dayLocation">Home</h5>
                         </div>
