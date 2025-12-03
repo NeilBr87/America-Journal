@@ -5,24 +5,22 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
 function App() {
-
-      const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
     <div className="App">
-      {isMobile && 
-      <Countries />}
+      <div className="glow-ring" aria-hidden="true"></div>
+      <div className="app-surface">
+        <div className="hero-kicker">Travel atlas · New UI</div>
+        <h1 className="hero-title">Neil &amp; Steph's Immersive Journals</h1>
+        <p className="hero-subtitle">
+          Choose a journey to step into rich, day-by-day storytelling, captured with vibrant photography and detailed notes.
+          The refreshed layout keeps every page aligned—whether you're scrolling on mobile or exploring on desktop.
+        </p>
 
-      {/* {!isMobile && <div style={{marginTop: "20vh"}}>
-          <h2>Sorry! This project is all about mobile-first development.</h2>
-          <h4>Please feel free to review this content on a mobile device or by using browser tools.</h4>
-          <h4>Expected ETA for desktop version of this: June 2025.</h4>
-          <img id="desktopImg" alt="meme" src="https://deckerdevs.com/hubfs/mobile-first-mobile-last-meme.jpg"></img>
-        </div>} */}
-        
-        {!isMobile && <CountriesDesktop /> }
-      
+        {isMobile ? <Countries /> : <CountriesDesktop />}
+      </div>
     </div>
   );
 }
