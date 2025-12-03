@@ -4,6 +4,11 @@ export default function America2019() {
 
     return (
         <div>
+
+            <div>
+                <p>Note! The full pictured version of this journal is on the bookshelf of our bedroom. I will one day reproduce all of this with pictures again but in the meantime enjoy the journal!</p>
+            </div>
+
             <div id="america2019Box"><h4>Intro</h4>
 
 <p>Me and Steph both enjoy planning our holidays out. We shop around for deals, find the best hotels within a certain range, and have a good idea of exactly what we want to do while we're there. America took this tendency and dialled it up to eleven. We booked the flights to San Francisco back in January and have spent the last seven months obsessively searching, booking, and researching. When the big day came, it was almost surreal, and it didn't really sink in (for me at least) until midway through the flight. </p>
