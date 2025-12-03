@@ -1,13 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --surface: rgba(255, 255, 255, 0.07);
+  --surface-strong: rgba(255, 255, 255, 0.12);
+  --primary: #7cf0ff;
+  --primary-strong: #6da5ff;
+  --text: #eaf2ff;
+  --muted: #a9b5d3;
+  --border: rgba(255, 255, 255, 0.16);
+  --shadow: 0 25px 70px rgba(7, 16, 37, 0.45);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle at 15% 20%, rgba(124, 240, 255, 0.12), transparent 28%),
+    radial-gradient(circle at 85% 10%, rgba(109, 165, 255, 0.16), transparent 30%),
+    radial-gradient(circle at 50% 90%, rgba(255, 121, 198, 0.12), transparent 25%),
+    linear-gradient(135deg, #060b22, #0f1b3d 45%, #152549);
+  color: var(--text);
+  min-height: 100vh;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Space Grotesk', 'source-code-pro', Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  color: var(--text);
+  letter-spacing: 0.3px;
+}
+
+p, span, a, li {
+  color: var(--muted);
+}
+
+a {
+  color: var(--primary);
+}
+
+.main-shell {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+}
+
+.fade-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+  margin: 24px 0;
+  border: none;
 }
